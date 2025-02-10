@@ -7,6 +7,12 @@ This is the accompanying Readme for the Pueblos Repository:
 
 The added [requirements.txt file](requirements.txt) contains all libraries and dependencies we need to execute.
 
+### Unzip data.zip
+
+1. go to src/
+2. python3 unzip.py
+3. check data in data/
+
 
 ### **`macOS`** type the following commands : 
 
