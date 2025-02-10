@@ -1,0 +1,14 @@
+numpy
+pandas
+jupyterlab
+matplotlib
+seaborn
+plotly
+pytest
+missingno
+
+#altair==5.0.1
+#ipywidgets==8.0.6
+#jupyterlab-dash==0.1.0a3
+#scikit-learn==1.6.1
+#statsmodels==0.13.5
