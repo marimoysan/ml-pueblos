@@ -23,7 +23,7 @@ accents = {
 }
 
 
-class AccentsCleaner:
+class AccentCleaner:
     """A class to clean dataframes from any accents"""
 
     def __init__(
@@ -39,7 +39,7 @@ class AccentsCleaner:
     def __repr__(self) -> str:
         pass
 
-    def clean(self):
+    def cleanAccents(self):
         for df in self.dataframes:
             for column in self.columns:
                 if column in df.columns:
