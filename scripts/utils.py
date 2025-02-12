@@ -16,6 +16,10 @@ def split_at_char(df: pd.DataFrame, col: str, char: str):
     return df
 
 
+def split_column_at(df: pd.DataFrame, col: str, char: str, index=0):
+    return df[col].astype(str).str.split(char).str[index]
+
+
 def replace_with(df: pd.DataFrame, col: str, term: str, replace_with: str):
     df[col] = df[col].str.replace(term, replace_with)
     return df

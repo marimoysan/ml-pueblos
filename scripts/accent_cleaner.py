@@ -24,7 +24,7 @@ accents = {
 
 
 class AccentCleaner:
-    """A class to clean dataframes from any accents"""
+    """A class to clean dataframes from any spanish accents"""
 
     def __init__(
         self,
