@@ -4,7 +4,6 @@ province_code,province,municipality_code,municipality_name,population,male,femal
 1,Álava,3,Aramaio,1381,709,672,aramaio,alava,381.8797,-2.566,43.054
 1,Álava,4,Artziniega,1856,913,943,artziniega,alava,196.9808,-3.128209,43.1222
 1,Álava,6,Armiñón,247,127,120,arminon,alava,463.5815,-2.872574,42.72305
-1,Álava,8,Arratzua-Ubarrundia,1047,552,495,arratzua-ubarrundia,alava,,,
 1,Álava,9,Asparrena,1611,813,798,asparrena,alava,631.652,-2.321,42.89567
 1,Álava,10,Ayala/Aiara,2942,1491,1451,ayala,alava,300.2789,-3.063056,43.08333
 1,Álava,11,Baños de Ebro/Mañueta,291,168,123,banos de ebro,alava,428.0221,-2.679144,42.53029
@@ -35,14 +34,12 @@ province_code,province,municipality_code,municipality_name,population,male,femal
 1,Álava,46,Erriberagoitia/Ribera Alta,845,504,341,erriberagoitia,alava,479.5812,-2.968477,42.71577
 1,Álava,47,Ribera Baja/Erriberabeitia,1439,767,672,ribera baja,alava,478.6605,-2.918541,42.71267
 1,Álava,49,Añana,142,86,56,anana,alava,628.5115,-2.982607,42.80235
-1,Álava,51,Agurain/Salvatierra,5155,2601,2554,agurain,alava,,,
 1,Álava,52,Samaniego,290,144,146,samaniego,alava,578.5411,-2.680185,42.56983
 1,Álava,53,San Millán/Donemiliaga,720,388,332,san millan,alava,596.2991,-2.376111,42.87472
 1,Álava,54,Urkabustaiz,1462,761,701,urkabustaiz,alava,680.2825,-2.922222,42.97194
 1,Álava,55,Valdegovía/Gaubea,1072,577,495,valdegovia,alava,574.0443,-3.1,42.85
 1,Álava,56,Harana/Valle de Arana,214,117,97,harana,alava,831.0966,-2.321858,42.75673
 1,Álava,57,Villabuena de Álava/Eskuernaga,290,154,136,villabuena de alava,alava,486.5453,-2.665456,42.54872
-1,Álava,58,Legutio,2086,1078,1008,legutio,alava,,,
 1,Álava,59,Vitoria-Gasteiz,257968,125412,132556,vitoria-gasteiz,alava,534.3582,-2.667893,42.84641
 1,Álava,60,Yécora/Iekora,265,143,122,yecora,alava,688.1754,-2.470064,42.5693
 1,Álava,61,Zalduondo,194,105,89,zalduondo,alava,608.8599,-2.347254,42.88563
@@ -137,20 +134,16 @@ province_code,province,municipality_code,municipality_name,population,male,femal
 2,Albacete,85,Viveros,305,159,146,viveros,albacete,1012.303,-2.576014,38.7733
 2,Albacete,86,Yeste,2509,1310,1199,yeste,albacete,862.6873,-2.318711,38.36583
 2,Albacete,901,Pozo Cañada,2692,1371,1321,pozo canada,albacete,826.6574,-1.736837,38.80128
-3,Alicante,1,"Atzúbia, l'",594,314,280,"atzubia, l'",alicante,,,
 3,Alicante,2,Agost,5107,2586,2521,agost,alicante,332.424,-0.6395459,38.44117
 3,Alicante,3,Agres,610,327,283,agres,alicante,724.617,-0.5156772,38.77988
 3,Alicante,4,Aigües,1189,598,591,aigues,alicante,325.356,-0.3627366,38.49932
 3,Alicante,5,Albatera,13296,6785,6511,albatera,alicante,21.50101,-0.8696246,38.1806
 3,Alicante,6,Alcalalí,1406,690,716,alcalali,alicante,290.6824,-0.046652,38.75568
-3,Alicante,7,Alcosser,259,129,130,alcosser,alicante,,,
 3,Alicante,8,Alcoleja,186,100,86,alcoleja,alicante,751.6678,-0.3323183,38.67542
-3,Alicante,9,Alcoi/Alcoy,60372,29529,30843,alcoi,alicante,,,
 3,Alicante,10,Alfafara,413,194,219,alfafara,alicante,587.1841,-0.5552129,38.77266
 3,Alicante,11,"Alfàs del Pi, l'",20160,9890,10270,"alfàs del pi, l'",alicante,96.30521,-0.1032094,38.58055
 3,Alicante,12,Algorfa,3684,1848,1836,algorfa,alicante,29.95276,-0.7957607,38.08587
 3,Alicante,13,Algueña,1342,684,658,alguena,alicante,536.0125,-1.003234,38.33886
-3,Alicante,14,Alacant/Alicante,358720,173006,185714,alacant,alicante,,,
 3,Alicante,15,Almoradí,22464,11331,11133,almoradi,alicante,17.38357,-0.7920032,38.10963
 3,Alicante,16,Almudaina,118,57,61,almudaina,alicante,575.8386,-0.35386,38.76115
 3,Alicante,17,"Alqueria d'Asnar, l'",519,254,265,"alqueria d'asnar, l'",alicante,358.3362,-0.4256638,38.77235
@@ -163,7 +156,6 @@ province_code,province,municipality_code,municipality_name,population,male,femal
 3,Alicante,24,Benejúzar,5697,2842,2855,benejuzar,alicante,25.65035,-0.8384452,38.07839
 3,Alicante,25,Benferri,2053,1049,1004,benferri,alicante,54.47756,-0.9632033,38.14063
 3,Alicante,26,Beniarbeig,2384,1195,1189,beniarbeig,alicante,46.27847,-0.0020653,38.82312
-3,Alicante,27,Beniardà,235,119,116,beniardà,alicante,,,
 3,Alicante,28,Beniarrés,1096,564,532,beniarres,alicante,391.1873,-0.3782794,38.81952
 3,Alicante,29,Benigembla,559,276,283,benigembla,alicante,310.3394,-0.1102239,38.75606
 3,Alicante,30,Benidoleig,1219,611,608,benidoleig,alicante,102.7022,-0.0281963,38.79387
@@ -183,7 +175,6 @@ province_code,province,municipality_code,municipality_name,population,male,femal
 3,Alicante,44,Bigastro,7431,3743,3688,bigastro,alicante,29.8936,-0.8955043,38.06304
 3,Alicante,45,Bolulla,486,250,236,bolulla,alicante,220.4359,-0.1117929,38.67622
 3,Alicante,46,Busot,3629,1807,1822,busot,alicante,331.5273,-0.4172711,38.48483
-3,Alicante,47,Calp,26821,13239,13582,calp,alicante,,,
 3,Alicante,48,Callosa d'en Sarrià,7959,4140,3819,callosa d'en sarrià,alicante,254.6619,-0.1225342,38.65133
 3,Alicante,49,Callosa de Segura,19658,10055,9603,callosa de segura,alicante,22.56134,-0.8784829,38.12413
 3,Alicante,50,"Campello, el",30600,14849,15751,"campello, el",alicante,25.46509,-0.3978871,38.42892
@@ -201,9 +192,7 @@ province_code,province,municipality_code,municipality_name,population,male,femal
 3,Alicante,62,Daya Vieja,657,330,327,daya vieja,alicante,6.833565,-0.7387287,38.10484
 3,Alicante,63,Dénia,46942,22822,24120,denia,alicante,11.78009,0.1085751,38.84043
 3,Alicante,64,Dolores,8102,4075,4027,dolores,alicante,9.227216,-0.7692993,38.14058
-3,Alicante,65,Elx/Elche,243128,120333,122795,elx,alicante,,,
 3,Alicante,66,Elda,53818,26301,27517,elda,alicante,413.189,-0.7904639,38.47803
-3,Alicante,67,Fageca,100,52,48,fageca,alicante,,,
 3,Alicante,68,Famorca,44,24,20,famorca,alicante,691.6473,-0.2463927,38.73206
 3,Alicante,69,Finestrat,9352,4768,4584,finestrat,alicante,261.4681,-0.2107335,38.56909
 3,Alicante,70,Formentera del Segura,4749,2408,2341,formentera del segura,alicante,10.79573,-0.7453506,38.08562
@@ -218,13 +207,10 @@ province_code,province,municipality_code,municipality_name,population,male,femal
 3,Alicante,79,Ibi,24210,12053,12157,ibi,alicante,753.7646,-0.5713521,38.62551
 3,Alicante,80,Jacarilla,2122,1079,1043,jacarilla,alicante,27.33402,-0.8686115,38.06133
 3,Alicante,81,Xaló,3042,1516,1526,xalo,alicante,196.9115,-0.0120761,38.73989
-3,Alicante,82,Xàbia/Jávea,30131,15065,15066,xàbia,alicante,,,
-3,Alicante,83,Xixona/Jijona,7307,3570,3737,xixona,alicante,,,
 3,Alicante,84,"Orxa, l'/Lorcha",581,294,287,"orxa, l'",alicante,273.9026,-0.309963,38.84306
 3,Alicante,85,Llíber,905,449,456,lliber,alicante,185.6137,0.0063282,38.74273
 3,Alicante,86,Millena,249,136,113,millena,alicante,634.1902,-0.3638289,38.73058
 3,Alicante,88,Monforte del Cid,8967,4637,4330,monforte del cid,alicante,223.6606,-0.7292369,38.37923
-3,Alicante,89,Monòver/Monóvar,12764,6364,6400,monòver,alicante,,,
 3,Alicante,90,Mutxamel,27761,13895,13866,mutxamel,alicante,65.50282,-0.4432408,38.41235
 3,Alicante,91,Murla,585,278,307,murla,alicante,291.5551,-0.0829431,38.76031
 3,Alicante,92,Muro de Alcoy,9345,4717,4628,muro de alcoy,alicante,411.4849,-0.4402698,38.78075
@@ -256,7 +242,6 @@ province_code,province,municipality_code,municipality_name,population,male,femal
 3,Alicante,119,Sant Joan d'Alacant,25918,12524,13394,sant joan d'alacant,alicante,41.32392,-0.4345329,38.39817
 3,Alicante,120,San Miguel de Salinas,6976,3494,3482,san miguel de salinas,alicante,77.87773,-0.7892857,37.97993
 3,Alicante,121,Santa Pola,38556,19193,19363,santa pola,alicante,10.0,-0.5552066,38.1923
-3,Alicante,122,Sant Vicent del Raspeig/San Vicente del Raspeig,60269,29791,30478,sant vicent del raspeig,alicante,,,
 3,Alicante,123,Sax,10172,5069,5103,sax,alicante,480.8817,-0.8180652,38.53757
 3,Alicante,124,Sella,604,318,286,sella,alicante,421.4968,-0.2730576,38.60862
 3,Alicante,125,Senija,696,357,339,senija,alicante,239.5632,0.0405763,38.72786
@@ -269,7 +254,6 @@ province_code,province,municipality_code,municipality_name,population,male,femal
 3,Alicante,133,Torrevieja,94803,46076,48727,torrevieja,alicante,15.69942,-0.6832271,37.97747
 3,Alicante,134,"Vall d'Alcalà, la",175,90,85,"vall d'alcalà, la",alicante,641.0916,-0.2527778,38.79445
 3,Alicante,135,"Vall d'Ebo, la",230,121,109,"vall d'ebo, la",alicante,381.5167,-0.1570321,38.80732
-3,Alicante,136,"Vall de Gallinera, la",584,296,288,"vall de gallinera, la",alicante,,,
 3,Alicante,137,"Vall de Laguar, la",903,455,448,"vall de laguar, la",alicante,548.257,-0.1310217,38.77628
 3,Alicante,138,"Verger, el",5272,2599,2673,"verger, el",alicante,10.94339,-0.5109846,38.33109
 3,Alicante,139,"Vila Joiosa, la/Villajoyosa",36891,18204,18687,"vila joiosa, la",alicante,43.88388,-0.2326134,38.50775
@@ -380,7 +364,6 @@ province_code,province,municipality_code,municipality_name,population,male,femal
 4,Almería,901,"Tres Villas, Las",574,318,256,"tres villas, las",almeria,693.0934,-2.7,37.13334
 4,Almería,902,"Ejido, El",90135,47231,42904,"ejido, el",almeria,80.0,-2.812738,36.77506
 4,Almería,903,"Mojonera, La",8677,4747,3930,"mojonera, la",almeria,41.25403,-2.688159,36.75254
-4,Almería,904,Balanegra,3016,1586,1430,balanegra,almeria,,,
 5,Ávila,1,Adanero,208,120,88,adanero,avila,905.2096,-4.606659,40.94591
 5,Ávila,2,"Adrada, La",2796,1428,1368,"adrada, la",avila,622.7286,-4.634857,40.29935
 5,Ávila,5,Albornos,175,92,83,albornos,avila,909.7402,-4.881355,40.83842
@@ -484,7 +467,6 @@ province_code,province,municipality_code,municipality_name,population,male,femal
 5,Ávila,116,Malpartida de Corneja,91,46,45,malpartida de corneja,avila,1023.512,-5.351212,40.52113
 5,Ávila,117,Mamblas,196,111,85,mamblas,avila,820.2225,-5.011209,41.01953
 5,Ávila,118,Mancera de Arriba,70,37,33,mancera de arriba,avila,938.9207,-5.147208,40.79102
-5,Ávila,119,Manjabálago y Ortigosa de Rioalmar,26,13,13,manjabalago y ortigosa de rioalmar,avila,,,
 5,Ávila,120,Marlín,31,21,10,marlin,avila,1214.861,-4.829782,40.71137
 5,Ávila,121,Martiherrero,361,189,172,martiherrero,avila,1228.818,-4.781778,40.67412
 5,Ávila,122,Martínez,108,55,53,martinez,avila,1100.179,-5.348361,40.63086
@@ -793,7 +775,6 @@ province_code,province,municipality_code,municipality_name,population,male,femal
 6,Badajoz,162,"Zarza, La",3345,1686,1659,"zarza, la",badajoz,285.378,-6.217914,38.81807
 6,Badajoz,901,Valdelacalzada,2755,1385,1370,valdelacalzada,badajoz,184.8226,-6.701389,38.88985
 6,Badajoz,902,Pueblonuevo del Guadiana,1953,970,983,pueblonuevo del guadiana,badajoz,181.9205,-6.755604,38.92309
-6,Badajoz,903,Guadiana,2437,1188,1249,guadiana,badajoz,,,
 7,Illes Balears,1,Alaró,6037,2915,3122,alaro,illes balears,224.2227,2.790548,39.70685
 7,Illes Balears,2,Alaior,10042,5047,4995,alaior,illes balears,114.0,4.139987,39.93064
 7,Illes Balears,3,Alcúdia,21683,11142,10541,alcudia,illes balears,15.67431,3.122027,39.85231
@@ -811,7 +792,6 @@ province_code,province,municipality_code,municipality_name,population,male,femal
 7,Illes Balears,15,Ciutadella de Menorca,31941,15920,16021,ciutadella de menorca,illes balears,26.66946,3.839262,40.00232
 7,Illes Balears,16,Consell,4399,2192,2207,consell,illes balears,148.8572,2.816188,39.67012
 7,Illes Balears,17,Costitx,1516,749,767,costitx,illes balears,135.5031,2.949179,39.65622
-7,Illes Balears,18,Deià,717,352,365,deià,illes balears,,,
 7,Illes Balears,19,Escorca,203,127,76,escorca,illes balears,690.5303,2.869478,39.8211
 7,Illes Balears,20,Esporles,5252,2572,2680,esporles,illes balears,187.8363,2.57915,39.66946
 7,Illes Balears,21,Estellencs,374,199,175,estellencs,illes balears,151.0275,2.481678,39.65333
@@ -847,7 +827,6 @@ province_code,province,municipality_code,municipality_name,population,male,femal
 7,Illes Balears,51,Sant Llorenç des Cardassar,9331,4693,4638,sant llorenç des cardassar,illes balears,73.45789,3.284748,39.60896
 7,Illes Balears,52,Sant Lluís,7130,3604,3526,sant lluis,illes balears,59.16509,4.259394,39.85266
 7,Illes Balears,53,Santa Eugènia,1899,952,947,santa eugenia,illes balears,130.224,2.839166,39.62394
-7,Illes Balears,54,Santa Eulària des Riu,41706,21182,20524,santa eulària des riu,illes balears,,,
 7,Illes Balears,55,Santa Margalida,13757,7123,6634,santa margalida,illes balears,80.91718,3.103551,39.70306
 7,Illes Balears,56,Santa María del Camí,7623,3810,3813,santa maria del cami,illes balears,128.8374,2.776213,39.6468
 7,Illes Balears,57,Santanyí,12887,6463,6424,santanyi,illes balears,62.64299,3.127745,39.35489
@@ -883,7 +862,6 @@ province_code,province,municipality_code,municipality_name,population,male,femal
 8,Barcelona,20,Begues,7462,3701,3761,begues,barcelona,371.5191,1.921987,41.33101
 8,Barcelona,21,Bellprat,69,42,27,bellprat,barcelona,644.4128,1.433458,41.51725
 8,Barcelona,22,Berga,17160,8440,8720,berga,barcelona,717.4442,1.8438,42.10144
-8,Barcelona,23,Bigues i Riells del Fai,10036,5101,4935,bigues i riells del fai,barcelona,,,
 8,Barcelona,24,Borredà,419,237,182,borredà,barcelona,854.1898,1.993754,42.13541
 8,Barcelona,25,"Bruc, El",2288,1202,1086,"bruc, el",barcelona,486.0568,1.78023,41.57993
 8,Barcelona,26,"Brull, El",293,159,134,"brull, el",barcelona,844.6136,2.305493,41.81677
@@ -976,7 +954,6 @@ province_code,province,municipality_code,municipality_name,population,male,femal
 8,Barcelona,113,Manresa,80201,39458,40743,manresa,barcelona,236.034,1.823353,41.72517
 8,Barcelona,114,Martorell,28507,14385,14122,martorell,barcelona,66.23137,1.927682,41.47355
 8,Barcelona,115,Martorelles,4987,2499,2488,martorelles,barcelona,115.5095,2.242882,41.52577
-8,Barcelona,116,"Masies de Roda, Les",750,385,365,"masies de roda, les",barcelona,,,
 8,Barcelona,117,"Masies de Voltregà, Les",3292,1626,1666,"masies de voltregà, les",barcelona,536.5225,2.234093,42.02114
 8,Barcelona,118,"Masnou, El",24479,11764,12715,"masnou, el",barcelona,10.36085,2.319244,41.47931
 8,Barcelona,119,Masquefa,10038,5094,4944,masquefa,barcelona,258.067,1.811926,41.50307
@@ -1112,7 +1089,6 @@ province_code,province,municipality_code,municipality_name,population,male,femal
 8,Barcelona,251,Santa Margarida i els Monjos,7736,3937,3799,santa margarida i els monjos,barcelona,171.3222,1.662838,41.32087
 8,Barcelona,252,Barberà del Vallès,33575,16436,17139,barberà del valles,barcelona,142.2961,2.124723,41.51596
 8,Barcelona,253,Santa Maria de Besora,164,89,75,santa maria de besora,barcelona,871.7925,2.258088,42.12696
-8,Barcelona,254,"Esquirol, L'",2277,1134,1143,"esquirol, l'",barcelona,,,
 8,Barcelona,255,Santa Maria de Merlès,175,91,84,santa maria de merles,barcelona,518.8036,1.977791,42.0011
 8,Barcelona,256,Santa Maria de Martorelles,873,444,429,santa maria de martorelles,barcelona,178.528,2.25424,41.51955
 8,Barcelona,257,Santa Maria de Miralles,137,71,66,santa maria de miralles,barcelona,553.0007,1.525129,41.51813
@@ -1245,7 +1221,6 @@ province_code,province,municipality_code,municipality_name,population,male,femal
 9,Burgos,85,Castrillo de la Vega,621,332,289,castrillo de la vega,burgos,808.438,-3.781646,41.65073
 9,Burgos,86,Castrillo del Val,823,453,370,castrillo del val,burgos,942.9785,-3.584872,42.31421
 9,Burgos,88,Castrillo de Riopisuerga,58,35,23,castrillo de riopisuerga,burgos,816.8545,-4.252292,42.51493
-9,Burgos,90,Castrillo Mota de Judíos,52,28,24,castrillo mota de judios,burgos,,,
 9,Burgos,91,Castrojeriz,778,411,367,castrojeriz,burgos,816.0674,-4.138836,42.28828
 9,Burgos,93,Cayuela,189,111,78,cayuela,burgos,821.8987,-3.819528,42.27256
 9,Burgos,94,Cebrecos,58,35,23,cebrecos,burgos,950.4548,-3.596634,41.9832
@@ -1438,7 +1413,6 @@ province_code,province,municipality_code,municipality_name,population,male,femal
 9,Burgos,350,Santa María del Campo,523,282,241,santa maria del campo,burgos,820.0243,-3.974421,42.13218
 9,Burgos,351,Santa María del Invierno,67,48,19,santa maria del invierno,burgos,856.8571,-3.437732,42.44278
 9,Burgos,352,Santa María del Mercadillo,108,70,38,santa maria del mercadillo,burgos,961.0493,-3.559022,41.85995
-9,Burgos,353,Santa María Ribarredonda,95,57,38,santa maria ribarredonda,burgos,,,
 9,Burgos,354,Santa Olalla de Bureba,38,26,12,santa olalla de bureba,burgos,842.1753,-3.440882,42.47622
 9,Burgos,355,Santibáñez de Esgueva,77,42,35,santibanez de esgueva,burgos,916.1117,-3.75887,41.83353
 9,Burgos,356,Santibáñez del Val,70,40,30,santibanez del val,burgos,940.0613,-3.480564,41.97408
@@ -1607,7 +1581,6 @@ province_code,province,municipality_code,municipality_name,population,male,femal
 10,Cáceres,62,Cedillo,434,220,214,cedillo,caceres,265.7721,-7.499236,39.64955
 10,Cáceres,63,Cerezo,147,73,74,cerezo,caceres,394.5923,-6.225346,40.23718
 10,Cáceres,64,Cilleros,1555,793,762,cilleros,caceres,448.878,-6.792156,40.11362
-10,Cáceres,65,Collado de la Vera,276,146,130,collado de la vera,caceres,,,
 10,Cáceres,66,Conquista de la Sierra,183,111,72,conquista de la sierra,caceres,441.5334,-5.734497,39.35096
 10,Cáceres,67,Coria,12114,5972,6142,coria,caceres,239.4233,-6.539727,39.98358
 10,Cáceres,68,Cuacos de Yuste,829,415,414,cuacos de yuste,caceres,527.3668,-5.722965,40.10612
@@ -1638,7 +1611,6 @@ province_code,province,municipality_code,municipality_name,population,male,femal
 10,Cáceres,94,Herrera de Alcántara,224,122,102,herrera de alcantara,caceres,255.0923,-7.40579,39.63796
 10,Cáceres,95,Herreruela,325,163,162,herreruela,caceres,324.7979,-6.906601,39.46328
 10,Cáceres,96,Hervás,3921,1921,2000,hervas,caceres,664.4932,-5.866045,40.2739
-10,Cáceres,97,Higuera de Albalat,100,56,44,higuera de albalat,caceres,,,
 10,Cáceres,98,Hinojal,388,194,194,hinojal,caceres,348.0721,-6.357864,39.70812
 10,Cáceres,99,Holguera,593,298,295,holguera,caceres,280.2364,-6.349081,39.89969
 10,Cáceres,100,Hoyos,858,433,425,hoyos,caceres,525.2888,-6.721882,40.17185
@@ -1762,10 +1734,6 @@ province_code,province,municipality_code,municipality_name,population,male,femal
 10,Cáceres,218,Zarza la Mayor,1117,562,555,zarza la mayor,caceres,303.9268,-6.86481,39.87599
 10,Cáceres,219,Zorita,1248,614,634,zorita,caceres,429.6986,-5.700322,39.28505
 10,Cáceres,901,Rosalejo,1328,683,645,rosalejo,caceres,278.185,-5.458256,39.99511
-10,Cáceres,902,Vegaviana,844,429,415,vegaviana,caceres,,,
-10,Cáceres,903,Alagón del Río,909,452,457,alagon del rio,caceres,,,
-10,Cáceres,904,Tiétar,854,460,394,tietar,caceres,,,
-10,Cáceres,905,Pueblonuevo de Miramontes,775,388,387,pueblonuevo de miramontes,caceres,,,
 11,Cádiz,1,Alcalá de los Gazules,5223,2683,2540,alcala de los gazules,cadiz,158.3963,-5.723718,36.46045
 11,Cádiz,2,Alcalá del Valle,4936,2484,2452,alcala del valle,cadiz,623.3366,-5.173237,36.90491
 11,Cádiz,3,Algar,1436,721,715,algar,cadiz,213.0833,-5.657418,36.65533
@@ -1773,7 +1741,6 @@ province_code,province,municipality_code,municipality_name,population,male,femal
 11,Cádiz,5,Algodonales,5443,2744,2699,algodonales,cadiz,370.124,-5.405773,36.88092
 11,Cádiz,6,Arcos de la Frontera,31046,15482,15564,arcos de la frontera,cadiz,139.2057,-5.812395,36.75078
 11,Cádiz,7,Barbate,22709,11323,11386,barbate,cadiz,15.97273,-5.918903,36.19282
-11,Cádiz,8,"Barrios, Los",24404,12232,12172,"barrios, los",cadiz,,,
 11,Cádiz,9,Benaocaz,754,404,350,benaocaz,cadiz,792.0704,-5.421263,36.69952
 11,Cádiz,10,Bornos,7533,3756,3777,bornos,cadiz,153.5913,-5.743362,36.81459
 11,Cádiz,11,"Bosque, El",2249,1123,1126,"bosque, el",cadiz,273.1861,-5.506988,36.75752
@@ -1788,7 +1755,6 @@ province_code,province,municipality_code,municipality_name,population,male,femal
 11,Cádiz,20,Jerez de la Frontera,213688,104071,109617,jerez de la frontera,cadiz,55.74849,-6.137173,36.68656
 11,Cádiz,21,Jimena de la Frontera,6695,3404,3291,jimena de la frontera,cadiz,131.443,-5.453479,36.43404
 11,Cádiz,22,"Línea de la Concepción, La",64177,31608,32569,"linea de la concepcion, la",cadiz,10.4049,-5.348256,36.16118
-11,Cádiz,23,Medina Sidonia,11764,5937,5827,medina sidonia,cadiz,,,
 11,Cádiz,24,Olvera,7864,3864,4000,olvera,cadiz,606.7288,-5.267688,36.93525
 11,Cádiz,25,Paterna de Rivera,5505,2858,2647,paterna de rivera,cadiz,125.9705,-5.866053,36.52333
 11,Cádiz,26,Prado del Rey,5667,2786,2881,prado del rey,cadiz,423.1529,-5.555545,36.78968
@@ -1810,7 +1776,6 @@ province_code,province,municipality_code,municipality_name,population,male,femal
 11,Cádiz,42,Zahara,1355,685,670,zahara,cadiz,507.4048,-5.390547,36.84053
 11,Cádiz,901,Benalup-Casas Viejas,7228,3660,3568,benalup-casas viejas,cadiz,75.25459,-5.8094,36.34284
 11,Cádiz,902,San José del Valle,4472,2274,2198,san jose del valle,cadiz,142.0624,-5.798952,36.60554
-11,Cádiz,903,San Martín del Tesorillo,2739,1411,1328,san martin del tesorillo,cadiz,,,
 12,Castellón,1,Atzeneta del Maestrat,1309,673,636,atzeneta del maestrat,castellon,405.6302,-0.1706612,40.21661
 12,Castellón,2,Aín,131,68,63,ain,castellon,497.9523,-0.3407996,39.90086
 12,Castellón,3,Albocàsser,1338,666,672,albocàsser,castellon,534.062,0.0253618,40.35626
@@ -1819,12 +1784,10 @@ province_code,province,municipality_code,municipality_name,population,male,femal
 12,Castellón,6,Alcudia de Veo,213,114,99,alcudia de veo,castellon,476.4656,-0.3556332,39.91713
 12,Castellón,7,Alfondeguilla,870,426,444,alfondeguilla,castellon,217.8936,-0.26879,39.83725
 12,Castellón,8,Algimia de Almonacid,258,139,119,algimia de almonacid,castellon,496.8173,-0.4434568,39.91433
-12,Castellón,9,Almassora,28497,14302,14195,almassora,castellon,,,
 12,Castellón,10,Almedíjar,288,156,132,almedijar,castellon,400.144,-0.4104057,39.87085
 12,Castellón,11,Almenara,6710,3318,3392,almenara,castellon,39.3216,-0.222755,39.7544
 12,Castellón,12,Altura,3790,1953,1837,altura,castellon,405.5518,-0.5135517,39.853
 12,Castellón,13,Arañuel,159,90,69,aranuel,castellon,413.3797,-0.4817952,40.0711
-12,Castellón,14,Ares del Maestrat,177,108,69,ares del maestrat,castellon,,,
 12,Castellón,15,Argelita,146,77,69,argelita,castellon,312.0536,-0.3498509,40.05524
 12,Castellón,16,Artana,1971,1001,970,artana,castellon,256.8818,-0.2576374,39.89002
 12,Castellón,17,Ayódar,182,101,81,ayodar,castellon,388.7343,-0.3760511,39.99977
@@ -1834,10 +1797,7 @@ province_code,province,municipality_code,municipality_name,population,male,femal
 12,Castellón,22,Bejís,400,241,159,bejis,castellon,762.8378,-0.7038683,39.91087
 12,Castellón,24,Benafer,170,80,90,benafer,castellon,588.7029,-0.5767506,39.93554
 12,Castellón,25,Benafigos,126,74,52,benafigos,castellon,932.0203,-0.209237,40.27721
-12,Castellón,26,Benassal,1052,546,506,benassal,castellon,,,
 12,Castellón,27,Benicarló,29607,15082,14525,benicarlo,castellon,17.99488,0.4231017,40.4187
-12,Castellón,28,Benicàssim/Benicasim,20322,9984,10338,benicàssim,castellon,,,
-12,Castellón,29,Benlloc,1115,565,550,benlloc,castellon,,,
 12,Castellón,31,Borriol,5945,3044,2901,borriol,castellon,189.3589,-0.0664211,40.04169
 12,Castellón,32,Borriana/Burriana,36927,18411,18516,borriana,castellon,20.2599,-0.0836936,39.88987
 12,Castellón,33,Cabanes,3313,1720,1593,cabanes,castellon,282.71,0.0454299,40.15477
@@ -1846,7 +1806,6 @@ province_code,province,municipality_code,municipality_name,population,male,femal
 12,Castellón,37,Castell de Cabres,22,13,9,castell de cabres,castellon,1137.328,0.0428758,40.66072
 12,Castellón,38,Castellfort,190,98,92,castellfort,castellon,1170.34,-0.1906994,40.50092
 12,Castellón,39,Castellnovo,884,459,425,castellnovo,castellon,370.4679,-0.4583924,39.86256
-12,Castellón,40,Castelló de la Plana,180379,87037,93342,castello de la plana,castellon,,,
 12,Castellón,41,Castillo de Villamalefa,113,74,39,castillo de villamalefa,castellon,817.1827,-0.3785351,40.13031
 12,Castellón,42,Catí,760,382,378,cati,castellon,663.7772,0.0222751,40.47099
 12,Castellón,43,Caudiel,722,366,356,caudiel,castellon,635.6085,-0.5679407,39.94761
@@ -1857,9 +1816,7 @@ province_code,province,municipality_code,municipality_name,population,male,femal
 12,Castellón,49,Costur,535,279,256,costur,castellon,459.0224,-0.1728863,40.12006
 12,Castellón,50,"Coves de Vinromà, les",1865,959,906,"coves de vinromà, les",castellon,181.3896,0.1225409,40.30804
 12,Castellón,51,Culla,493,254,239,culla,castellon,1086.087,-0.1657969,40.33772
-12,Castellón,52,Xert,686,344,342,xert,castellon,,,
 12,Castellón,53,Chilches/Xilxes,3094,1585,1509,chilches,castellon,9.052402,-0.1875777,39.78072
-12,Castellón,55,Xodos/Chodos,116,71,45,xodos,castellon,,,
 12,Castellón,56,Chóvar,312,165,147,chovar,castellon,416.2556,-0.3206392,39.85124
 12,Castellón,57,Eslida,785,401,384,eslida,castellon,346.7823,-0.3068462,39.88116
 12,Castellón,58,Espadilla,89,49,40,espadilla,castellon,275.2972,-0.3554911,40.02809
@@ -1870,11 +1827,9 @@ province_code,province,municipality_code,municipality_name,population,male,femal
 12,Castellón,64,Fuentes de Ayódar,95,56,39,fuentes de ayodar,castellon,505.947,-0.4207844,40.0206
 12,Castellón,65,Gaibiel,199,113,86,gaibiel,castellon,515.2784,-0.4977681,39.92398
 12,Castellón,67,Geldo,651,326,325,geldo,castellon,304.1663,-0.4669072,39.83671
-12,Castellón,68,Herbers,69,44,25,herbers,castellon,,,
 12,Castellón,69,Higueras,46,19,27,higueras,castellon,668.3716,-0.5030097,39.98375
 12,Castellón,70,"Jana, la",688,355,333,"jana, la",castellon,41.33101,-0.0527436,39.99738
 12,Castellón,71,Jérica,1726,870,856,jerica,castellon,491.4277,-0.5725689,39.9134
-12,Castellón,72,Llucena/Lucena del Cid,1420,711,709,llucena,castellon,,,
 12,Castellón,73,Ludiente,175,98,77,ludiente,castellon,429.9383,-0.3722982,40.08733
 12,Castellón,74,"Llosa, la",1042,502,540,"llosa, la",castellon,13.79891,-0.2078121,39.76972
 12,Castellón,75,"Mata de Morella, la",184,103,81,"mata de morella, la",castellon,809.3206,-0.2790673,40.61561
@@ -1887,7 +1842,6 @@ province_code,province,municipality_code,municipality_name,population,male,femal
 12,Castellón,82,Nules,14062,7056,7006,nules,castellon,18.0,-0.1586306,39.85245
 12,Castellón,83,Olocau del Rey,135,70,65,olocau del rey,castellon,1041.123,-0.3402403,40.63729
 12,Castellón,84,Onda,25817,12922,12895,onda,castellon,192.7921,-0.2626455,39.9653
-12,Castellón,85,Orpesa/Oropesa del Mar,11785,6035,5750,orpesa,castellon,,,
 12,Castellón,87,Palanques,34,20,14,palanques,castellon,670.4368,-0.18057,40.71812
 12,Castellón,88,Pavías,73,45,28,pavias,castellon,743.4716,-0.4824016,39.97375
 12,Castellón,89,Peníscola/Peñíscola,8496,4329,4167,peniscola,castellon,6.325546,0.4028515,40.36029
@@ -1904,12 +1858,10 @@ province_code,province,municipality_code,municipality_name,population,male,femal
 12,Castellón,100,Sant Mateu,2004,1001,1003,sant mateu,castellon,331.4508,0.1782633,40.46391
 12,Castellón,101,San Rafael del Río,530,261,269,san rafael del rio,castellon,249.5198,0.3498944,40.6063
 12,Castellón,102,Santa Magdalena de Pulpis,768,401,367,santa magdalena de pulpis,castellon,123.8502,0.3024276,40.3559
-12,Castellón,103,"Serratella, la",113,54,59,"serratella, la",castellon,,,
 12,Castellón,104,Segorbe,9640,4792,4848,segorbe,castellon,375.6049,-0.4849939,39.85328
 12,Castellón,105,Sierra Engarcerán,1043,550,493,sierra engarceran,castellon,750.2902,-0.0191436,40.26946
 12,Castellón,106,Soneja,1513,740,773,soneja,castellon,267.8589,-0.4289563,39.81681
 12,Castellón,107,Sot de Ferrer,498,263,235,sot de ferrer,castellon,235.5191,-0.4102245,39.80494
-12,Castellón,108,Suera/Sueras,573,294,279,suera,castellon,,,
 12,Castellón,109,Tales,834,433,401,tales,castellon,247.6615,-0.3073579,39.94829
 12,Castellón,110,Teresa,231,128,103,teresa,castellon,626.5689,-0.6592473,39.9
 12,Castellón,111,Tírig,432,222,210,tirig,castellon,468.7827,0.0774624,40.42364
@@ -1930,7 +1882,6 @@ province_code,province,municipality_code,municipality_name,population,male,femal
 12,Castellón,126,"Vall d'Uixó, la",31884,15654,16230,"vall d'uixo, la",castellon,120.3759,-0.2325619,39.82333
 12,Castellón,127,Vallibona,64,37,27,vallibona,castellon,661.4194,0.0462348,40.60295
 12,Castellón,128,Vilafamés,1938,1038,900,vilafames,castellon,318.6055,-0.0529811,40.11403
-12,Castellón,129,Vilafranca/Villafranca del Cid,2139,1088,1051,vilafranca,castellon,,,
 12,Castellón,130,Villahermosa del Río,490,267,223,villahermosa del rio,castellon,739.1841,-0.4185984,40.20107
 12,Castellón,131,Villamalur,97,61,36,villamalur,castellon,638.889,-0.3945935,39.96404
 12,Castellón,132,Vilanova d'Alcolea,585,314,271,vilanova d'alcolea,castellon,349.054,0.0736209,40.23169
@@ -1940,11 +1891,9 @@ province_code,province,municipality_code,municipality_name,population,male,femal
 12,Castellón,136,"Vilavella, la",3073,1525,1548,"vilavella, la",castellon,37.97432,-0.1835214,39.85938
 12,Castellón,137,Villores,53,25,28,villores,castellon,732.9604,-0.2001235,40.6753
 12,Castellón,138,Vinaròs,30278,14942,15336,vinaròs,castellon,12.0655,0.4747435,40.471
-12,Castellón,139,Vistabella del Maestrat,361,200,161,vistabella del maestrat,castellon,,,
 12,Castellón,140,Viver,1680,869,811,viver,castellon,552.3644,-0.5944216,39.92135
 12,Castellón,141,Zorita del Maestrazgo,111,54,57,zorita del maestrazgo,castellon,652.5302,-0.1646943,40.72866
 12,Castellón,142,Zucaina,174,99,75,zucaina,castellon,813.7024,-0.4206683,40.13165
-12,Castellón,901,"Alqueries, les/Alquerías del Niño Perdido",4563,2293,2270,"alqueries, les",castellon,,,
 12,Castellón,902,Sant Joan de Moró,3644,1870,1774,sant joan de moro,castellon,189.6783,-0.1371611,40.06081
 13,Ciudad Real,1,Abenójar,1324,684,640,abenojar,ciudad real,615.0128,-4.357778,38.87935
 13,Ciudad Real,2,Agudo,1604,808,796,agudo,ciudad real,570.6345,-4.873152,38.97897
@@ -2123,8 +2072,6 @@ province_code,province,municipality_code,municipality_name,population,male,femal
 14,Córdoba,73,Villaviciosa de Córdoba,3064,1566,1498,villaviciosa de cordoba,cordoba,699.2513,-5.014214,38.07598
 14,Córdoba,74,"Viso, El",2511,1275,1236,"viso, el",cordoba,578.6813,-4.955392,38.4827
 14,Córdoba,75,Zuheros,608,314,294,zuheros,cordoba,652.7948,-4.316415,37.54314
-14,Córdoba,901,Fuente Carreteros,1067,546,521,fuente carreteros,cordoba,,,
-14,Córdoba,902,"Guijarrosa, La",1333,684,649,"guijarrosa, la",cordoba,,,
 15,A Coruña,1,Abegondo,5578,2784,2794,abegondo,a coruna,99.71806,-8.283333,43.21667
 15,A Coruña,2,Ames,32812,15739,17073,ames,a coruna,216.3797,-8.633333,42.9
 15,A Coruña,3,Aranga,1799,921,878,aranga,a coruna,275.3901,-8.016667,43.23333
@@ -2217,7 +2164,6 @@ province_code,province,municipality_code,municipality_name,population,male,femal
 15,A Coruña,92,Vimianzo,6808,3284,3524,vimianzo,a coruna,131.8647,-9.033895,43.1103
 15,A Coruña,93,Zas,4261,2055,2206,zas,a coruna,221.0706,-8.916149,43.09975
 15,A Coruña,901,Cariño,3691,1814,1877,carino,a coruna,9.662794,-7.877766,43.73265
-15,A Coruña,902,Oza-Cesuras,5151,2609,2542,oza-cesuras,a coruna,,,
 16,Cuenca,1,Abia de la Obispalía,59,38,21,abia de la obispalia,cuenca,1027.756,-2.39605,40.01885
 16,Cuenca,2,"Acebrón, El",230,114,116,"acebron, el",cuenca,765.3969,-2.984723,39.9084
 16,Cuenca,3,Alarcón,176,78,98,alarcon,cuenca,804.5475,-2.083503,39.54623
@@ -2352,7 +2298,6 @@ province_code,province,municipality_code,municipality_name,population,male,femal
 16,Cuenca,150,Paracuellos,99,52,47,paracuellos,cuenca,965.203,-1.790703,39.71741
 16,Cuenca,151,Paredes,68,38,30,paredes,cuenca,836.0471,-2.853939,40.0646
 16,Cuenca,152,"Parra de las Vegas, La",35,24,11,"parra de las vegas, la",cuenca,1019.173,-2.204463,39.86818
-16,Cuenca,153,"Pedernoso, El",1117,558,559,"pedernoso, el",cuenca,,,
 16,Cuenca,154,"Pedroñeras, Las",6518,3317,3201,"pedroneras, las",cuenca,694.9729,-2.680383,39.4494
 16,Cuenca,155,"Peral, El",648,370,278,"peral, el",cuenca,790.2858,-1.899395,39.50012
 16,Cuenca,156,"Peraleja, La",75,46,29,"peraleja, la",cuenca,859.0751,-2.55337,40.23627
@@ -2365,12 +2310,10 @@ province_code,province,municipality_code,municipality_name,population,male,femal
 16,Cuenca,163,Portilla,61,31,30,portilla,cuenca,1066.127,-2.082824,40.28871
 16,Cuenca,165,Poyatos,71,46,25,poyatos,cuenca,1238.396,-2.049045,40.42314
 16,Cuenca,166,Pozoamargo,265,142,123,pozoamargo,cuenca,754.7365,-2.198173,39.36618
-16,Cuenca,167,Pozorrubio de Santiago,309,144,165,pozorrubio de santiago,cuenca,,,
 16,Cuenca,169,"Pozuelo, El",43,26,17,"pozuelo, el",cuenca,1221.442,-2.277058,40.62026
 16,Cuenca,170,Priego,925,468,457,priego,cuenca,859.0313,-2.314606,40.44872
 16,Cuenca,171,"Provencio, El",2358,1189,1169,"provencio, el",cuenca,701.4172,-2.575047,39.38158
 16,Cuenca,172,Puebla de Almenara,312,162,150,puebla de almenara,cuenca,851.6243,-2.812848,39.78466
-16,Cuenca,173,"Valle de Altomira, El",205,114,91,"valle de altomira, el",cuenca,,,
 16,Cuenca,174,Puebla del Salvador,197,104,93,puebla del salvador,cuenca,849.067,-1.673495,39.56639
 16,Cuenca,175,Quintanar del Rey,7484,3860,3624,quintanar del rey,cuenca,731.144,-1.929375,39.34257
 16,Cuenca,176,Rada de Haro,47,29,18,rada de haro,cuenca,817.4881,-2.620997,39.56837
@@ -2451,7 +2394,6 @@ province_code,province,municipality_code,municipality_name,population,male,femal
 16,Cuenca,902,Valdetórtola,123,70,53,valdetortola,cuenca,898.9784,-2.186111,39.92028
 16,Cuenca,903,"Valeras, Las",1564,838,726,"valeras, las",cuenca,935.2037,-2.154847,39.78652
 16,Cuenca,904,Fuentenava de Jábaga,610,315,295,fuentenava de jabaga,cuenca,969.4885,-2.263407,40.08694
-16,Cuenca,905,Arcas,2264,1147,1117,arcas,cuenca,,,
 16,Cuenca,906,"Valdecolmenas, Los",71,46,25,"valdecolmenas, los",cuenca,940.6137,-2.497222,40.11917
 16,Cuenca,908,Pozorrubielos de la Mancha,164,84,80,pozorrubielos de la mancha,cuenca,784.6632,-2.038611,39.44584
 16,Cuenca,909,Sotorribas,707,367,340,sotorribas,cuenca,989.6494,-2.163242,40.19537
@@ -2482,13 +2424,11 @@ province_code,province,municipality_code,municipality_name,population,male,femal
 17,Girona,25,Bordils,1804,906,898,bordils,girona,39.80887,2.909822,42.04543
 17,Girona,26,Borrassà,773,399,374,borrassà,girona,73.4845,2.926729,42.22197
 17,Girona,27,Breda,3930,1918,2012,breda,girona,165.5123,2.559948,41.74772
-17,Girona,28,Brunyola i Sant Martí Sapresa,395,205,190,brunyola i sant marti sapresa,girona,,,
 17,Girona,29,Boadella i les Escaules,260,130,130,boadella i les escaules,girona,90.38374,2.856944,42.33139
 17,Girona,30,Cabanes,978,513,465,cabanes,girona,23.85813,2.976825,42.30885
 17,Girona,31,Cabanelles,281,154,127,cabanelles,girona,186.2474,2.820443,42.23071
 17,Girona,32,Cadaqués,2918,1430,1488,cadaques,girona,8.404613,3.278389,42.28896
 17,Girona,33,Caldes de Malavella,8509,4227,4282,caldes de malavella,girona,99.86514,2.809666,41.83933
-17,Girona,34,Calonge i Sant Antoni,12316,6131,6185,calonge i sant antoni,girona,,,
 17,Girona,35,Camós,711,347,364,camos,girona,162.4646,2.76616,42.09686
 17,Girona,36,Campdevànol,3262,1604,1658,campdevànol,girona,735.8078,2.167294,42.22223
 17,Girona,37,Campelles,165,86,79,campelles,girona,1312.842,2.140032,42.29569
@@ -2501,7 +2441,6 @@ province_code,province,municipality_code,municipality_name,population,male,femal
 17,Girona,44,Cassà de la Selva,10943,5573,5370,cassà de la selva,girona,157.0528,2.875085,41.88774
 17,Girona,46,Castellfollit de la Roca,957,489,468,castellfollit de la roca,girona,299.2567,2.550077,42.21913
 17,Girona,47,Castelló d'Empúries,12163,6249,5914,castello d'empuries,girona,19.59589,3.074442,42.25826
-17,Girona,48,"Castell d'Aro, Platja d'Aro i s'Agaró",12981,6372,6609,"castell d'aro, platja d'aro i s'agaro",girona,,,
 17,Girona,49,Celrà,5561,2778,2783,celrà,girona,74.95261,2.878967,42.02462
 17,Girona,50,Cervià de Ter,997,508,489,cervià de ter,girona,41.124,2.910495,42.06618
 17,Girona,51,Cistella,294,147,147,cistella,girona,131.848,2.847189,42.26858
@@ -2731,7 +2670,6 @@ province_code,province,municipality_code,municipality_name,population,male,femal
 18,Granada,62,Churriana de la Vega,16693,8209,8484,churriana de la vega,granada,657.35,-3.64595,37.14777
 18,Granada,63,Darro,1695,862,833,darro,granada,1115.744,-3.292531,37.35002
 18,Granada,64,Dehesas de Guadix,383,192,191,dehesas de guadix,granada,684.2996,-3.102278,37.58868
-18,Granada,65,Dehesas Viejas,640,330,310,dehesas viejas,granada,,,
 18,Granada,66,Deifontes,2622,1318,1304,deifontes,granada,744.6108,-3.594484,37.32524
 18,Granada,67,Diezma,810,432,378,diezma,granada,1227.448,-3.331664,37.32085
 18,Granada,68,Dílar,2319,1161,1158,dilar,granada,878.0067,-3.601624,37.07499
@@ -2741,7 +2679,6 @@ province_code,province,municipality_code,municipality_name,population,male,femal
 18,Granada,72,Escúzar,845,450,395,escuzar,granada,873.6536,-3.761499,37.06251
 18,Granada,74,Ferreira,303,157,146,ferreira,granada,1267.67,-3.036083,37.17229
 18,Granada,76,Fonelas,964,506,458,fonelas,granada,785.6204,-3.173344,37.41344
-18,Granada,77,Fornes,531,282,249,fornes,granada,,,
 18,Granada,78,Freila,922,482,440,freila,granada,824.4169,-2.906795,37.52869
 18,Granada,79,Fuente Vaqueros,4625,2313,2312,fuente vaqueros,granada,545.4914,-3.783053,37.21957
 18,Granada,82,Galera,1116,562,554,galera,granada,837.2482,-2.551193,37.74289
@@ -2764,13 +2701,11 @@ province_code,province,municipality_code,municipality_name,population,male,femal
 18,Granada,102,Íllora,9918,5012,4906,illora,granada,775.8689,-3.879782,37.28843
 18,Granada,103,Ítrabo,956,484,472,itrabo,granada,384.3103,-3.638711,36.79948
 18,Granada,105,Iznalloz,5154,2611,2543,iznalloz,granada,816.3354,-3.527549,37.3927
-18,Granada,106,Játar,612,328,284,jatar,granada,,,
 18,Granada,107,Jayena,989,520,469,jayena,granada,911.8392,-3.822807,36.94883
 18,Granada,108,Jérez del Marquesado,990,508,482,jerez del marquesado,granada,1237.271,-3.159872,37.18385
 18,Granada,109,Jete,995,527,468,jete,granada,134.2804,-3.668151,36.79732
 18,Granada,111,Jun,4145,2106,2039,jun,granada,763.6108,-3.59443,37.22064
 18,Granada,112,Juviles,138,71,67,juviles,granada,1258.52,-3.225788,36.94825
-18,Granada,114,"Calahorra, La",681,350,331,"calahorra, la",granada,,,
 18,Granada,115,Láchar,3826,1953,1873,lachar,granada,559.7148,-3.834064,37.19508
 18,Granada,116,Lanjarón,3660,1833,1827,lanjaron,granada,662.3086,-3.480488,36.91806
 18,Granada,117,Lanteira,543,286,257,lanteira,granada,1279.618,-3.138551,37.1689
@@ -2798,7 +2733,6 @@ province_code,province,municipality_code,municipality_name,population,male,femal
 18,Granada,146,Orce,1148,561,587,orce,granada,932.2527,-2.479451,37.72141
 18,Granada,147,Órgiva,5674,2802,2872,orgiva,granada,465.8732,-3.42399,36.90224
 18,Granada,148,Otívar,1038,535,503,otivar,granada,266.5227,-3.681497,36.81491
-18,Granada,149,Villa de Otura,7606,3832,3774,villa de otura,granada,,,
 18,Granada,150,Padul,9536,4780,4756,padul,granada,757.9304,-3.626719,37.02432
 18,Granada,151,Pampaneira,314,161,153,pampaneira,granada,1054.911,-3.361339,36.94004
 18,Granada,152,Pedro Martínez,1147,572,575,pedro martinez,granada,1036.34,-3.230659,37.50168
@@ -2833,7 +2767,6 @@ province_code,province,municipality_code,municipality_name,population,male,femal
 18,Granada,188,Villanueva Mesía,1979,972,1007,villanueva mesia,granada,493.5079,-4.011248,37.2142
 18,Granada,189,Víznar,997,519,478,viznar,granada,1074.323,-3.553835,37.23108
 18,Granada,192,Zafarraya,2189,1184,1005,zafarraya,granada,896.4373,-4.144421,36.97551
-18,Granada,193,"Zubia, La",20056,9867,10189,"zubia, la",granada,,,
 18,Granada,194,Zújar,2623,1339,1284,zujar,granada,771.5205,-2.842817,37.54015
 18,Granada,901,"Taha, La",759,380,379,"taha, la",granada,1100.905,-3.316667,36.93333
 18,Granada,902,"Valle, El",937,476,461,"valle, el",granada,1245.152,-3.008889,37.28611
@@ -2848,9 +2781,6 @@ province_code,province,municipality_code,municipality_name,population,male,femal
 18,Granada,911,Vegas del Genil,12325,6253,6072,vegas del genil,granada,615.0,-3.7,37.16667
 18,Granada,912,Cuevas del Campo,1775,888,887,cuevas del campo,granada,832.7582,-2.931033,37.60847
 18,Granada,913,Zagra,890,460,430,zagra,granada,680.0646,-4.168132,37.25303
-18,Granada,914,Valderrubio,2077,1027,1050,valderrubio,granada,,,
-18,Granada,915,Domingo Pérez de Granada,824,435,389,domingo perez de granada,granada,,,
-18,Granada,916,Torrenueva Costa,3098,1602,1496,torrenueva costa,granada,,,
 19,Guadalajara,1,Abánades,60,36,24,abanades,guadalajara,1031.429,-2.485381,40.89215
 19,Guadalajara,2,Ablanque,73,49,24,ablanque,guadalajara,1045.646,-2.227567,40.89797
 19,Guadalajara,3,Adobes,28,17,11,adobes,guadalajara,1379.7,-1.678581,40.67593
@@ -3162,7 +3092,6 @@ province_code,province,municipality_code,municipality_name,population,male,femal
 20,Gipuzkoa,21,Belauntza,288,150,138,belauntza,gipuzkoa,216.8134,-2.050705,43.13528
 20,Gipuzkoa,22,Berastegi,1111,575,536,berastegi,gipuzkoa,404.8885,-1.979426,43.12403
 20,Gipuzkoa,23,Berrobi,553,288,265,berrobi,gipuzkoa,162.8121,-2.026374,43.14548
-20,Gipuzkoa,24,Bidania-Goiatz,532,275,257,bidania-goiatz,gipuzkoa,,,
 20,Gipuzkoa,25,Zegama,1541,793,748,zegama,gipuzkoa,304.9531,-2.290072,42.97568
 20,Gipuzkoa,26,Zerain,280,136,144,zerain,gipuzkoa,331.8807,-2.274118,43.01212
 20,Gipuzkoa,27,Zestoa,3838,1983,1855,zestoa,gipuzkoa,68.75632,-2.258113,43.23944
@@ -3203,11 +3132,9 @@ province_code,province,municipality_code,municipality_name,population,male,femal
 20,Gipuzkoa,62,Ormaiztegi,1268,646,622,ormaiztegi,gipuzkoa,203.0768,-2.255848,43.04274
 20,Gipuzkoa,63,Oiartzun,10378,5165,5213,oiartzun,gipuzkoa,102.9721,-1.857874,43.29928
 20,Gipuzkoa,64,Pasaia,16009,7685,8324,pasaia,gipuzkoa,0.0,-1.921111,43.32528
-20,Gipuzkoa,65,Soraluze-Placencia de las Armas,3810,1936,1874,soraluze-placencia de las armas,gipuzkoa,,,
 20,Gipuzkoa,66,Errezil,580,309,271,errezil,gipuzkoa,295.3495,-2.173594,43.16467
 20,Gipuzkoa,67,Errenteria,39352,19005,20347,errenteria,gipuzkoa,10.49794,-1.899633,43.31275
 20,Gipuzkoa,68,Leintz-Gatzaga,210,115,95,leintz-gatzaga,gipuzkoa,452.9091,-2.568626,42.98711
-20,Gipuzkoa,69,Donostia/San Sebastián,189093,89436,99657,donostia,gipuzkoa,,,
 20,Gipuzkoa,70,Segura,1465,748,717,segura,gipuzkoa,245.1862,-2.252519,43.00922
 20,Gipuzkoa,71,Tolosa,20109,9755,10354,tolosa,gipuzkoa,80.21484,-2.073914,43.13698
 20,Gipuzkoa,72,Urnieta,6250,3126,3124,urnieta,gipuzkoa,53.07031,-1.990517,43.2482
@@ -3306,7 +3233,6 @@ province_code,province,municipality_code,municipality_name,population,male,femal
 21,Huelva,77,Villarrasa,2128,1071,1057,villarrasa,huelva,66.98409,-6.606914,37.38945
 21,Huelva,78,Zalamea la Real,2963,1480,1483,zalamea la real,huelva,409.5469,-6.660578,37.67891
 21,Huelva,79,Zufre,735,381,354,zufre,huelva,441.5297,-6.338613,37.83384
-21,Huelva,902,"Zarza-Perrunal, La",1189,611,578,"zarza-perrunal, la",huelva,,,
 22,Huesca,1,Abiego,264,131,133,abiego,huesca,527.2344,-0.0710325,42.12121
 22,Huesca,2,Abizanda,163,88,75,abizanda,huesca,603.4579,0.1962168,42.24253
 22,Huesca,3,Adahuesca,207,114,93,adahuesca,huesca,605.8567,-0.0074547,42.14478
@@ -3480,7 +3406,6 @@ province_code,province,municipality_code,municipality_name,population,male,femal
 22,Huesca,227,Tella-Sin,217,117,100,tella-sin,huesca,873.3126,0.2,42.58333
 22,Huesca,228,Tierz,825,408,417,tierz,huesca,465.9984,-0.3533829,42.13257
 22,Huesca,229,Tolva,132,74,58,tolva,huesca,680.778,0.56399,42.11551
-22,Huesca,230,Torla-Ordesa,335,179,156,torla-ordesa,huesca,,,
 22,Huesca,232,Torralba de Aragón,107,62,45,torralba de aragon,huesca,391.9379,-0.5106578,41.93518
 22,Huesca,233,Torre la Ribera,100,53,47,torre la ribera,huesca,1119.165,0.5268245,42.37292
 22,Huesca,234,Torrente de Cinca,1148,646,502,torrente de cinca,huesca,113.8372,0.3348973,41.47287
@@ -3491,7 +3416,6 @@ province_code,province,municipality_code,municipality_name,population,male,femal
 22,Huesca,243,Valle de Bardají,55,35,20,valle de bardaji,huesca,953.4558,0.4666667,42.43333
 22,Huesca,244,Valle de Lierp,58,37,21,valle de lierp,huesca,1064.261,0.489,42.38
 22,Huesca,245,Velilla de Cinca,507,278,229,velilla de cinca,huesca,129.0712,0.261464,41.587
-22,Huesca,246,Beranuy,69,39,30,beranuy,huesca,,,
 22,Huesca,247,Viacamp y Litera,41,26,15,viacamp y litera,huesca,892.478,0.6159651,42.12725
 22,Huesca,248,Vicién,137,80,57,vicien,huesca,397.6077,-0.4401985,42.0555
 22,Huesca,249,Villanova,170,92,78,villanova,huesca,982.9814,0.4618572,42.54668
@@ -3587,7 +3511,6 @@ province_code,province,municipality_code,municipality_name,population,male,femal
 23,Jaén,82,Siles,2109,1080,1029,siles,jaen,831.9842,-2.58131,38.38734
 23,Jaén,84,Sorihuela del Guadalimar,1034,535,499,sorihuela del guadalimar,jaen,630.3478,-3.054152,38.23954
 23,Jaén,85,Torreblascopedro,2402,1230,1172,torreblascopedro,jaen,329.4734,-3.638916,37.99618
-23,Jaén,86,Torredelcampo,13944,6964,6980,torredelcampo,jaen,,,
 23,Jaén,87,Torredonjimeno,13261,6539,6722,torredonjimeno,jaen,585.9095,-3.959263,37.76543
 23,Jaén,88,Torreperogil,7113,3490,3623,torreperogil,jaen,757.6904,-3.287597,38.0345
 23,Jaén,90,Torres,1343,704,639,torres,jaen,885.6928,-3.510031,37.78608
@@ -3639,7 +3562,6 @@ province_code,province,municipality_code,municipality_name,population,male,femal
 24,León,32,Campazas,107,55,52,campazas,leon,767.0551,-5.491729,42.14202
 24,León,33,Campo de Villavidel,205,115,90,campo de villavidel,leon,769.7337,-5.526258,42.43979
 24,León,34,Camponaraya,4104,2041,2063,camponaraya,leon,490.8461,-6.670298,42.58083
-24,León,36,Valle de Ancares,275,153,122,valle de ancares,leon,,,
 24,León,37,Cármenes,333,191,142,carmenes,leon,1168.941,-5.574712,42.95897
 24,León,38,Carracedelo,3423,1713,1710,carracedelo,leon,454.8716,-6.734163,42.55473
 24,León,39,Carrizo,2222,1132,1090,carrizo,leon,891.8846,-5.867041,42.58697
@@ -3792,7 +3714,6 @@ province_code,province,municipality_code,municipality_name,population,male,femal
 24,León,202,Villablino,7709,3749,3960,villablino,leon,989.2762,-6.320078,42.93821
 24,León,203,Villabraz,95,52,43,villabraz,leon,847.0239,-5.447141,42.24592
 24,León,205,Villadangos del Páramo,1235,640,595,villadangos del paramo,leon,899.3542,-5.766411,42.51751
-24,León,206,Toral de los Vados,1753,878,875,toral de los vados,leon,,,
 24,León,207,Villademor de la Vega,291,160,131,villademor de la vega,leon,748.9046,-5.569057,42.27039
 24,León,209,Villafranca del Bierzo,2659,1277,1382,villafranca del bierzo,leon,518.9436,-6.807748,42.60765
 24,León,210,Villagatón,636,349,287,villagaton,leon,1015.718,-6.162189,42.6349
@@ -4136,7 +4057,6 @@ province_code,province,municipality_code,municipality_name,population,male,femal
 26,La Rioja,87,Leiva,245,120,125,leiva,la rioja,586.0123,-3.046514,42.50365
 26,La Rioja,88,Leza de Río Leza,43,25,18,leza de rio leza,la rioja,574.0675,-2.405732,42.32795
 26,La Rioja,89,Logroño,151164,71431,79733,logrono,la rioja,396.4728,-2.449995,42.46577
-26,La Rioja,91,Lumbreras de Cameros,147,98,49,lumbreras de cameros,la rioja,,,
 26,La Rioja,92,Manjarrés,107,66,41,manjarres,la rioja,630.46,-2.67522,42.3926
 26,La Rioja,93,Mansilla de la Sierra,61,46,15,mansilla de la sierra,la rioja,959.0128,-2.945217,42.15337
 26,La Rioja,94,Manzanares de Rioja,61,38,23,manzanares de rioja,la rioja,800.946,-2.895233,42.39614
@@ -4357,8 +4277,6 @@ province_code,province,municipality_code,municipality_name,population,male,femal
 28,Madrid,66,Griñón,10718,5330,5388,grinon,madrid,676.9866,-3.856192,40.21424
 28,Madrid,67,Guadalix de la Sierra,6904,3479,3425,guadalix de la sierra,madrid,841.0,-3.692719,40.78483
 28,Madrid,68,Guadarrama,17062,8376,8686,guadarrama,madrid,965.5875,-4.090732,40.67348
-28,Madrid,69,"Hiruela, La",83,52,31,"hiruela, la",madrid,,,
-28,Madrid,70,Horcajo de la Sierra-Aoslos,233,113,120,horcajo de la sierra-aoslos,madrid,,,
 28,Madrid,71,Horcajuelo de la Sierra,111,55,56,horcajuelo de la sierra,madrid,1138.176,-3.54552,41.06009
 28,Madrid,72,Hoyo de Manzanares,9178,4624,4554,hoyo de manzanares,madrid,1005.688,-3.90712,40.62273
 28,Madrid,73,Humanes de Madrid,20074,9973,10101,humanes de madrid,madrid,675.6912,-3.827206,40.24954
@@ -4568,9 +4486,6 @@ province_code,province,municipality_code,municipality_name,population,male,femal
 29,Málaga,99,Viñuela,2006,1026,980,vinuela,malaga,166.8159,-4.141331,36.8628
 29,Málaga,100,Yunquera,2868,1454,1414,yunquera,malaga,675.0898,-4.920869,36.73168
 29,Málaga,901,Torremolinos,70933,35808,35125,torremolinos,malaga,52.33766,-4.500273,36.62179
-29,Málaga,902,Villanueva de la Concepción,3286,1581,1705,villanueva de la concepcion,malaga,,,
-29,Málaga,903,Montecorto,589,317,272,montecorto,malaga,,,
-29,Málaga,904,Serrato,453,230,223,serrato,malaga,,,
 30,Murcia,1,Abanilla,6206,3180,3026,abanilla,murcia,215.4028,-1.043499,38.20628
 30,Murcia,2,Abarán,13000,6488,6512,abaran,murcia,200.7275,-1.397181,38.20514
 30,Murcia,3,Águilas,37417,18586,18831,aguilas,murcia,8.231929,-1.581161,37.4038
@@ -4655,7 +4570,6 @@ province_code,province,municipality_code,municipality_name,population,male,femal
 31,Navarra,37,Arruazu,122,68,54,arruazu,navarra,469.7116,-2.000009,42.92223
 31,Navarra,38,Artajona,1774,911,863,artajona,navarra,450.9516,-1.764497,42.59125
 31,Navarra,39,Artazu,124,58,66,artazu,navarra,440.7018,-1.838678,42.69187
-31,Navarra,40,Atetz,216,123,93,atetz,navarra,,,
 31,Navarra,41,Ayegui/Aiegi,2550,1350,1200,ayegui,navarra,490.2995,-2.038433,42.65673
 31,Navarra,42,Azagra,3756,1903,1853,azagra,navarra,293.2846,-1.894474,42.30789
 31,Navarra,43,Azuelo,33,10,23,azuelo,navarra,611.0732,-2.349251,42.60846
@@ -4699,9 +4613,7 @@ province_code,province,municipality_code,municipality_name,population,male,femal
 31,Navarra,81,Donamaria,452,226,226,donamaria,navarra,198.6831,-1.666667,43.11666
 31,Navarra,82,Etxalar,814,427,387,etxalar,navarra,102.0956,-1.637286,43.23387
 31,Navarra,83,Echarri/Etxarri,78,38,40,echarri,navarra,403.1423,-1.826431,42.78057
-31,Navarra,84,Etxarri Aranatz,2545,1322,1223,etxarri aranatz,navarra,,,
 31,Navarra,85,Etxauri,662,342,320,etxauri,navarra,412.8882,-1.791637,42.7942
-31,Navarra,86,Valle de Egüés/Eguesibar,22443,11163,11280,valle de egues,navarra,,,
 31,Navarra,87,Elgorriaga,210,105,105,elgorriaga,navarra,149.3327,-1.688063,43.13913
 31,Navarra,88,Noáin (Valle de Elorz)/Noain (Elortzibar),8469,4253,4216,noain (valle de elorz),navarra,459.8526,-1.633801,42.7599
 31,Navarra,89,Enériz/Eneritz,327,167,160,eneriz,navarra,426.3388,-1.728613,42.67083
@@ -4712,7 +4624,6 @@ province_code,province,municipality_code,municipality_name,population,male,femal
 31,Navarra,94,Eslava,106,51,55,eslava,navarra,545.7512,-1.458623,42.5647
 31,Navarra,95,Esparza de Salazar/Espartza Zaraitzu,76,38,38,esparza de salazar,navarra,705.2322,-1.100172,42.85387
 31,Navarra,96,Espronceda,108,56,52,espronceda,navarra,539.9223,-2.305045,42.59675
-31,Navarra,97,Estella-Lizarra,14329,6933,7396,estella-lizarra,navarra,,,
 31,Navarra,98,Esteribar,2877,1490,1387,esteribar,navarra,804.6992,-1.533333,42.95
 31,Navarra,99,Etayo,70,37,33,etayo,navarra,572.3201,-2.155921,42.61776
 31,Navarra,100,Eulate,271,148,123,eulate,navarra,730.8936,-2.208038,42.77654
@@ -4738,7 +4649,6 @@ province_code,province,municipality_code,municipality_name,population,male,femal
 31,Navarra,120,Guesálaz/Gesalatz,433,244,189,guesalaz,navarra,541.5654,-1.917,42.75
 31,Navarra,121,Guirguillano,73,39,34,guirguillano,navarra,614.8031,-1.877828,42.71777
 31,Navarra,122,Huarte/Uharte,7737,3854,3883,huarte,navarra,443.3268,-1.590709,42.83154
-31,Navarra,123,Uharte Arakil,791,415,376,uharte arakil,navarra,,,
 31,Navarra,124,Ibargoiti,270,152,118,ibargoiti,navarra,589.6138,-1.467222,42.68056
 31,Navarra,125,Igúzquiza,302,148,154,iguzquiza,navarra,521.692,-2.084984,42.64522
 31,Navarra,126,Imotz,412,229,183,imotz,navarra,708.5986,-1.783,42.967
@@ -4771,7 +4681,6 @@ province_code,province,municipality_code,municipality_name,population,male,femal
 31,Navarra,153,Lesaka,2716,1372,1344,lesaka,navarra,77.67777,-1.703853,43.24679
 31,Navarra,154,Lezaun,247,142,105,lezaun,navarra,823.1769,-1.994227,42.77801
 31,Navarra,155,Liédena,351,183,168,liedena,navarra,434.2063,-1.275538,42.6189
-31,Navarra,156,Lizoain-Arriasgoiti/Lizoainibar-Arriasgoiti,288,171,117,lizoain-arriasgoiti,navarra,,,
 31,Navarra,157,Lodosa,4931,2511,2420,lodosa,navarra,329.6654,-2.078364,42.42459
 31,Navarra,158,Lónguida/Longida,301,163,138,longuida,navarra,480.7935,-1.385556,42.75722
 31,Navarra,159,Lumbier,1327,693,634,lumbier,navarra,468.2798,-1.307247,42.65289
@@ -4802,15 +4711,12 @@ province_code,province,municipality_code,municipality_name,population,male,femal
 31,Navarra,184,Oco,63,35,28,oco,navarra,492.338,-2.164585,42.63827
 31,Navarra,185,Ochagavía/Otsagabia,488,266,222,ochagavia,navarra,763.3962,-1.090726,42.90578
 31,Navarra,186,Odieta,378,200,178,odieta,navarra,535.4056,-1.638,42.94
-31,Navarra,187,Oiz,133,70,63,oiz,navarra,,,
 31,Navarra,188,Olaibar,407,229,178,olaibar,navarra,479.1287,-1.603,42.886
 31,Navarra,189,Olazti/Olazagutía,1464,746,718,olazti,navarra,542.6686,-2.197067,42.87633
 31,Navarra,190,Olejua,47,28,19,olejua,navarra,574.1867,-2.141197,42.62326
 31,Navarra,191,Olite/Erriberri,4087,2072,2015,olite,navarra,394.055,-1.651641,42.48148
 31,Navarra,192,Olóriz/Oloritz,215,123,92,oloriz,navarra,597.8652,-1.612838,42.63547
 31,Navarra,193,Cendea de Olza/Oltza Zendea,1842,923,919,cendea de olza,navarra,431.3969,-1.694407,42.80423
-31,Navarra,194,Valle de Ollo/Ollaran,436,238,198,valle de ollo,navarra,,,
-31,Navarra,195,Orbaizeta,187,90,97,orbaizeta,navarra,,,
 31,Navarra,196,Orbara,29,15,14,orbara,navarra,757.6503,-1.241657,42.96646
 31,Navarra,197,Orísoain,72,43,29,orisoain,navarra,578.1315,-1.603631,42.60114
 31,Navarra,198,Oronz/Orontze,51,25,26,oronz,navarra,723.6107,-1.096854,42.86818
@@ -4858,7 +4764,6 @@ province_code,province,municipality_code,municipality_name,population,male,femal
 31,Navarra,241,Urraul Alto,136,90,46,urraul alto,navarra,573.8953,-1.247821,42.77569
 31,Navarra,242,Urraul Bajo,323,142,181,urraul bajo,navarra,458.3008,-1.323,42.714
 31,Navarra,243,Urroz-Villa,404,210,194,urroz-villa,navarra,527.5408,-1.458369,42.77863
-31,Navarra,244,Urroz,173,96,77,urroz,navarra,,,
 31,Navarra,245,Urzainqui/Urzainki,78,46,32,urzainqui,navarra,733.1646,-0.9444442,42.83205
 31,Navarra,246,Uterga,171,94,77,uterga,navarra,494.9627,-1.75952,42.71005
 31,Navarra,247,Uztárroz/Uztarroze,140,68,72,uztarroz,navarra,856.1575,-0.940819,42.89209
@@ -5249,40 +5154,6 @@ province_code,province,municipality_code,municipality_name,population,male,femal
 34,Palencia,902,Valle del Retortillo,168,97,71,valle del retortillo,palencia,800.4486,-4.79,42.23528
 34,Palencia,903,Loma de Ucieza,193,120,73,loma de ucieza,palencia,841.5579,-4.579111,42.44142
 34,Palencia,904,"Pernía, La",313,183,130,"pernia, la",palencia,1229.659,-4.5,42.98833
-35,"Palmas, Las",1,Agaete,5670,2841,2829,agaete,"palmas, las",,,
-35,"Palmas, Las",2,Agüimes,33179,16662,16517,aguimes,"palmas, las",,,
-35,"Palmas, Las",3,Antigua,13832,7205,6627,antigua,"palmas, las",,,
-35,"Palmas, Las",4,Arrecife,68169,34046,34123,arrecife,"palmas, las",,,
-35,"Palmas, Las",5,Artenara,1029,594,435,artenara,"palmas, las",,,
-35,"Palmas, Las",6,Arucas,38936,19256,19680,arucas,"palmas, las",,,
-35,"Palmas, Las",7,Betancuria,812,438,374,betancuria,"palmas, las",,,
-35,"Palmas, Las",8,Firgas,7688,3886,3802,firgas,"palmas, las",,,
-35,"Palmas, Las",9,Gáldar,24811,12390,12421,galdar,"palmas, las",,,
-35,"Palmas, Las",10,Haría,5567,2848,2719,haria,"palmas, las",,,
-35,"Palmas, Las",11,Ingenio,32747,16523,16224,ingenio,"palmas, las",,,
-35,"Palmas, Las",12,Mogán,21175,10893,10282,mogan,"palmas, las",,,
-35,"Palmas, Las",13,Moya,7987,4057,3930,moya,"palmas, las",,,
-35,"Palmas, Las",14,"Oliva, La",29693,15332,14361,"oliva, la","palmas, las",,,
-35,"Palmas, Las",15,Pájara,21614,11158,10456,pajara,"palmas, las",,,
-35,"Palmas, Las",16,"Palmas de Gran Canaria, Las",380436,183254,197182,"palmas de gran canaria, las","palmas, las",,,
-35,"Palmas, Las",17,Puerto del Rosario,44638,22460,22178,puerto del rosario,"palmas, las",,,
-35,"Palmas, Las",18,San Bartolomé,19443,9620,9823,san bartolome,"palmas, las",,,
-35,"Palmas, Las",19,San Bartolomé de Tirajana,54116,28268,25848,san bartolome de tirajana,"palmas, las",,,
-35,"Palmas, Las",20,"Aldea de San Nicolás, La",7449,3841,3608,"aldea de san nicolas, la","palmas, las",,,
-35,"Palmas, Las",21,Santa Brígida,18551,9244,9307,santa brigida,"palmas, las",,,
-35,"Palmas, Las",22,Santa Lucía de Tirajana,77098,38298,38800,santa lucia de tirajana,"palmas, las",,,
-35,"Palmas, Las",23,Santa María de Guía de Gran Canaria,14135,7019,7116,santa maria de guia de gran canaria,"palmas, las",,,
-35,"Palmas, Las",24,Teguise,23848,11937,11911,teguise,"palmas, las",,,
-35,"Palmas, Las",25,Tejeda,1826,1001,825,tejeda,"palmas, las",,,
-35,"Palmas, Las",26,Telde,102867,50421,52446,telde,"palmas, las",,,
-35,"Palmas, Las",27,Teror,12878,6573,6305,teror,"palmas, las",,,
-35,"Palmas, Las",28,Tías,21462,10952,10510,tias,"palmas, las",,,
-35,"Palmas, Las",29,Tinajo,6865,3502,3363,tinajo,"palmas, las",,,
-35,"Palmas, Las",30,Tuineje,16454,8445,8009,tuineje,"palmas, las",,,
-35,"Palmas, Las",31,Valsequillo de Gran Canaria,9768,4917,4851,valsequillo de gran canaria,"palmas, las",,,
-35,"Palmas, Las",32,Valleseco,3741,1965,1776,valleseco,"palmas, las",,,
-35,"Palmas, Las",33,Vega de San Mateo,7856,4002,3854,vega de san mateo,"palmas, las",,,
-35,"Palmas, Las",34,Yaiza,18113,9317,8796,yaiza,"palmas, las",,,
 36,Pontevedra,1,Arbo,2636,1362,1274,arbo,pontevedra,150.7691,-8.319313,42.1145
 36,Pontevedra,2,Barro,3657,1796,1861,barro,pontevedra,66.8885,-8.647223,42.525
 36,Pontevedra,3,Baiona,12380,6063,6317,baiona,pontevedra,21.20054,-8.84958,42.11809
@@ -5343,7 +5214,6 @@ province_code,province,municipality_code,municipality_name,population,male,femal
 36,Pontevedra,60,Vilagarcía de Arousa,37761,18062,19699,vilagarcia de arousa,pontevedra,11.04834,-8.765963,42.59387
 36,Pontevedra,61,Vilanova de Arousa,10225,4991,5234,vilanova de arousa,pontevedra,5.737418,-8.82772,42.56221
 36,Pontevedra,901,"Illa de Arousa, A",4849,2399,2450,"illa de arousa, a",pontevedra,0.0,-8.873684,42.56406
-36,Pontevedra,902,Cerdedo-Cotobade,5705,2783,2922,cerdedo-cotobade,pontevedra,,,
 37,Salamanca,1,Abusejo,143,73,70,abusejo,salamanca,841.0999,-6.140146,40.7098
 37,Salamanca,2,Agallas,132,74,58,agallas,salamanca,801.2192,-6.442052,40.44866
 37,Salamanca,3,Ahigal de los Aceiteros,88,46,42,ahigal de los aceiteros,salamanca,643.92,-6.747851,40.87508
@@ -5377,7 +5247,6 @@ province_code,province,municipality_code,municipality_name,population,male,femal
 37,Salamanca,31,Arabayona de Mógica,325,185,140,arabayona de mogica,salamanca,851.54,-5.386216,41.0471
 37,Salamanca,32,Arapiles,739,400,339,arapiles,salamanca,841.4503,-5.644847,40.89376
 37,Salamanca,33,Arcediano,96,52,44,arcediano,salamanca,825.3879,-5.560326,41.09332
-37,Salamanca,34,"Arco, El",89,44,45,"arco, el",salamanca,,,
 37,Salamanca,35,Armenteros,186,110,76,armenteros,salamanca,1051.29,-5.449371,40.59402
 37,Salamanca,36,San Miguel del Robledo,43,23,20,san miguel del robledo,salamanca,1016.15,-6.043535,40.53638
 37,Salamanca,37,"Atalaya, La",100,53,47,"atalaya, la",salamanca,795.277,-6.414223,40.50245
@@ -5599,7 +5468,6 @@ province_code,province,municipality_code,municipality_name,population,male,femal
 37,Salamanca,270,Robliza de Cojos,187,105,82,robliza de cojos,salamanca,818.6881,-5.977132,40.86742
 37,Salamanca,271,Rollán,337,192,145,rollan,salamanca,802.2749,-5.915601,40.96346
 37,Salamanca,272,Saelices el Chico,173,97,76,saelices el chico,salamanca,658.7722,-6.634002,40.66839
-37,Salamanca,273,"Sagrada, La",82,44,38,"sagrada, la",salamanca,,,
 37,Salamanca,274,Salamanca,144866,65286,79580,salamanca,salamanca,802.7915,-5.663047,40.96497
 37,Salamanca,275,Saldeana,99,58,41,saldeana,salamanca,664.0504,-6.639734,41.02058
 37,Salamanca,276,Salmoral,112,67,45,salmoral,salamanca,910.3112,-5.220465,40.80143
@@ -5757,7 +5625,6 @@ province_code,province,municipality_code,municipality_name,population,male,femal
 38,Santa Cruz de Tenerife,49,Valle Gran Rey,4854,2469,2385,valle gran rey,santa cruz de tenerife,607.2831,-17.32575,28.12357
 38,Santa Cruz de Tenerife,50,Vallehermoso,2954,1529,1425,vallehermoso,santa cruz de tenerife,181.5817,-17.26406,28.17902
 38,Santa Cruz de Tenerife,51,"Victoria de Acentejo, La",9313,4615,4698,"victoria de acentejo, la",santa cruz de tenerife,387.9303,-16.46762,28.43531
-38,Santa Cruz de Tenerife,52,Vilaflor de Chasna,1871,948,923,vilaflor de chasna,santa cruz de tenerife,,,
 38,Santa Cruz de Tenerife,53,Villa de Mazo,5070,2568,2502,villa de mazo,santa cruz de tenerife,965.7053,-17.79915,28.58121
 38,Santa Cruz de Tenerife,901,"Pinar de El Hierro, El",2010,1058,952,"pinar de el hierro, el",santa cruz de tenerife,1330.287,-18.0243,27.7255
 39,Cantabria,1,Alfoz de Lloredo,2499,1290,1209,alfoz de lloredo,cantabria,191.1736,-4.166667,43.36666
@@ -5928,7 +5795,6 @@ province_code,province,municipality_code,municipality_name,population,male,femal
 40,Segovia,73,Escalona del Prado,468,250,218,escalona del prado,segovia,896.3405,-4.122932,41.16724
 40,Segovia,74,Escarabajosa de Cabezas,276,149,127,escarabajosa de cabezas,segovia,884.6951,-4.194168,41.10449
 40,Segovia,75,Escobar de Polendos,166,93,73,escobar de polendos,segovia,905.3851,-4.131123,41.09098
-40,Segovia,76,"Espinar, El",10145,5103,5042,"espinar, el",segovia,,,
 40,Segovia,77,Espirdo,1607,836,771,espirdo,segovia,1067.382,-4.07347,40.99775
 40,Segovia,78,Fresneda de Cuéllar,170,99,71,fresneda de cuellar,segovia,766.7217,-4.449654,41.31833
 40,Segovia,79,Fresno de Cantespino,288,160,128,fresno de cantespino,segovia,1037.505,-3.498973,41.36805
@@ -5960,7 +5826,6 @@ province_code,province,municipality_code,municipality_name,population,male,femal
 40,Segovia,110,Lastras de Cuéllar,307,169,138,lastras de cuellar,segovia,902.9059,-4.107011,41.29728
 40,Segovia,111,Lastras del Pozo,64,33,31,lastras del pozo,segovia,966.7155,-4.345913,40.87859
 40,Segovia,112,"Lastrilla, La",4697,2356,2341,"lastrilla, la",segovia,1065.97,-4.103292,40.9687
-40,Segovia,113,"Losa, La",531,290,241,"losa, la",segovia,,,
 40,Segovia,115,Maderuelo,101,58,43,maderuelo,segovia,948.9968,-3.521574,41.48711
 40,Segovia,118,Marazuela,53,32,21,marazuela,segovia,909.9414,-4.365848,40.97814
 40,Segovia,119,Martín Miguel,263,156,107,martin miguel,segovia,916.2261,-4.273617,40.95168
@@ -6001,7 +5866,6 @@ province_code,province,municipality_code,municipality_name,population,male,femal
 40,Segovia,158,Perosillo,20,12,8,perosillo,segovia,833.2657,-4.140926,41.39278
 40,Segovia,159,Pinarejos,194,110,84,pinarejos,segovia,821.0,-4.294878,41.2593
 40,Segovia,160,Pinarnegrillo,96,55,41,pinarnegrillo,segovia,856.0,-4.210704,41.19036
-40,Segovia,161,Carabias,54,38,16,carabias,segovia,,,
 40,Segovia,162,Prádena,468,248,220,pradena,segovia,1121.578,-3.689073,41.13995
 40,Segovia,163,Puebla de Pedraza,51,29,22,puebla de pedraza,segovia,949.6524,-3.913137,41.20537
 40,Segovia,164,Rapariegos,194,109,85,rapariegos,segovia,857.2944,-4.653146,41.09375
@@ -6018,7 +5882,6 @@ province_code,province,municipality_code,municipality_name,population,male,femal
 40,Segovia,178,San Cristóbal de la Vega,83,44,39,san cristobal de la vega,segovia,858.2177,-4.645412,41.11186
 40,Segovia,179,Sanchonuño,1027,511,516,sanchonuno,segovia,805.1132,-4.305842,41.32391
 40,Segovia,180,Sangarcía,279,150,129,sangarcia,segovia,945.6377,-4.414613,40.94718
-40,Segovia,181,Real Sitio de San Ildefonso,5205,2549,2656,real sitio de san ildefonso,segovia,,,
 40,Segovia,182,San Martín y Mudrián,251,120,131,san martin y mudrian,segovia,818.941,-4.330223,41.22304
 40,Segovia,183,San Miguel de Bernuy,134,63,71,san miguel de bernuy,segovia,840.4734,-3.952679,41.39992
 40,Segovia,184,San Pedro de Gaíllos,311,158,153,san pedro de gaillos,segovia,988.7416,-3.809135,41.22693
@@ -6122,7 +5985,6 @@ province_code,province,municipality_code,municipality_name,population,male,femal
 41,Sevilla,49,Guillena,14064,7129,6935,guillena,sevilla,23.11958,-6.052268,37.53902
 41,Sevilla,50,Herrera,6566,3265,3301,herrera,sevilla,250.9977,-4.850014,37.36176
 41,Sevilla,51,Huévar del Aljarafe,3360,1726,1634,huevar del aljarafe,sevilla,72.44372,-6.27659,37.35599
-41,Sevilla,52,Lantejuela,3861,1981,1880,lantejuela,sevilla,,,
 41,Sevilla,53,Lebrija,27745,13812,13933,lebrija,sevilla,36.06404,-6.078367,36.91951
 41,Sevilla,54,Lora de Estepa,888,468,420,lora de estepa,sevilla,447.5596,-4.827815,37.26869
 41,Sevilla,55,Lora del Río,18189,8934,9255,lora del rio,sevilla,42.94636,-5.526284,37.65923
@@ -6143,7 +6005,6 @@ province_code,province,municipality_code,municipality_name,population,male,femal
 41,Sevilla,70,Palomares del Río,9277,4635,4642,palomares del rio,sevilla,38.78385,-6.057716,37.32256
 41,Sevilla,71,Paradas,6779,3388,3391,paradas,sevilla,124.3341,-5.497219,37.28981
 41,Sevilla,72,Pedrera,5085,2507,2578,pedrera,sevilla,456.6477,-4.896754,37.22301
-41,Sevilla,73,"Pedroso, El",2074,1036,1038,"pedroso, el",sevilla,,,
 41,Sevilla,74,Peñaflor,3670,1845,1825,penaflor,sevilla,56.938,-5.346412,37.70726
 41,Sevilla,75,Pilas,14105,7049,7056,pilas,sevilla,69.78975,-6.302449,37.30167
 41,Sevilla,76,Pruna,2509,1277,1232,pruna,sevilla,546.836,-5.222943,36.97364
@@ -6176,7 +6037,6 @@ province_code,province,municipality_code,municipality_name,population,male,femal
 41,Sevilla,901,Cañada Rosal,3410,1684,1726,canada rosal,sevilla,157.5748,-5.210358,37.59894
 41,Sevilla,902,Isla Mayor,5781,2881,2900,isla mayor,sevilla,4.0,-6.162807,37.13356
 41,Sevilla,903,"Cuervo de Sevilla, El",8716,4394,4322,"cuervo de sevilla, el",sevilla,59.24586,-6.041625,36.85136
-41,Sevilla,904,"Palmar de Troya, El",2306,1146,1160,"palmar de troya, el",sevilla,,,
 42,Soria,1,Abejar,386,199,187,abejar,soria,1145.182,-2.785575,41.80774
 42,Soria,3,Adradas,58,33,25,adradas,soria,1053.24,-2.473783,41.35108
 42,Soria,4,Ágreda,3094,1594,1500,agreda,soria,939.9912,-1.920437,41.85508
@@ -6309,7 +6169,6 @@ province_code,province,municipality_code,municipality_name,population,male,femal
 42,Soria,157,"Riba de Escalote, La",8,5,3,"riba de escalote, la",soria,1031.044,-2.79705,41.35175
 42,Soria,158,Rioseco de Soria,123,74,49,rioseco de soria,soria,1010.689,-2.841026,41.64209
 42,Soria,159,Rollamienta,44,29,15,rollamienta,soria,1140.99,-2.531147,41.92616
-42,Soria,160,"Royo, El",251,136,115,"royo, el",soria,,,
 42,Soria,161,Salduero,145,82,63,salduero,soria,1103.849,-2.7993,41.89009
 42,Soria,162,San Esteban de Gormaz,2935,1549,1386,san esteban de gormaz,soria,859.9746,-3.205283,41.57364
 42,Soria,163,San Felices,59,36,23,san felices,soria,925.8511,-2.027122,41.93699
@@ -6471,7 +6330,6 @@ province_code,province,municipality_code,municipality_name,population,male,femal
 43,Tarragona,110,"Pobla de Massaluca, La",344,191,153,"pobla de massaluca, la",tarragona,359.1324,0.3540713,41.18102
 43,Tarragona,111,"Pobla de Montornès, La",3329,1715,1614,"pobla de montornes, la",tarragona,68.08212,1.414619,41.17878
 43,Tarragona,112,Poboleda,334,170,164,poboleda,tarragona,363.0493,0.8457368,41.23496
-43,Tarragona,113,"Pont d'Armentera, El",498,244,254,"pont d'armentera, el",tarragona,,,
 43,Tarragona,114,Porrera,417,215,202,porrera,tarragona,309.0124,0.8540307,41.18792
 43,Tarragona,115,Pradell de la Teixeta,178,92,86,pradell de la teixeta,tarragona,470.191,0.8759075,41.15693
 43,Tarragona,116,Prades,665,354,311,prades,tarragona,949.0946,0.9884451,41.30876
@@ -6489,12 +6347,10 @@ province_code,province,municipality_code,municipality_name,population,male,femal
 43,Tarragona,128,Riudecols,1232,629,603,riudecols,tarragona,296.2064,0.9759995,41.16768
 43,Tarragona,129,Riudoms,6905,3516,3389,riudoms,tarragona,113.1621,1.055814,41.13861
 43,Tarragona,130,Rocafort de Queralt,246,132,114,rocafort de queralt,tarragona,564.9393,1.282401,41.47715
-43,Tarragona,131,Roda de Berà,8048,4074,3974,roda de berà,tarragona,,,
 43,Tarragona,132,Rodonyà,521,285,236,rodonyà,tarragona,319.4084,1.399639,41.28185
 43,Tarragona,133,Roquetes,8369,4318,4051,roquetes,tarragona,16.51928,0.5021107,40.82109
 43,Tarragona,134,"Rourell, El",403,204,199,"rourell, el",tarragona,114.257,1.217422,41.22294
 43,Tarragona,135,Salomó,525,277,248,salomo,tarragona,168.8046,1.376109,41.2304
-43,Tarragona,136,"Ràpita, La",15683,7690,7993,"ràpita, la",tarragona,,,
 43,Tarragona,137,Sant Jaume dels Domenys,2803,1432,1371,sant jaume dels domenys,tarragona,212.2896,1.559053,41.29934
 43,Tarragona,138,Santa Bàrbara,3827,1940,1887,santa bàrbara,tarragona,86.20828,0.4922784,40.71442
 43,Tarragona,139,Santa Coloma de Queralt,2800,1411,1389,santa coloma de queralt,tarragona,687.3315,1.38148,41.53089
@@ -6543,7 +6399,6 @@ province_code,province,municipality_code,municipality_name,population,male,femal
 43,Tarragona,904,"Aldea, L'",4471,2405,2066,"aldea, l'",tarragona,10.09355,0.6119037,40.7418
 43,Tarragona,905,Salou,30810,15683,15127,salou,tarragona,5.432057,1.144041,41.07677
 43,Tarragona,906,"Ampolla, L'",3681,1868,1813,"ampolla, l'",tarragona,7.180099,0.7095863,40.81324
-43,Tarragona,907,"Canonja, La",5943,2897,3046,"canonja, la",tarragona,,,
 44,Teruel,1,Ababuj,74,44,30,ababuj,teruel,1368.157,-0.8077833,40.54846
 44,Teruel,2,Abejuela,57,37,20,abejuela,teruel,1164.137,-0.8941151,39.91035
 44,Teruel,3,Aguatón,17,7,10,aguaton,teruel,1226.572,-1.234348,40.67128
@@ -6696,7 +6551,6 @@ province_code,province,municipality_code,municipality_name,population,male,femal
 44,Teruel,169,Ojos Negros,328,186,142,ojos negros,teruel,1155.657,-1.500031,40.73796
 44,Teruel,171,Olba,294,156,138,olba,teruel,657.7572,-0.6249871,40.13258
 44,Teruel,172,Oliete,367,199,168,oliete,teruel,544.2368,-0.6744237,40.99805
-44,Teruel,173,"Olmos, Los",117,66,51,"olmos, los",teruel,,,
 44,Teruel,174,Orihuela del Tremedal,458,249,209,orihuela del tremedal,teruel,1444.746,-1.649716,40.55058
 44,Teruel,175,Orrios,119,65,54,orrios,teruel,1054.297,-0.9876969,40.58663
 44,Teruel,176,Palomar de Arroyos,160,95,65,palomar de arroyos,teruel,1206.51,-0.7503164,40.77993
@@ -6858,7 +6712,6 @@ province_code,province,municipality_code,municipality_name,population,male,femal
 45,Toledo,76,Hormigos,992,541,451,hormigos,toledo,464.7229,-4.445142,40.09836
 45,Toledo,77,Huecas,875,449,426,huecas,toledo,552.931,-4.195808,40.01184
 45,Toledo,78,Huerta de Valdecarábanos,1771,899,872,huerta de valdecarabanos,toledo,627.6873,-3.611917,39.86433
-45,Toledo,79,"Iglesuela del Tiétar, La",451,234,217,"iglesuela del tietar, la",toledo,,,
 45,Toledo,80,Illán de Vacas,2,2,0,illan de vacas,toledo,480.7694,-4.556459,39.97048
 45,Toledo,81,Illescas,32159,16119,16040,illescas,toledo,592.8992,-3.849206,40.12416
 45,Toledo,82,Lagartera,1315,642,673,lagartera,toledo,396.1818,-5.20118,39.90598
@@ -6946,7 +6799,6 @@ province_code,province,municipality_code,municipality_name,population,male,femal
 45,Toledo,164,Sotillo de las Palomas,183,95,88,sotillo de las palomas,toledo,565.0426,-4.82735,40.10486
 45,Toledo,165,Talavera de la Reina,84738,40640,44098,talavera de la reina,toledo,373.9266,-4.834432,39.9598
 45,Toledo,166,Tembleque,2009,1019,990,tembleque,toledo,638.9656,-3.503289,39.69833
-45,Toledo,167,"Toboso, El",1723,866,857,"toboso, el",toledo,,,
 45,Toledo,168,Toledo,86526,41199,45327,toledo,toledo,524.0618,-4.024476,39.85678
 45,Toledo,169,Torralba de Oropesa,193,104,89,torralba de oropesa,toledo,378.0818,-5.15255,39.9325
 45,Toledo,170,Torrecilla de la Jara,222,123,99,torrecilla de la jara,toledo,642.9003,-4.771836,39.70379
@@ -6997,7 +6849,6 @@ province_code,province,municipality_code,municipality_name,population,male,femal
 46,Valencia,10,Albalat dels Tarongers,1516,799,717,albalat dels tarongers,valencia,102.3577,-0.3364196,39.70299
 46,Valencia,11,Alberic,10945,5462,5483,alberic,valencia,33.56151,-0.5177308,39.11652
 46,Valencia,12,Alborache,1471,778,693,alborache,valencia,314.9452,-0.7718443,39.39252
-46,Valencia,13,Alboraia/Alboraya,26259,12719,13540,alboraia,valencia,,,
 46,Valencia,14,Albuixech,4419,2110,2309,albuixech,valencia,12.0,-0.3226356,39.54437
 46,Valencia,15,Alcàsser,10676,5352,5324,alcàsser,valencia,29.1877,-0.4428184,39.36931
 46,Valencia,16,Alcàntera de Xúquer,1425,709,716,alcàntera de xuquer,valencia,45.0,-0.5611053,39.06793
@@ -7008,13 +6859,9 @@ province_code,province,municipality_code,municipality_name,population,male,femal
 46,Valencia,21,Aldaia,34035,17136,16899,aldaia,valencia,49.20547,-0.4613582,39.46505
 46,Valencia,22,Alfafar,22131,10837,11294,alfafar,valencia,14.41185,-0.3898719,39.42323
 46,Valencia,23,Alfauir,489,249,240,alfauir,valencia,89.19871,-0.2517238,38.92825
-46,Valencia,24,Alfara de la Baronia,614,304,310,alfara de la baronia,valencia,,,
 46,Valencia,25,Alfara del Patriarca,3623,1690,1933,alfara del patriarca,valencia,34.0,-0.3865961,39.54523
-46,Valencia,26,Alfarb,1676,869,807,alfarb,valencia,,,
 46,Valencia,27,Alfarrasí,1175,581,594,alfarrasi,valencia,201.9004,-0.4964219,38.90528
-46,Valencia,28,Algar de Palància,542,287,255,algar de palància,valencia,,,
 46,Valencia,29,Algemesí,27968,13817,14151,algemesi,valencia,23.95206,-0.4347581,39.19387
-46,Valencia,30,Algímia d'Alfara,1104,542,562,algimia d'alfara,valencia,,,
 46,Valencia,31,Alginet,14652,7400,7252,alginet,valencia,33.26551,-0.4673142,39.26482
 46,Valencia,32,Almàssera,7672,3736,3936,almàssera,valencia,13.57227,-0.3551791,39.51298
 46,Valencia,33,Almiserà,285,148,137,almiserà,valencia,147.6635,-0.2857652,38.91521
@@ -7046,14 +6893,11 @@ province_code,province,municipality_code,municipality_name,population,male,femal
 46,Valencia,59,Benifairó de la Valldigna,1560,775,785,benifairo de la valldigna,valencia,40.15332,-0.3022293,39.05379
 46,Valencia,60,Benifaió,12130,5955,6175,benifaio,valencia,25.18363,-0.4270781,39.28524
 46,Valencia,61,Beniflá,502,252,250,benifla,valencia,49.0,-0.1886494,38.92797
-46,Valencia,62,Benigànim,5695,2896,2799,benigànim,valencia,,,
 46,Valencia,63,Benimodo,2316,1187,1129,benimodo,valencia,48.09188,-0.52738,39.21346
 46,Valencia,64,Benimuslem,665,355,310,benimuslem,valencia,25.46984,-0.4928766,39.13147
 46,Valencia,65,Beniparrell,2091,1059,1032,beniparrell,valencia,9.134038,-0.4126262,39.38113
 46,Valencia,66,Benirredrà,1561,735,826,benirredrà,valencia,32.96222,-0.1935661,38.9611
-46,Valencia,67,Benissanó,2427,1186,1241,benissano,valencia,,,
 46,Valencia,68,Benissoda,485,260,225,benissoda,valencia,334.6183,-0.5308933,38.8327
-46,Valencia,69,Benissuera,185,97,88,benissuera,valencia,,,
 46,Valencia,70,Bétera,27584,13744,13840,betera,valencia,107.5116,-0.4588638,39.58848
 46,Valencia,71,Bicorp,560,273,287,bicorp,valencia,293.4095,-0.78779,39.13191
 46,Valencia,72,Bocairent,4148,2082,2066,bocairent,valencia,625.4228,-0.6086135,38.76781
@@ -7103,7 +6947,6 @@ province_code,province,municipality_code,municipality_name,population,male,femal
 46,Valencia,116,"Eliana, l'",19597,9601,9996,"eliana, l'",valencia,93.11724,-0.5302467,39.56632
 46,Valencia,117,Emperador,693,364,329,emperador,valencia,19.49965,-0.3396982,39.55432
 46,Valencia,118,Enguera,4769,2389,2380,enguera,valencia,313.453,-0.6884746,38.98003
-46,Valencia,119,"Énova, l'",924,477,447,"enova, l'",valencia,,,
 46,Valencia,120,Estivella,1631,781,850,estivella,valencia,118.094,-0.347827,39.71229
 46,Valencia,121,Estubeny,109,54,55,estubeny,valencia,167.0915,-0.623651,39.01794
 46,Valencia,122,Faura,3671,1814,1857,faura,valencia,41.90349,-0.2636878,39.72596
@@ -7112,17 +6955,14 @@ province_code,province,municipality_code,municipality_name,population,male,femal
 46,Valencia,125,Fortaleny,1005,494,511,fortaleny,valencia,10.85651,-0.3135945,39.18376
 46,Valencia,126,Foios,7761,3793,3968,foios,valencia,21.95792,-0.3565129,39.53762
 46,Valencia,127,"Font d'en Carròs, la",3938,1979,1959,"font d'en carròs, la",valencia,5.068284,-0.3268051,39.48134
-46,Valencia,128,"Font de la Figuera, la",2043,1038,1005,"font de la figuera, la",valencia,,,
 46,Valencia,129,Fuenterrobles,695,372,323,fuenterrobles,valencia,890.5018,-1.363273,39.58606
 46,Valencia,130,Gavarda,1036,486,550,gavarda,valencia,35.14901,-0.5596363,39.0915
 46,Valencia,131,Gandia,80095,39248,40847,gandia,valencia,36.61599,-0.1851868,38.96902
-46,Valencia,132,"Genovés, el",2823,1436,1387,"genoves, el",valencia,,,
 46,Valencia,133,Gestalgar,560,288,272,gestalgar,valencia,195.7673,-0.8332318,39.60403
 46,Valencia,134,Gilet,3887,1979,1908,gilet,valencia,146.7077,-0.3244466,39.67611
 46,Valencia,135,Godella,13437,6441,6996,godella,valencia,49.22687,-0.4171347,39.5223
 46,Valencia,136,Godelleta,4182,2132,2050,godelleta,valencia,265.5036,-0.6861337,39.42506
 46,Valencia,137,"Granja de la Costera, la",294,146,148,"granja de la costera, la",valencia,114.7557,-0.5571381,38.99599
-46,Valencia,138,Guadasséquies,468,228,240,guadassequies,valencia,,,
 46,Valencia,139,Guadassuar,5992,2901,3091,guadassuar,valencia,33.0038,-0.4792251,39.18823
 46,Valencia,140,Guardamar de la Safor,607,316,291,guardamar de la safor,valencia,12.0,-0.1492884,38.96134
 46,Valencia,141,Higueruelas,534,279,255,higueruelas,valencia,772.9467,-0.8614262,39.79007
@@ -7146,7 +6986,6 @@ province_code,province,municipality_code,municipality_name,population,male,femal
 46,Valencia,159,Manises,32273,15960,16313,manises,valencia,51.54403,-0.4558824,39.49073
 46,Valencia,160,Manuel,2524,1266,1258,manuel,valencia,52.98642,-0.4940807,39.05259
 46,Valencia,161,Marines,1921,991,930,marines,valencia,216.1194,-0.5621002,39.67394
-46,Valencia,162,Massalavés,1811,925,886,massalaves,valencia,,,
 46,Valencia,163,Massalfassar,2653,1319,1334,massalfassar,valencia,15.84554,-0.3263003,39.55756
 46,Valencia,164,Massamagrell,17216,8496,8720,massamagrell,valencia,20.72736,-0.3351273,39.56923
 46,Valencia,165,Massanassa,10345,5022,5323,massanassa,valencia,18.94774,-0.4002014,39.4113
@@ -7154,17 +6993,13 @@ province_code,province,municipality_code,municipality_name,population,male,femal
 46,Valencia,167,Millares,329,166,163,millares,valencia,363.7968,-0.7732546,39.23738
 46,Valencia,168,Miramar,3020,1528,1492,miramar,valencia,13.39062,-0.1387654,38.9516
 46,Valencia,169,Mislata,46153,22298,23855,mislata,valencia,33.95041,-0.4193065,39.47624
-46,Valencia,170,Moixent/Mogente,4373,2183,2190,moixent,valencia,,,
 46,Valencia,171,Moncada,21993,10640,11353,moncada,valencia,34.29377,-0.3934617,39.54554
 46,Valencia,172,Montserrat,9656,4977,4679,montserrat,valencia,167.5811,-0.6031014,39.3578
 46,Valencia,173,Montaverner,1626,807,819,montaverner,valencia,188.4312,-0.4963465,38.88851
 46,Valencia,174,Montesa,1134,571,563,montesa,valencia,286.9374,-0.6511041,38.94968
 46,Valencia,175,Montitxelvo/Montichelvo,577,280,297,montitxelvo,valencia,267.0021,-0.3389177,38.89122
-46,Valencia,176,Montroi/Montroy,3477,1837,1640,montroi,valencia,,,
 46,Valencia,177,Museros,6739,3428,3311,museros,valencia,21.05551,-0.3406455,39.56345
-46,Valencia,178,Nàquera/Náquera,8308,4303,4005,nàquera,valencia,,,
 46,Valencia,179,Navarrés,3055,1519,1536,navarres,valencia,279.2114,-0.6936884,39.10121
-46,Valencia,180,Novetlè,849,417,432,novetle,valencia,,,
 46,Valencia,181,Oliva,26122,12827,13295,oliva,valencia,32.63683,-0.1226779,38.91939
 46,Valencia,182,Olocau,2425,1288,1137,olocau,valencia,276.5376,-0.5312006,39.69985
 46,Valencia,183,"Olleria, l'",8648,4356,4292,"olleria, l'",valencia,263.7793,-0.5494962,38.91419
@@ -7188,25 +7023,18 @@ province_code,province,municipality_code,municipality_name,population,male,femal
 46,Valencia,201,Puebla de San Miguel,51,38,13,puebla de san miguel,valencia,1097.674,-1.145066,40.04535
 46,Valencia,202,"Pobla de Vallbona, la",27056,13528,13528,"pobla de vallbona, la",valencia,100.6849,-0.5529038,39.59043
 46,Valencia,203,"Pobla Llarga, la",4569,2293,2276,"pobla llarga, la",valencia,35.54498,-0.4755329,39.08592
-46,Valencia,204,"Puig de Santa Maria, el",9367,4565,4802,"puig de santa maria, el",valencia,,,
 46,Valencia,205,Puçol,21298,10464,10834,puçol,valencia,12.53519,-0.300809,39.61639
 46,Valencia,206,Quesa,675,344,331,quesa,valencia,223.3543,-0.7405544,39.1196
-46,Valencia,207,Rafelbunyol,9710,4735,4975,rafelbunyol,valencia,,,
 46,Valencia,208,Rafelcofer,1374,669,705,rafelcofer,valencia,36.06348,-0.1661192,38.93344
 46,Valencia,209,Rafelguaraf,2350,1162,1188,rafelguaraf,valencia,48.39763,-0.45462,39.05197
 46,Valencia,210,Ráfol de Salem,464,235,229,rafol de salem,valencia,295.8902,-0.3966209,38.86491
-46,Valencia,211,"Real de Gandia, el",2670,1351,1319,"real de gandia, el",valencia,,,
-46,Valencia,212,Real,2435,1267,1168,real,valencia,,,
 46,Valencia,213,Requena,20740,10408,10332,requena,valencia,701.6198,-1.100322,39.48788
 46,Valencia,214,Riba-roja de Túria,24230,12247,11983,riba-roja de turia,valencia,100.1154,-0.5667182,39.54548
 46,Valencia,215,Riola,1770,879,891,riola,valencia,12.24097,-0.3343216,39.19768
 46,Valencia,216,Rocafort,7753,3787,3966,rocafort,valencia,40.4511,-0.4104713,39.53096
 46,Valencia,217,Rotglà i Corberà,1158,577,581,rotglà i corberà,valencia,125.9154,-0.565334,39.00407
-46,Valencia,218,Ròtova,1271,638,633,ròtova,valencia,,,
 46,Valencia,219,Rugat,171,95,76,rugat,valencia,294.8879,-0.3614008,38.87893
-46,Valencia,220,Sagunt/Sagunto,71377,34788,36589,sagunt,valencia,,,
 46,Valencia,221,Salem,394,199,195,salem,valencia,371.894,-0.3811189,38.85503
-46,Valencia,222,Sant Joanet,526,256,270,sant joanet,valencia,,,
 46,Valencia,223,Sedaví,10908,5333,5575,sedavi,valencia,13.74977,-0.3857862,39.42505
 46,Valencia,224,Segart,167,93,74,segart,valencia,273.3418,-0.3736177,39.68359
 46,Valencia,225,Sellent,383,200,183,sellent,valencia,82.35025,-0.5877986,39.03104
@@ -7239,9 +7067,7 @@ province_code,province,municipality_code,municipality_name,population,male,femal
 46,Valencia,252,Vallanca,131,69,62,vallanca,valencia,967.4936,-1.338187,40.06289
 46,Valencia,253,Vallés,148,83,65,valles,valencia,118.1331,-0.5563067,38.98592
 46,Valencia,254,Venta del Moro,1158,624,534,venta del moro,valencia,720.7908,-1.358879,39.48389
-46,Valencia,255,Vilallonga/Villalonga,4713,2340,2373,vilallonga,valencia,,,
 46,Valencia,256,Vilamarxant,11041,5729,5312,vilamarxant,valencia,106.5428,-0.6222726,39.56751
-46,Valencia,257,Castelló,6897,3393,3504,castello,valencia,,,
 46,Valencia,258,Villar del Arzobispo,3775,1919,1856,villar del arzobispo,valencia,519.1837,-0.8277042,39.73537
 46,Valencia,259,Villargordo del Cabriel,594,301,293,villargordo del cabriel,valencia,850.9744,-1.440612,39.53635
 46,Valencia,260,Vinalesa,3531,1716,1815,vinalesa,valencia,27.0,-0.3699957,39.54
@@ -7484,7 +7310,6 @@ province_code,province,municipality_code,municipality_name,population,male,femal
 48,Bizkaia,6,Arantzazu,394,198,196,arantzazu,bizkaia,98.17124,-2.79043,43.1529
 48,Bizkaia,7,Munitibar-Arbatzegi Gerrikaitz,466,262,204,munitibar-arbatzegi gerrikaitz,bizkaia,192.7225,-2.591845,43.26533
 48,Bizkaia,8,Artzentales,736,382,354,artzentales,bizkaia,245.3207,-3.241389,43.24055
-48,Bizkaia,9,Arrankudiaga-Zollo,1007,498,509,arrankudiaga-zollo,bizkaia,,,
 48,Bizkaia,10,Arrieta,579,300,279,arrieta,bizkaia,175.4774,-2.769799,43.34036
 48,Bizkaia,11,Arrigorriaga,11952,5847,6105,arrigorriaga,bizkaia,59.69678,-2.887839,43.20752
 48,Bizkaia,12,Bakio,2821,1399,1422,bakio,bizkaia,2.838547,-2.811389,43.42778
@@ -7560,7 +7385,6 @@ province_code,province,municipality_code,municipality_name,population,male,femal
 48,Bizkaia,82,Santurtzi,46247,22228,24019,santurtzi,bizkaia,10.96747,-3.031772,43.32871
 48,Bizkaia,83,Ortuella,8629,4239,4390,ortuella,bizkaia,90.76665,-3.055952,43.31137
 48,Bizkaia,84,Sestao,28228,13610,14618,sestao,bizkaia,64.24418,-3.00694,43.30964
-48,Bizkaia,85,Sopela,14940,7393,7547,sopela,bizkaia,,,
 48,Bizkaia,86,Sopuerta,2765,1393,1372,sopuerta,bizkaia,77.18089,-3.1525,43.26278
 48,Bizkaia,87,Trucios-Turtzioz,515,271,244,trucios-turtzioz,bizkaia,420.5313,-3.288546,43.27268
 48,Bizkaia,88,Ubide,164,82,82,ubide,bizkaia,587.656,-2.688209,43.02683
@@ -7588,7 +7412,6 @@ province_code,province,municipality_code,municipality_name,population,male,femal
 48,Bizkaia,913,Zierbena,1493,789,704,zierbena,bizkaia,95.27987,-3.086152,43.34766
 48,Bizkaia,914,Arratzu,414,195,219,arratzu,bizkaia,63.8907,-2.638611,43.31167
 48,Bizkaia,915,Ziortza-Bolibar,409,215,194,ziortza-bolibar,bizkaia,179.7434,-2.550174,43.24982
-48,Bizkaia,916,Usansolo,4572,2250,2322,usansolo,bizkaia,,,
 49,Zamora,2,Abezames,60,34,26,abezames,zamora,734.649,-5.42627,41.62556
 49,Zamora,3,Alcañices,1061,559,502,alcanices,zamora,800.8787,-6.347962,41.69968
 49,Zamora,4,Alcubilla de Nogales,108,58,50,alcubilla de nogales,zamora,780.9072,-5.922181,42.12698
@@ -7611,7 +7434,6 @@ province_code,province,municipality_code,municipality_name,population,male,femal
 49,Zamora,21,Benavente,17246,8276,8970,benavente,zamora,723.4604,-5.67408,42.00302
 49,Zamora,22,Benegiles,268,145,123,benegiles,zamora,647.0,-5.63523,41.62679
 49,Zamora,23,Bermillo de Sayago,1026,551,475,bermillo de sayago,zamora,794.7465,-6.112085,41.36691
-49,Zamora,24,"Bóveda de Toro, La",676,348,328,"boveda de toro, la",zamora,,,
 49,Zamora,25,Bretó,166,99,67,breto,zamora,695.636,-5.738333,41.88187
 49,Zamora,26,Bretocino,195,103,92,bretocino,zamora,714.0786,-5.75509,41.88337
 49,Zamora,27,Brime de Sog,116,55,61,brime de sog,zamora,764.0367,-6.047415,42.06126
@@ -7638,7 +7460,6 @@ province_code,province,municipality_code,municipality_name,population,male,femal
 49,Zamora,50,Cobreros,545,299,246,cobreros,zamora,1001.473,-6.701635,42.07391
 49,Zamora,52,Coomonte,179,96,83,coomonte,zamora,734.2988,-5.813346,42.11526
 49,Zamora,53,Coreses,1037,534,503,coreses,zamora,648.8304,-5.622248,41.54818
-49,Zamora,54,Corrales del Vino,929,461,468,corrales del vino,zamora,,,
 49,Zamora,55,Cotanes del Monte,82,44,38,cotanes del monte,zamora,716.3132,-5.290119,41.81778
 49,Zamora,56,Cubillos,295,146,149,cubillos,zamora,670.0,-5.739423,41.57485
 49,Zamora,57,Cubo de Benavente,117,64,53,cubo de benavente,zamora,812.4978,-6.163151,42.12366
@@ -7784,7 +7605,6 @@ province_code,province,municipality_code,municipality_name,population,male,femal
 49,Zamora,214,Tábara,748,361,387,tabara,zamora,751.6248,-5.960082,41.82508
 49,Zamora,216,Tapioles,124,73,51,tapioles,zamora,688.6124,-5.496512,41.85743
 49,Zamora,219,Toro,8369,4079,4290,toro,zamora,730.0003,-5.394857,41.52636
-49,Zamora,220,"Torre del Valle, La",125,68,57,"torre del valle, la",zamora,,,
 49,Zamora,221,Torregamones,226,119,107,torregamones,zamora,784.8227,-6.178316,41.48469
 49,Zamora,222,Torres del Carrizal,407,208,199,torres del carrizal,zamora,648.0,-5.670278,41.61617
 49,Zamora,223,Trabazos,838,447,391,trabazos,zamora,728.6976,-6.492951,41.74718
@@ -7961,7 +7781,6 @@ province_code,province,municipality_code,municipality_name,population,male,femal
 50,Zaragoza,126,Illueca,2727,1402,1325,illueca,zaragoza,589.6152,-1.623442,41.53632
 50,Zaragoza,128,Isuerre,30,15,15,isuerre,zaragoza,640.5793,-1.055158,42.48816
 50,Zaragoza,129,Jaraba,295,163,132,jaraba,zaragoza,763.7606,-1.88306,41.19013
-50,Zaragoza,130,Jarque de Moncayo,381,201,180,jarque de moncayo,zaragoza,,,
 50,Zaragoza,131,Jaulín,292,149,143,jaulin,zaragoza,516.2281,-0.9948922,41.45332
 50,Zaragoza,132,"Joyosa, La",1132,570,562,"joyosa, la",zaragoza,216.2196,-1.072959,41.74516
 50,Zaragoza,133,Lagata,115,62,53,lagata,zaragoza,526.7678,-0.8047833,41.23999
