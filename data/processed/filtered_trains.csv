@@ -1,0 +1,647 @@
+station_code,station_name,latitude,longitude,municipality_name,province
+11208,Vitoria/Gasteiz,42.8415284,-2.6726651,vitoria-gasteiz,araba/álava
+11212,Agurain/Salvatierra De Alava,42.8464369,-2.3892266,salvatierra/agurain,araba/álava
+11213,Araia,42.8694713,-2.3068018,arraia-maeztu,araba/álava
+11203,Manzanos,42.7428754,-2.8675305,ribera baja/erribera beitia,araba/álava
+11205,Nanclares-Langraiz,42.8162344,-2.8049335,iruña oka/iruña de oca,araba/álava
+11210,Alegria-Dulantzi,42.8488289,-2.5145516,alegría-dulantzi,araba/álava
+60600,Albacete Los Llanos,39.0002979,-1.8487356,albacete,albacete
+60507,La Gineta,39.1117194,-2.000316,"gineta, la",albacete
+61005,Hellin,38.5088565,-1.688572,hellín,albacete
+60500,Villarrobledo,39.2608516,-2.5985537,villarrobledo,albacete
+60503,Minaya,39.240726,-2.3484434,minaya,albacete
+60505,La Roda De Albacete,39.199397,-2.1628953,"roda, la",albacete
+60800,Almansa,38.8677729,-1.1054355,almansa,albacete
+60901,Caudete,38.7161493,-0.9597129,caudete,albacete
+3309,Villena Alta Velocidad,38.5846082,-0.8734737,villena,alicante/alacant
+60902,Villena,38.631817,-0.867668,villena,alicante/alacant
+60900,La Encina,38.7653779,-0.9542829,villena,alicante/alacant
+60905,Elda-Petrer,38.484919,-0.8010553,elda,alicante/alacant
+60904,Sax,38.5447527,-0.8142178,sax,alicante/alacant
+60907,Novelda-Aspe,38.4071671,-0.7777287,novelda,alicante/alacant
+69011,Alcoi,38.7094901,-0.4702863,alcoy/alcoi,alicante/alacant
+69010,Cocentaina,38.7407086,-0.4470622,cocentaina,alicante/alacant
+69009,Agres,38.7968366,-0.5217951,agres,alicante/alacant
+56312,Almeria,36.8346609,-2.4561659,almería,almería
+56305,Gergal,37.1088805,-2.5915216,gérgal,almería
+56301,Fiñana,37.1847081,-2.839647,fiñana,almería
+56308,Gador,36.9515917,-2.4874696,gádor,almería
+10400,Avila,40.657203,-4.683319,ávila,ávila
+10302,Guimorcondo,40.6490138,-4.6150234,tornadizos de ávila,ávila
+10409,Arevalo,41.0471235,-4.7019727,arévalo,ávila
+10207,Las Navas Del Marques,40.5892572,-4.3614434,"navas del marqués, las",ávila
+10208,Navalperal,40.5909526,-4.4086162,navalperal de pinares,ávila
+10300,Herradon-La Cañada,40.599334,-4.4950318,herradón de pinares,ávila
+34007,Crespos,40.8700754,-4.9679924,crespos,ávila
+34002,Cardeñosa De Avila,40.7391956,-4.7507526,cardeñosa,ávila
+34005,San Pedro Del Arroyo,40.8038378,-4.871408,san pedro del arroyo,ávila
+34008,Narros Del Castillo,40.8665849,-5.0527564,narros del castillo,ávila
+37606,Badajoz,38.89061,-6.9817556,badajoz,badajoz
+37604,Guadiana,38.9220809,-6.6899875,guadiana del caudillo,badajoz
+40004,Almendralejo,38.6846701,-6.3997768,almendralejo,badajoz
+40005,Villafranca De Los Barros,38.5644983,-6.3520619,villafranca de los barros,badajoz
+40006,Los Santos De Maimona,38.4496301,-6.3616186,"santos de maimona, los",badajoz
+40008,Zafra Feria,38.4243825,-6.4099897,zafra,badajoz
+40100,Zafra,38.4138471,-6.405396,zafra,badajoz
+42005,Fregenal De La Sierra,38.1677017,-6.6378417,fregenal de la sierra,badajoz
+37407,Don Benito,38.9669797,-5.8628364,don benito,badajoz
+37402,Castuera,38.7349783,-5.5417826,castuera,badajoz
+37404,Campanario,38.8534031,-5.6414458,campanario,badajoz
+37410,Guareña,38.8968311,-6.1289519,guareña,badajoz
+37409,Valdetorres,38.9133481,-6.0694247,valdetorres,badajoz
+37603,Montijo,38.9135544,-6.5985619,montijo,badajoz
+37608,Montijo-El Molino,38.9139742,-6.6182455,montijo,badajoz
+35405,San Vicente De Alcantara,39.3815403,-7.1170664,san vicente de alcántara,badajoz
+37311,Cabeza Del Buey,38.723812,-5.2270033,cabeza del buey,badajoz
+37400,Almorchon,38.6966056,-5.2904115,cabeza del buey,badajoz
+37406,Villanueva De La Serena,38.9687822,-5.7963912,villanueva de la serena,badajoz
+37500,Merida,38.9213839,-6.343062,mérida,badajoz
+37600,Aljucen,38.9364087,-6.407883,aljucén,badajoz
+40002,Calamonte,38.8874922,-6.3826881,calamonte,badajoz
+37611,Garrovilla-Las Vegas,38.9153576,-6.4770663,"garrovilla, la",badajoz
+40105,Llerena,38.2376771,-6.0098805,llerena,badajoz
+40107,Fuente Del Arco,38.1635601,-5.9005181,fuente del arco,badajoz
+78505,Aguilar De Segarra,41.738797,1.6237134,aguilar de segarra,barcelona
+78506,Rajadell,41.732411,1.6986637,rajadell,barcelona
+78503,Calaf,41.7302307,1.5151424,calaf,barcelona
+78504,Seguers-Sant Pere Sallavinera,41.747882,1.5740043,calaf,barcelona
+78502,Sant Marti Sesgueioles,41.7012114,1.4861976,sant martí sesgueioles,barcelona
+11014,Burgos Rosa De Lima,42.3706346,-3.6661075,burgos,burgos
+11009,Villaquiran,42.2156539,-3.9995055,villaquirán de los infantes,burgos
+11200,Miranda De Ebro,42.6907532,-2.9411199,miranda de ebro,burgos
+11109,Briviesca,42.5427537,-3.3192126,briviesca,burgos
+11111,Pancorbo,42.6302302,-3.1129697,pancorbo,burgos
+11204,La Puebla De Arganzon,42.7652437,-2.8303429,condado de treviño,burgos
+35400,Caceres,39.461161,-6.385651,cáceres,cáceres
+35206,Navalmoral De La Mata,39.8948539,-5.545566,navalmoral de la mata,cáceres
+35406,Valencia De Alcantara,39.4269147,-7.2307418,valencia de alcántara,cáceres
+35207,Casatejada,39.8919228,-5.6776116,casatejada,cáceres
+35301,Mirabel,39.8661782,-6.228912,mirabel,cáceres
+35302,Casas De Millan,39.8121045,-6.3256771,casas de millán,cáceres
+30002,Plasencia,40.0221943,-6.0994465,plasencia,cáceres
+30000,Monfragüe,39.9374645,-6.1010368,malpartida de plasencia,cáceres
+35303,Cañaveral,39.7889614,-6.3745314,cañaveral,cáceres
+35402,Arroyo De Malpartida,39.4680733,-6.5344525,cáceres,cáceres
+55020,Algeciras,36.126469,-5.448923,algeciras,cádiz
+55014,San Pablo,36.4679463,-5.4190055,jimena de la frontera,cádiz
+55015,Jimena De La Frontera,36.4242754,-5.4342443,jimena de la frontera,cádiz
+55017,Almoraima,36.2770173,-5.4300178,castellar de la frontera,cádiz
+55018,San Roque-La Linea,36.2140158,-5.4322269,san roque,cádiz
+55019,Los Barrios,36.1738822,-5.4607781,"barrios, los",cádiz
+55005,Setenil,36.8624427,-5.1211137,setenil de las bodegas,cádiz
+67208,Barracas,40.011745,-0.6962735,barracas,castellón/castelló
+65312,Vinaros,40.4716548,0.4556807,vinaròs,castellón/castelló
+65318,Benicassim,40.0580783,0.0578182,benicasim/benicàssim,castellón/castelló
+65308,Alcala De Chivert,40.304675,0.2286858,alcalà de xivert,castellón/castelló
+65311,Benicarlo-Peñiscola,40.4276628,0.415166,benicarló,castellón/castelló
+65304,Orpesa,40.0922718,0.1397688,oropesa del mar/orpesa,castellón/castelló
+65306,Torreblanca,40.2122167,0.1989847,torreblanca,castellón/castelló
+37200,Ciudad Real,38.9852579,-3.9134245,ciudad real,ciudad real
+50100,Manzanares,39.0058224,-3.3705386,manzanares,ciudad real
+94002,Daimiel,39.0615172,-3.6040492,daimiel,ciudad real
+94004,Almagro,38.895438,-3.709777,almagro,ciudad real
+50102,Valdepeñas,38.763297,-3.395942,valdepeñas,ciudad real
+37302,Brazatortas-Veredas,38.6688198,-4.3166882,brazatortas,ciudad real
+37305,Almadenejos-Almaden,38.7405765,-4.730331,almadén,ciudad real
+37308,Guadalmez-Los Pedroches,38.6992339,-4.9295366,guadalmez,ciudad real
+37300,Puertollano,38.6914111,-4.1116111,puertollano,ciudad real
+37700,Puertollano (Av),38.6914111,-4.1116111,puertollano,ciudad real
+60400,Alcazar De San Juan,39.3961548,-3.2058024,alcázar de san juan,ciudad real
+60402,Campo De Criptana,39.394412,-3.1176765,campo de criptana,ciudad real
+60406,Socuellamos,39.2787994,-2.7755387,socuéllamos,ciudad real
+50002,Cinco Casas,39.1693086,-3.2373701,alcázar de san juan,ciudad real
+50200,Santa Cruz De Mudela,38.644651,-3.4514992,santa cruz de mudela,ciudad real
+50202,Almuradiel-Viso Del Marques,38.5143048,-3.5017844,almuradiel,ciudad real
+50500,Cordoba,37.8884864,-4.7895764,córdoba,córdoba
+50417,Campus Universitario De Rabanales,37.9128153,-4.720937,córdoba,córdoba
+37704,Villanueva De Cordoba,38.2551693,-4.5709044,villanueva de córdoba,córdoba
+2002,Puente Genil-Herrera,37.3597116,-4.8221946,puente genil,córdoba
+50407,Villa Del Rio,37.9814294,-4.2838235,villa del río,córdoba
+50506,Palma Del Rio,37.7181028,-5.29276,palma del río,córdoba
+50504,Posadas,37.803977,-5.106321,posadas,córdoba
+31412,A Coruña,43.352486,-8.4099651,"coruña, a","coruña, a"
+31416,Cerceda-Meirama,43.2076859,-8.4466314,cerceda,"coruña, a"
+20410,Elviña-Universidade,43.3352145,-8.4130116,"coruña, a","coruña, a"
+20316,Teixeiro,43.1413822,-8.0376492,curtis,"coruña, a"
+20317,Curtis,43.1272132,-8.1432035,curtis,"coruña, a"
+20400,Betanzos-Infesta,43.2707409,-8.2258495,betanzos,"coruña, a"
+21001,Betanzos-Cidade,43.2841768,-8.2158576,betanzos,"coruña, a"
+20320,Oza Dos Rios,43.218716,-8.187044,oza-cesuras,"coruña, a"
+20318,Piñoi,43.1452995,-8.1911976,oza-cesuras,"coruña, a"
+20319,Cesuras,43.1730347,-8.2005033,oza-cesuras,"coruña, a"
+21008,Perlio,43.4730193,-8.17485,fene,"coruña, a"
+21009,Neda,43.4953536,-8.160979,neda,"coruña, a"
+21007,Barallobre,43.4628928,-8.1885688,fene,"coruña, a"
+21003,Perbes,43.3781843,-8.20108,miño,"coruña, a"
+21004,Pontedeume,43.4117646,-8.1803661,pontedeume,"coruña, a"
+21005,Cabanas,43.4156164,-8.168832,cabanas,"coruña, a"
+21002,Miño,43.3423304,-8.2053876,miño,"coruña, a"
+20402,Cecebre,43.2879239,-8.3077339,cambre,"coruña, a"
+20403,Cambre,43.2904881,-8.3520983,cambre,"coruña, a"
+20404,O Burgo-Santiago,43.3178485,-8.36868,culleredo,"coruña, a"
+31415,Ordes,43.0380488,-8.4478022,ordes,"coruña, a"
+31411,Uxes,43.2974066,-8.444413,arteixo,"coruña, a"
+31400,Santiago De Compostela,42.8707816,-8.5447178,santiago de compostela,"coruña, a"
+23013,Osebe,42.825301,-8.615838,teo,"coruña, a"
+23011,Padron,42.739327,-8.6525701,padrón,"coruña, a"
+23021,Padron Barbanza,42.7812443,-8.656552,padrón,"coruña, a"
+3208,Cuenca Fernando Zobel,40.0352819,-2.1441378,cuenca,cuenca
+66100,Cuenca,40.0673622,-2.1364895,cuenca,cuenca
+66016,Chillaron,40.102932,-2.220969,chillarón de cuenca,cuenca
+66103,Cañada Del Hoyo,39.9538744,-1.8896024,cañada del hoyo,cuenca
+66104,Carboneras De Guadazaon,39.9005164,-1.8076325,carboneras de guadazaón,cuenca
+66105,Arguisuelas,39.838605,-1.8123037,arguisuelas,cuenca
+66109,Villora,39.7468661,-1.6108998,víllora,cuenca
+66108,Yemeda-Cardenete,39.7509195,-1.6818789,yémeda,cuenca
+66006,Tarancon,40.0064667,-3.0097245,tarancón,cuenca
+66011,Huete,40.147094,-2.6816134,huete,cuenca
+66013,Castillejo Del Romeral,40.1371299,-2.5068958,huete,cuenca
+66014,Cuevas De Velasco,40.1554631,-2.408532,villar y velasco,cuenca
+79300,Girona,41.9793402,2.8168293,girona,girona
+79202,Sils,41.8076177,2.7450842,sils,girona
+79203,Caldes De Malavella,41.8411429,2.8007209,caldes de malavella,girona
+79204,Riudellots,41.8962535,2.8116032,riudellots de la selva,girona
+79205,Fornells De La Selva,41.9350259,2.8097539,fornells de la selva,girona
+79301,Celra,42.0271891,2.8749348,celrà,girona
+79302,Bordils-Juia,42.0370471,2.915295,bordils,girona
+79303,Flaça,42.0474159,2.9574089,flaçà,girona
+79304,Sant Jordi Desvalls,42.0683167,2.9645106,sant jordi desvalls,girona
+79305,Camallera,42.1223201,2.9653807,"saus, camallera i llampaies",girona
+79308,Vilamalla,42.2163229,2.9778522,vilamalla,girona
+79306,Sant Miquel De Fluvia,42.172094,2.989598,sant miquel de fluvià,girona
+79312,Llança,42.366688,3.149168,llançà,girona
+79311,Vilajuiga,42.3256095,3.0873849,vilajuïga,girona
+79314,Colera,42.4067916,3.154506,colera,girona
+79315,Portbou,42.4246822,3.1577348,portbou,girona
+79309,Figueres,42.2650808,2.968814,figueres,girona
+4307,Figueres-Vilafant,42.2575697,2.94513,figueres,girona
+5000,Granada,37.1840355,-3.6090357,granada,granada
+5013,Loja-San Francisco,37.174921,-4.149528,loja,granada
+56200,Guadix,37.3168311,-3.1271704,guadix,granada
+56103,Benalua De Guadix,37.345298,-3.1631551,benalúa,granada
+56100,Moreda,37.4311479,-3.3105075,morelábor,granada
+57003,Iznalloz,37.3958908,-3.5278435,iznalloz,granada
+4007,Guadalajara-Yebes,40.5879523,-3.1249541,guadalajara,guadalajara
+70202,Yunquera De Henares,40.747036,-3.163145,yunquera de henares,guadalajara
+70204,Humanes De Mohernando,40.8311845,-3.1389515,humanes,guadalajara
+70209,Jadraque,40.930006,-2.935785,jadraque,guadalajara
+70208,Carrascosa De Henares,40.905884,-3.013691,espinosa de henares,guadalajara
+70302,Sigüenza,41.071329,-2.646456,sigüenza,guadalajara
+70207,Espinosa De Henares,40.909718,-3.0731338,espinosa de henares,guadalajara
+70210,Matillas,40.953837,-2.843212,matillas,guadalajara
+70300,Baides,41.004911,-2.785903,baides,guadalajara
+43019,Huelva-Termino,37.252635,-6.944905,huelva,huelva
+42015,Calañas,37.651964,-6.876462,calañas,huelva
+42016,Los Milanos,37.586225,-6.919955,calañas,huelva
+42018,El Cobujon,37.51651,-6.953432,calañas,huelva
+42013,El Tamujoso,37.7203298,-6.9005379,"cerro de andévalo, el",huelva
+42012,Valdelamusa,37.787145,-6.8737178,cortegana,huelva
+42009,Almonaster-Cortegana,37.9012229,-6.7973125,almonaster la real,huelva
+42008,Jabugo-Galaroza,37.9279893,-6.7730438,jabugo,huelva
+42006,Cumbres Mayores,38.0532442,-6.6310657,cumbres mayores,huelva
+42019,Belmonte,37.461858,-6.947529,san bartolomé de la torre,huelva
+42020,Gibraleon,37.367897,-6.962285,gibraleón,huelva
+43021,San Juan Del Puerto,37.311893,-6.84109,san juan del puerto,huelva
+43011,La Palma Del Condado,37.3906538,-6.5544227,"palma del condado, la",huelva
+43015,Niebla-Puerta Del Buey,37.3584965,-6.681256,niebla,huelva
+43012,Villarrasa,37.3870134,-6.598824,villarrasa,huelva
+43009,Escacena,37.397858,-6.391999,escacena del campo,huelva
+74200,Huesca,42.1333507,-0.4097769,huesca,huesca
+78203,Sariñena,41.8171171,-0.1723288,sariñena,huesca
+78200,Tardienta,41.9757949,-0.5383496,tardienta,huesca
+78201,Grañen,41.9379837,-0.3692811,grañén,huesca
+78301,Monzon-Rio Cinca,41.9137896,0.1969015,monzón,huesca
+78302,Binefar,41.8497659,0.2913721,binéfar,huesca
+74211,Sabiñanigo,42.5204167,-0.3733136,sabiñánigo,huesca
+74209,Caldearenas-Aquilue,42.3979073,-0.499468,caldearenas,huesca
+74213,Jaca,42.5776167,-0.5386996,jaca,huesca
+74214,Castiello-Pueblo,42.6273588,-0.5451882,castiello de jaca,huesca
+74204,Ayerbe,42.2755598,-0.682595,ayerbe,huesca
+74205,Riglos-Concilio,42.3169651,-0.7274176,"peñas de riglos, las",huesca
+74206,Riglos,42.3447386,-0.7317148,"peñas de riglos, las",huesca
+74202,Plasencia Del Monte,42.2051817,-0.5609244,"sotonera, la",huesca
+74207,Santa Maria Y La Peña,42.38038,-0.6958747,"peñas de riglos, las",huesca
+74208,Anzanigo,42.4033453,-0.6430434,caldearenas,huesca
+74216,Villanua-Letranz,42.6890585,-0.5234695,villanúa,huesca
+74217,Canfranc,42.7513897,-0.5141525,canfranc,huesca
+3100,Jaen,37.7800495,-3.7908847,jaén,jaén
+50207,Vilches,38.2156965,-3.517513,vilches,jaén
+56004,Jodar-Ubeda,37.9133419,-3.3502021,jódar,jaén
+50300,Linares-Baeza,38.069169,-3.5892724,linares,jaén
+56009,Cabra Del Santo Cristo Y Alicun,37.6567026,-3.2625925,cabra del santo cristo,jaén
+3001,Mengibar-Artichuela,37.9778433,-3.8019294,mengíbar,jaén
+50400,Espeluy,38.0101413,-3.832274,espelúy,jaén
+50403,Andujar,38.02824,-4.06604,andújar,jaén
+15100,Leon,42.595994,-5.5826161,león,león
+15015,Palanquinos,42.4606633,-5.4974771,villanueva de las manzanas,león
+20111,Bembibre,42.6095787,-6.4222006,bembibre,león
+15009,Sahagun,42.3693361,-5.0226545,sahagún,león
+15014,Santas Martas,42.4599988,-5.3866323,santas martas,león
+15008,Grajal,42.3231962,-5.0133741,grajal de campos,león
+15012,El Burgo Ranero,42.4257649,-5.2084815,"burgo ranero, el",león
+20005,Veguellina,42.433562,-5.887601,villarejo de órbigo,león
+20104,Brañuelas,42.632623,-6.2010116,villagatón,león
+20109,Torre Del Bierzo,42.595497,-6.3289094,torre del bierzo,león
+20106,La Granja,42.606841,-6.294966,torre del bierzo,león
+20002,Quintana-Raneros,42.5500687,-5.6377276,santovenia de la valdoncina,león
+20008,Villabante,42.4645614,-5.8388884,santa marina del rey,león
+20006,Barrientos,42.414221,-5.9639231,valderrey,león
+20007,Nistal,42.4244463,-6.0080164,san justo de la vega,león
+20102,Vega-Magaz,42.5531716,-6.067997,magaz de cepeda,león
+20103,Porqueros,42.598974,-6.108328,magaz de cepeda,león
+20113,San Miguel De Las Dueñas,42.5864103,-6.5237647,congosto,león
+20200,Ponferrada,42.545398,-6.602382,ponferrada,león
+20204,Toral De Los Vados,42.541061,-6.7765649,toral de los vados,león
+20203,Villadepalos,42.5368908,-6.751069,carracedelo,león
+15108,La Pola De Gordon,42.854015,-5.674606,"pola de gordón, la",león
+15106,La Robla,42.8039955,-5.6263925,"robla, la",león
+15109,Santa Lucia,42.8749243,-5.6397212,"pola de gordón, la",león
+15112,Villamanin,42.9367014,-5.6576852,villamanín,león
+15113,Busdongo,42.9844961,-5.7053997,villamanín,león
+20100,Astorga,42.4594174,-6.0471732,astorga,león
+78400,Lleida-Pirineus,41.6207709,0.6327913,lleida,lleida
+73001,Puigverd De Lleida-Artesa De Lleida,41.5536749,0.7333933,puigverd de lleida,lleida
+78500,Cervera,41.6736697,1.2747541,cervera,lleida
+78402,Bell-Lloc D'Urgell,41.6316563,0.7815619,bell-lloc d'urgell,lleida
+78403,Mollerussa,41.6318261,0.8969098,mollerussa,lleida
+78404,Golmes,41.6359096,0.9308368,golmés,lleida
+78406,Bellpuig,41.6325588,1.0129742,bellpuig,lleida
+78405,Castellnou De Seana,41.6374776,0.9677288,castellnou de seana,lleida
+78501,Sant Guim De Freixenet,41.6559069,1.4205931,sant guim de freixenet,lleida
+78408,Tarrega,41.6502293,1.1388073,tàrrega,lleida
+78407,Anglesola,41.6463987,1.0789872,anglesola,lleida
+73003,Les Borges Blanques,41.5217222,0.8772657,"borges blanques, les",lleida
+73004,La Floresta,41.5041749,0.9243914,"floresta, la",lleida
+73002,Juneda,41.5439419,0.8255156,juneda,lleida
+73005,Vinaixa,41.4251246,0.9704029,vinaixa,lleida
+81100,Logroño,42.4575947,-2.4406833,logroño,"rioja, la"
+81102,Agoncillo,42.4435948,-2.2916232,agoncillo,"rioja, la"
+81002,Haro,42.5836452,-2.8492747,haro,"rioja, la"
+81108,Calahorra,42.3106137,-1.9579207,calahorra,"rioja, la"
+81105,Alcanadre,42.4074871,-2.1222005,alcanadre,"rioja, la"
+81110,Alfaro,42.1864833,-1.7481719,alfaro,"rioja, la"
+81109,Rincon De Soto,42.2301894,-1.8477929,rincón de soto,"rioja, la"
+20309,Lugo,43.0150666,-7.5521368,lugo,lugo
+20314,Guitiriz,43.1790747,-7.8950709,guitiriz,lugo
+20216,San Clodio-Quiroga,42.465255,-7.287173,ribas de sil,lugo
+20218,Pobra De Brollon,42.5337515,-7.4001532,"pobra do brollón, a",lugo
+20310,Rabade,43.121342,-7.6247063,rábade,lugo
+20312,Baamonde,43.1734198,-7.7563639,begonte,lugo
+20313,Parga,43.1636305,-7.8373271,guitiriz,lugo
+20214,Montefurado,42.3937465,-7.194573,quiroga,lugo
+20300,Monforte De Lemos,42.5295972,-7.5034723,monforte de lemos,lugo
+22003,San Estevo Do Sil,42.4272196,-7.6624968,pantón,lugo
+22001,Canabal,42.4826865,-7.5876638,sober,lugo
+22004,San Pedro Do Sil,42.4528283,-7.7123405,pantón,lugo
+22002,Areas,42.4579254,-7.6291878,sober,lugo
+20305,Sarria,42.7841346,-7.4188404,sarria,lugo
+20306,Pedrelo-Celtigos,42.832904,-7.3933761,sarria,lugo
+60000,Madrid-Puerta De Atocha,40.4053548,-3.6895915,madrid,madrid
+10204,Zarzalejo,40.5388169,-4.1580731,zarzalejo,madrid
+10205,Robledo De Chavela,40.5207512,-4.2467712,robledo de chavela,madrid
+10206,Santa Maria De La Alameda-Peguerinos,40.5689814,-4.2691278,santa maría de la alameda,madrid
+10209,El Pimpollar,40.5677042,-4.2831457,santa maría de la alameda,madrid
+60202,Castillejo-Añover,39.9495877,-3.7384557,aranjuez,madrid
+12007,Tablada,40.7056575,-4.1253575,guadarrama,madrid
+5019,Antequera,37.0281836,-4.5609649,antequera,málaga
+55001,Campillos,37.0321901,-4.8635104,campillos,málaga
+55003,Almargen-Cañete La Real,37.0010286,-5.0201169,almargen,málaga
+55008,Arriate,36.7910791,-5.1401779,arriate,málaga
+55010,Benaojan-Montejaque,36.7137902,-5.246408,benaoján,málaga
+55012,Cortes De La Frontera,36.5973589,-5.3327945,cortes de la frontera,málaga
+55011,Jimera De Libar,36.6607132,-5.2814788,jimera de líbar,málaga
+55007,Ronda,36.748424,-5.1619184,ronda,málaga
+55013,Gaucin,36.5403999,-5.3863848,gaucín,málaga
+2003,Antequera-Santa Ana,37.0702806,-4.7190304,antequera,málaga
+54400,Bobadilla,37.0375444,-4.7277249,antequera,málaga
+54403,El Chorro-Caminito Del Rey,36.9073169,-4.7592403,álora,málaga
+54404,Las Mellizas,36.8732968,-4.7194626,álora,málaga
+61307,Cartagena,37.6050218,-0.9749997,cartagena,murcia
+61009,Calasparra,38.2692997,-1.6799747,calasparra,murcia
+61012,Cieza,38.2468104,-1.4220446,cieza,murcia
+61303,Balsicas-Mar Menor,37.8188201,-0.950921,torre-pacheco,murcia
+61015,Archena-Fortuna,38.1313637,-1.2360305,archena,murcia
+61304,Torre-Pacheco,37.7470233,-0.9670555,torre-pacheco,murcia
+80100,Pamplona,42.8249954,-1.6614366,pamplona/iruña,navarra
+80108,Tafalla,42.5257632,-1.671436,tafalla,navarra
+80115,Villafranca De Navarra,42.28074,-1.7456041,villafranca,navarra
+80114,Marcilla De Navarra,42.3348238,-1.7173764,marcilla,navarra
+80109,Olite/Erriberri,42.4850493,-1.6499102,olite/erriberri,navarra
+81202,Tudela De Navarra,42.05945,-1.5978474,tudela,navarra
+81205,Cortes De Navarra,41.9148345,-1.4203255,cortes,navarra
+81203,Ribaforada,41.9970977,-1.5152248,ribaforada,navarra
+81106,Feculas-Navarra,42.4111028,-2.0981948,lodosa,navarra
+81200,Castejon De Ebro,42.1728476,-1.6924327,castejón,navarra
+11300,Altsasu,42.8948377,-2.1812049,altsasu/alsasua,navarra
+80001,Altsasu-Pueblo,42.8933068,-2.1674164,altsasu/alsasua,navarra
+80003,Etxarri-Aranatz,42.9111083,-2.0712153,etxarri aranatz,navarra
+80005,Uharte-Arakil,42.920515,-1.9747672,uharte arakil,navarra
+22100,Ourense,42.3503978,-7.8728207,ourense,ourense
+31215,Ourense-San Francisco,42.3326562,-7.8609025,ourense,ourense
+20207,Covas,42.475285,-6.830882,rubiá,ourense
+20211,O Barco De Valdeorras,42.4182266,-6.9850514,"barco de valdeorras, o",ourense
+20208,Quereño,42.4207086,-6.8295034,rubiá,ourense
+20210,Sobradelo,42.4148488,-6.9119341,carballeda de valdeorras,ourense
+20212,Vilamartin De Valdeorras,42.4115712,-7.061442,vilamartín de valdeorras,ourense
+20213,A Rua-Petin,42.3926731,-7.1132567,"rúa, a",ourense
+22102,Ribadavia,42.2931292,-8.1391141,ribadavia,ourense
+22005,Os Peares,42.4511659,-7.7356295,"peroxa, a",ourense
+22101,Barbantes,42.33856,-8.011593,cenlle,ourense
+31304,O Carballiño,42.4314286,-8.0688481,"carballiño, o",ourense
+31306,O Irixo,42.5196769,-8.1050595,"irixo, o",ourense
+31205,A Gudiña,42.06069,-7.1324361,"gudiña, a",ourense
+31303,A Friela-Maside,42.4113745,-8.02893,maside,ourense
+22006,Barra De Miño,42.4010936,-7.8026302,coles,ourense
+15116,Linares-Congostinas,43.101767,-5.772133,lena,asturias
+14100,Palencia,42.015584,-4.534037,palencia,palencia
+15001,Grijota,42.0499031,-4.5847811,grijota,palencia
+11000,Venta De Baños,41.9168511,-4.4962752,venta de baños,palencia
+10605,Dueñas,41.8712672,-4.5407883,dueñas,palencia
+11004,Magaz,41.9765365,-4.4320888,magaz de pisuerga,palencia
+11006,Quintana Del Puente,42.0800306,-4.1985943,quintana del puente,palencia
+15004,Paredes De Nava,42.1507267,-4.697486,paredes de nava,palencia
+15003,Becerril,42.1047567,-4.6470894,becerril de campos,palencia
+15006,Cisneros,42.1910681,-4.8502058,cisneros,palencia
+15007,Villada,42.2452341,-4.9705373,villada,palencia
+14111,Herrera Del Pisuerga,42.5986861,-4.3165333,herrera de pisuerga,palencia
+14101,Monzon De Campos,42.1055551,-4.5016744,monzón de campos,palencia
+14117,El Carrion,42.116362,-4.496319,monzón de campos,palencia
+14102,Amusco,42.1781783,-4.4804909,amusco,palencia
+14103,Piña,42.2117274,-4.4345791,piña de campos,palencia
+14104,Fromista,42.264858,-4.402452,frómista,palencia
+14107,Osorno,42.4151581,-4.3573484,osorno la mayor,palencia
+14112,Alar Del Rey,42.6568658,-4.311367,alar del rey,palencia
+14108,Espinosa De Villagonzalo,42.478955,-4.374475,espinosa de villagonzalo,palencia
+14113,Mave,42.7234326,-4.2755773,aguilar de campoo,palencia
+14114,Aguilar De Campoo,42.785252,-4.2338473,aguilar de campoo,palencia
+14115,Quintanilla De Las Torres,42.818975,-4.2026884,pomar de valdivia,palencia
+23018,Pontevedra-Universidad,42.4388295,-8.6303782,pontevedra,pontevedra
+23004,Pontevedra,42.42164,-8.63583,pontevedra,pontevedra
+8223,Vigo Urzaiz,42.2344784,-8.7130987,vigo,pontevedra
+22308,Vigo-Guixar,42.239273,-8.7153479,vigo,pontevedra
+22201,O Porriño,42.1640956,-8.6220121,"porriño, o",pontevedra
+22103,Filgueira,42.2199566,-8.1848025,crecente,pontevedra
+22104,Frieira,42.154972,-8.2001702,crecente,pontevedra
+22106,Arbo,42.1069927,-8.3002144,arbo,pontevedra
+22108,As Neves,42.0754353,-8.4201118,"neves, as",pontevedra
+22109,Salvaterra,42.0816074,-8.4952202,salvaterra de miño,pontevedra
+22105,Pousa-Crecente,42.1366863,-8.2348913,crecente,pontevedra
+22107,Sela,42.0920451,-8.3559662,arbo,pontevedra
+31308,Lalin,42.6325351,-8.1426426,lalín,pontevedra
+23008,Vilagarcia De Arousa,42.6019751,-8.7622662,vilagarcía de arousa,pontevedra
+23009,Catoira,42.6722202,-8.7253854,catoira,pontevedra
+23010,Pontecesures,42.7229746,-8.6521346,pontecesures,pontevedra
+23002,Arcade,42.3404447,-8.6104633,soutomaior,pontevedra
+23005,Portela,42.5177336,-8.6545656,barro,pontevedra
+23001,Cesantes,42.3101953,-8.6164619,redondela,pontevedra
+22401,Tui,42.0565541,-8.6430108,tui,pontevedra
+22200,Guillarei,42.0656748,-8.6225614,tui,pontevedra
+22110,Caldelas,42.0557889,-8.566391,tui,pontevedra
+22300,Redondela,42.2860395,-8.6194152,redondela,pontevedra
+23000,Redondela-Picota,42.2867756,-8.60741,redondela,pontevedra
+8224,Redondela-Av,42.284533,-8.603713,redondela,pontevedra
+30100,Salamanca,40.9718729,-5.6484306,salamanca,salamanca
+34010,Peñaranda De Bracamonte,40.8980292,-5.2064124,peñaranda de bracamonte,salamanca
+34011,Villar De Gallimazo,40.952035,-5.2959951,villar de gallimazo,salamanca
+34012,Babilafuente,40.9723606,-5.430571,babilafuente,salamanca
+34013,San Morales,40.984155,-5.4927959,san morales,salamanca
+34014,Aldealengua,40.9797942,-5.5531967,aldealengua,salamanca
+32004,Cantalapiedra,41.1333609,-5.1829996,cantalapiedra,salamanca
+32006,El Pedroso De La Armuña,41.0798874,-5.4060954,"pedroso de la armuña, el",salamanca
+32008,Gomecello,41.0418311,-5.5415499,gomecello,salamanca
+32009,Moriscos,41.0116521,-5.5847795,moriscos,salamanca
+33016,Fuentes De Oñoro,40.5985473,-6.8245499,fuentes de oñoro,salamanca
+32007,Pitiegua,41.063766,-5.4741063,pitiegua,salamanca
+33013,Ciudad Rodrigo,40.6087348,-6.530465,ciudad rodrigo,salamanca
+8004,Segovia-Guiomar,40.9101867,-4.0948827,segovia,segovia
+12100,Segovia,40.934241,-4.113537,segovia,segovia
+12008,Gudillos,40.7169045,-4.157703,"espinar, el",segovia
+12010,El Espinar,40.7408315,-4.1895156,"espinar, el",segovia
+12009,San Rafael,40.7149439,-4.1813829,"espinar, el",segovia
+12014,Navas De Riofrio-La Losa,40.8566626,-4.1410906,navas de riofrío,segovia
+12013,Ortigosa Del Monte,40.8327459,-4.1685099,ortigosa del monte,segovia
+12012,Otero-Herreros,40.8009154,-4.2035564,otero de herreros,segovia
+12011,Los Angeles De San Rafael,40.778532,-4.2073718,otero de herreros,segovia
+40108,Guadalcanal,38.0903071,-5.8034699,guadalcanal,sevilla
+50507,Peñaflor,37.7074846,-5.3416079,peñaflor,sevilla
+1009,Pedrera,37.2223527,-4.893696,pedrera,sevilla
+1003,Arahal,37.268141,-5.5484006,arahal,sevilla
+1005,Marchena,37.3342501,-5.4254295,marchena,sevilla
+1007,Osuna,37.2337769,-5.1148398,osuna,sevilla
+43008,Carrion De Los Cespedes,37.36902,-6.335012,carrión de los céspedes,sevilla
+82100,Soria,41.7552817,-2.4754959,soria,soria
+84101,Almazan-Villa,41.488985,-2.52522,almazán,soria
+70400,Torralba,41.136239,-2.4928288,medinaceli,soria
+70401,Medinaceli,41.1652422,-2.4212014,medinaceli,soria
+70403,Arcos De Jalon,41.2156614,-2.2776762,arcos de jalón,soria
+70404,Santa Maria De Huerta,41.2639286,-2.1779682,santa maría de huerta,soria
+84104,Quintana Redonda,41.6396602,-2.6096561,quintana redonda,soria
+84103,Tardelcuende,41.5935589,-2.6393367,tardelcuende,soria
+71500,Tarragona,41.1115634,1.253232,tarragona,tarragona
+71502,Altafulla-Tamarit,41.1367887,1.3741011,altafulla,tarragona
+71400,Reus,41.1604541,1.1001041,reus,tarragona
+71307,Les Borges Del Camp,41.1664731,1.0221315,"borges del camp, les",tarragona
+73008,Montblanc,41.3765805,1.1655496,montblanc,tarragona
+73006,Vimbodi I Poblet,41.4026952,1.0459896,vimbodí i poblet,tarragona
+73007,L'Espluga De Francoli,41.400627,1.1033167,"espluga de francolí, l'",tarragona
+73010,La Riba,41.3184699,1.1812863,"riba, la",tarragona
+73101,Alcover,41.2615791,1.1741561,alcover,tarragona
+73102,La Selva Del Camp,41.2112675,1.1439237,"selva del camp, la",tarragona
+71401,Vila-Seca,41.1128032,1.1503332,vila-seca,tarragona
+73009,Vilaverd,41.3376004,1.1764993,vilaverd,tarragona
+73100,La Plana-Picamoixons,41.3060974,1.1949549,valls,tarragona
+65400,Tortosa,40.8072878,0.5230081,tortosa,tarragona
+65314,Ulldecona-Alcanar-La Senia,40.5959442,0.4492822,ulldecona,tarragona
+71210,Flix,41.229399,0.5400743,flix,tarragona
+4104,Camp De Tarragona,41.1921826,1.273878,tarragona,tarragona
+71300,Mora La Nova,41.1065208,0.653247,móra la nova,tarragona
+71306,Riudecanyes-Botarell,41.1400222,0.9756851,riudecanyes,tarragona
+71305,Duesaigües-L'Argentera,41.1436386,0.9208351,"argentera, l'",tarragona
+71304,Pradell,41.133329,0.8586158,pradell de la teixeta,tarragona
+71303,Marça-Falset,41.1308992,0.8103526,marçà,tarragona
+71302,Capçanes,41.1020781,0.780339,capçanes,tarragona
+71301,Els Guiamets,41.095923,0.7476965,"guiamets, els",tarragona
+71208,Faio-La Pobla De Massaluca,41.2250145,0.3510729,"pobla de massaluca, la",tarragona
+71209,Riba-Roja D'Ebre,41.2485589,0.4810704,riba-roja d'ebre,tarragona
+71211,Asco,41.1823587,0.5690063,ascó,tarragona
+76004,Valls,41.2895851,1.2587537,valls,tarragona
+71503,Torredembarra,41.1427985,1.4057036,torredembarra,tarragona
+65410,Salou,41.0774589,1.1291961,salou,tarragona
+65411,Port Aventura,41.0891944,1.1463882,salou,tarragona
+65409,Cambrils,41.069347,1.0529506,cambrils,tarragona
+65405,L'Ametlla De Mar,40.8861982,0.8004373,"ametlla de mar, l'",tarragona
+72100,Roda De Bara,41.1839275,1.4401676,roda de berà,tarragona
+72101,Roda De Mar,41.1864363,1.4555183,roda de berà,tarragona
+76001,Salomo,41.2234726,1.3766084,salomó,tarragona
+76002,Vilabella,41.2395538,1.3174915,vilabella,tarragona
+76003,Nulles-Brafim,41.2503055,1.2975247,nulles,tarragona
+65407,L'Hospitalet De L'Infant,40.9958894,0.9207072,vandellòs i l'hospitalet de l'infant,tarragona
+65408,Mont-Roig Del Camp,41.0449873,0.9906773,mont-roig del camp,tarragona
+65403,Camarles-Deltebre,40.774744,0.671661,camarles,tarragona
+65404,L'Ampolla-Perello-Deltebre,40.8120007,0.7082488,"ampolla, l'",tarragona
+65402,L'Aldea-Amposta-Tortosa,40.7535546,0.6142432,"aldea, l'",tarragona
+65401,Camp-Redo,40.7591771,0.5558199,tortosa,tarragona
+67200,Teruel,40.3410032,-1.1103442,teruel,teruel
+67021,Calamocha,40.9034355,-1.3004167,calamocha,teruel
+67113,Monreal Del Campo,40.7965976,-1.3565684,monreal del campo,teruel
+67100,Caminreal-Fuentes Claras,40.8504763,-1.3380704,caminreal,teruel
+67105,Santa Eulalia Del Campo,40.5728311,-1.3130623,santa eulalia,teruel
+67107,Cella,40.4552778,-1.2447801,cella,teruel
+67101,Torrijo Del Campo,40.8260035,-1.3405037,torrijo del campo,teruel
+67103,Villafranca Del Campo,40.684065,-1.3578996,villafranca del campo,teruel
+67202,Puerto Escandon,40.2732626,-0.9845119,"puebla de valverde, la",teruel
+67203,Puebla De Valverde,40.2123416,-0.9438361,"puebla de valverde, la",teruel
+67205,Sarrion,40.1462637,-0.8234154,sarrión,teruel
+67206,Mora De Rubielos,40.117977,-0.7733837,mora de rubielos,teruel
+67207,Rubielos De Mora,40.1106445,-0.7408539,rubielos de mora,teruel
+67017,Ferreruela,41.0634645,-1.2379394,ferreruela de huerva,teruel
+67016,Villahermosa,41.1085134,-1.2398555,villahermosa del campo,teruel
+67018,Cuencabuena,41.0093948,-1.2546971,calamocha,teruel
+67019,Lechago,40.9576557,-1.2690956,calamocha,teruel
+67020,Navarrete,40.9368706,-1.2616324,calamocha,teruel
+71200,La Puebla De Hijar,41.224432,-0.438385,"puebla de híjar, la",teruel
+71201,Samper,41.1822141,-0.3687029,samper de calanda,teruel
+92102,Toledo,39.8623647,-4.0112049,toledo,toledo
+35005,Illescas,40.1208723,-3.8423354,illescas,toledo
+66002,Ocaña,39.9646427,-3.48602,ocaña,toledo
+66001,Ontigola,40.0016342,-3.5736938,ontígola,toledo
+66003,Noblejas,39.9725107,-3.4426771,noblejas,toledo
+66004,Villarrubia De Santiago,39.9662691,-3.367264,villarrubia de santiago,toledo
+66005,Santa Cruz De La Zarza,39.9729183,-3.1809388,santa cruz de la zarza,toledo
+35105,Torrijos,39.9789578,-4.2830853,torrijos,toledo
+35107,Erustes,39.9495218,-4.4875523,erustes,toledo
+35203,Oropesa De Toledo,39.9217431,-5.1861473,oropesa,toledo
+35200,Talavera De La Reina,39.9706129,-4.826512,talavera de la reina,toledo
+35109,Montearagon,39.9608322,-4.6465299,montearagón,toledo
+60203,Villasequilla,39.8794911,-3.7285349,villasequilla,toledo
+60206,Tembleque,39.7224617,-3.4970336,tembleque,toledo
+60207,El Romeral,39.6940137,-3.4300228,"romeral, el",toledo
+60301,Quero,39.5041874,-3.2660226,quero,toledo
+60300,Villacañas,39.6219519,-3.3301228,villacañas,toledo
+3216,Valencia Joaquin Sorolla,39.4600028,-0.3813222,valencia,valencia/valéncia
+66113,Las Cuevas,39.6194064,-1.2841209,utiel,valencia/valéncia
+66112,Camporrobles,39.6448311,-1.40283,camporrobles,valencia/valéncia
+3213,Requena-Utiel,39.5217269,-1.1346669,requena,valencia/valéncia
+69002,Beniganim,38.9384428,-0.4531915,benigànim,valencia/valéncia
+69003,La Pobla Del Duc,38.915336,-0.4454842,"pobla del duc, la",valencia/valéncia
+69006,Albaida,38.8456849,-0.5182685,albaida,valencia/valéncia
+69008,Ontinyent,38.8095064,-0.6025968,ontinyent,valencia/valéncia
+69007,Agullent,38.8305232,-0.551209,agullent,valencia/valéncia
+69005,Bufali,38.8673771,-0.5104955,bufali,valencia/valéncia
+69004,Montaberner,38.8840538,-0.4915503,montaverner,valencia/valéncia
+69001,Genoves,38.9741833,-0.4851401,genovés,valencia/valéncia
+10600,Valladolid-Campo Grande,41.6422174,-4.7269748,valladolid,valladolid
+10610,Valladolid Universidad,41.6603,-4.704194,valladolid,valladolid
+10504,Viana,41.5240754,-4.7545409,viana de cega,valladolid
+10501,Pozaldez,41.3673544,-4.8360354,pozaldez,valladolid
+10502,Matapozuelos,41.4219131,-4.8013828,matapozuelos,valladolid
+10503,Valdestillas,41.4887255,-4.7729556,valdestillas,valladolid
+10602,Cabezon Del Pisuerga,41.7372984,-4.6513243,cabezón de pisuerga,valladolid
+10603,Corcos-Aguilarejo,41.7663972,-4.6233663,corcos,valladolid
+10604,Cubillas De Santa Marta,41.8089815,-4.5796172,cubillas de santa marta,valladolid
+8240,Medina Del Campo A.V.,41.2914,-4.9227,medina del campo,valladolid
+10500,Medina Del Campo,41.3172763,-4.9096181,medina del campo,valladolid
+32001,Campillo,41.259589,-5.0178259,"campillo, el",valladolid
+32002,El Carpio,41.2154451,-5.114406,carpio,valladolid
+32003,Fresno El Viejo,41.1901362,-5.1379807,fresno el viejo,valladolid
+31002,Nava Del Rey,41.3347534,-5.0767733,nava del rey,valladolid
+30200,Zamora,41.515937,-5.7397167,zamora,zamora
+31104,Carbajales De Alba,41.6815622,-5.9720564,carbajales de alba,zamora
+31200,Puebla De Sanabria,42.0456228,-6.6266696,puebla de sanabria,zamora
+31106,Ferreruela De Tabara,41.764136,-6.0738829,ferreruela,zamora
+31107,Abejera,41.8094175,-6.1418293,riofrío de aliste,zamora
+31108,Sarracin De Aliste,41.8483203,-6.205017,riofrío de aliste,zamora
+31109,Cabañas De Aliste,41.8546058,-6.2463492,riofrío de aliste,zamora
+31112,Linarejos-Pedroso,41.9469542,-6.4845953,manzanal de arriba,zamora
+31006,Toro,41.5118477,-5.3833163,toro,zamora
+70504,Ateca,41.3245706,-1.7852674,ateca,zaragoza
+70500,Ariza,41.3096622,-2.0595452,ariza,zaragoza
+70502,Alhama De Aragon,41.2943546,-1.9042781,alhama de aragón,zaragoza
+70503,Bubierca,41.3172399,-1.8558469,bubierca,zaragoza
+70605,Mores,41.4786035,-1.5661824,morés,zaragoza
+70606,Purroy,41.4771806,-1.5400778,morés,zaragoza
+70607,Morata De Jalon,41.4755371,-1.4785739,morata de jalón,zaragoza
+70700,Ricla-La Almunia,41.5014644,-1.402843,ricla,zaragoza
+70701,Calatorao,41.5286384,-1.3607504,calatorao,zaragoza
+70703,Epila,41.609653,-1.3009674,épila,zaragoza
+70405,Monreal De Ariza,41.2986119,-2.1098883,monreal de ariza,zaragoza
+70501,Cetina,41.2959001,-1.9598888,cetina,zaragoza
+70505,Terrer,41.3221944,-1.7084722,terrer,zaragoza
+70702,Salillas De Jalon,41.567595,-1.3259524,salillas de jalón,zaragoza
+70704,Rueda De Jalon-Lumpiaque,41.6391743,-1.2815663,rueda de jalón,zaragoza
+70705,Plasencia De Jalon,41.6894768,-1.234261,plasencia de jalón,zaragoza
+70706,Grisen,41.7451803,-1.1659036,grisén,zaragoza
+70603,Paracuellos-Sabiñan,41.429389,-1.5677113,paracuellos de la ribera,zaragoza
+70604,Sabiñan,41.4440632,-1.5711643,sabiñán,zaragoza
+70600,Calatayud,41.3466673,-1.6387414,calatayud,zaragoza
+70602,Embid De Jalon,41.4214023,-1.5931741,calatayud,zaragoza
+67010,Cariñena,41.3354867,-1.2285589,cariñena,zaragoza
+67004,Maria De Huerva,41.5400975,-0.9974668,maría de huerva,zaragoza
+67007,Arañales De Muel,41.4690568,-1.0860655,muel,zaragoza
+67009,Longares,41.4044584,-1.1588558,longares,zaragoza
+67011,Encinacorba,41.2886981,-1.2786679,encinacorba,zaragoza
+67013,Villarreal De Huerva,41.1963733,-1.2871356,villarreal de huerva,zaragoza
+67014,Villadoz,41.1655526,-1.2788559,villadoz,zaragoza
+67015,Badules,41.1394432,-1.2515629,badules,zaragoza
+81210,Alagon,41.7713963,-1.1124662,alagón,zaragoza
+81209,Cabañas De Ebro,41.7881077,-1.1677489,cabañas de ebro,zaragoza
+81207,Luceni,41.8262594,-1.2438583,luceni,zaragoza
+81206,Gallur,41.8671808,-1.3212745,gallur,zaragoza
+81208,Pedrola,41.8050062,-1.2019686,pedrola,zaragoza
+71204,Caspe,41.239866,-0.0427502,caspe,zaragoza
+71205,Val De Pilas,41.2295857,0.0732292,caspe,zaragoza
+71103,Fuentes De Ebro,41.5151657,-0.618599,fuentes de ebro,zaragoza
+71105,Quinto,41.4194178,-0.4907242,quinto,zaragoza
+71108,La Zaida-Sastago,41.3204871,-0.427001,"zaida, la",zaragoza
+71206,Fabara,41.234438,0.143302,fabara,zaragoza
+71207,Nonaspe,41.213588,0.2419351,nonaspe,zaragoza
+78100,Zuera,41.8772888,-0.7641418,zuera,zaragoza
+78005,Villanueva De Gallego,41.7656646,-0.822169,villanueva de gállego,zaragoza
+3410,Elx Alta Velocidad,38.24625,-0.76566,elche/elx,alicante/alacant
+56310,Huercal-Viator,36.88348,-2.43614,huercal de almería,almería
+65422,Cambrils,41.06959,1.05292,cambrils,tarragona
+60420,L'Hospitalet De L'Infant,40.99943,0.9131,l'hospitalet de l'infant,tarragona
+8247,Sanabria Alta Velocidad,42.04541,-6.56626,palacios de sanabria,zamora
+11602,Hendaya,43.3523863,-1.7825502,hendaya,
+77310,Latour De Carol,42.459039,1.904475,latour de carol,
+79316,Cerbere,42.4417955,3.1639182,cerbere,
+87004,Les Aubrais Orleans,47.925019,1.905508,les aubrais orleans,
+87011,Paris Austerlitz,48.839266,2.368222,paris,
+87013,Paris Gare Lyon,48.844288,2.37367,paris,
+87078,Beziers,43.336225,3.219231,beziers,
+87079,Toulouse Matabiau,43.611439,1.454144,toulouse,
+87081,Poitiers,46.583303,0.33036,poitiers,
+87088,Narbonne,43.191027,3.005967,narbonne,
+87089,Marseille St Charles,43.30349,5.382236,marselle cedex,
+87173,Montpellier St Roch,43.60583,3.882376,montpellier,
+87175,Sete,43.412808,3.69641,sete,
+87176,Carcassonne,43.218142,2.351832,carcassonne,
+87287,Agde,43.317424,3.466125,agde,
+87302,Nimes,43.832291,4.365845,nimes,
+87303,Lyon Part Dieu,45.760281,4.859801,lyon,
+87374,Perpignan,42.696073,2.879632,perpignan,
+87546,Blois,47.581543,1.321077,blois,
+87810,Valence Tgv Rhone Alpes Sud,44.991545,4.978703,rhone - alpes,
+87814,Avignon Tgv,43.921938,4.785813,avignon,
+87912,Aix En Provence Tgv,43.455268,5.31723,aix en provence,
+22402,Valença Do Minho,42.03481,-0.64495,valença do minho,
+87300,Montpellier Sai,43.60502,3.88072,montpellier,
+87402,Avignon,43.94173,4.80529,avignon,
+87896,Avignon Tgv,43.92179,4.78588,avignon,
+87901,Aix-En-Provence Tgv,43.45532,5.31722,aix-en-provence,
+87973,Montpellier Sud De France,43.59537,3.92427,montpellier,
+94021,Nine,41.45534,-8.54513,vila nova de famalicão,
+94033,Viana Do Castelo,41.69517,-8.83134,viana do castelo,
+94346,Porto-Campanha,41.1489,-8.58544,oporto,
+94401,Lisboa-Santa Apolonia,38.71428,-9.12259,lisboa,
+94404,Lisboa-Oriente,38.76798,-9.10124,lisboa,
+94428,Entroncamento,39.46144,-8.47307,entroncamento,
+94434,Caxarias,39.71438,-8.54516,caxarias,
+94438,Pombal,39.91677,-8.63007,pombal,
+94452,Coimbra-B,40.22513,-8.441,coimbra,
+94524,Sta. Comba Dao,40.39071,-8.12442,vimieiro,
+94536,Mangualde,40.5865,-7.76026,mangualde,
+94543,Celorico-Beira,40.6652,-7.38246,celorico da beira,
+94551,Guarda,40.55271,-7.23984,guarda,
+94563,Vilar Formoso,40.60645,-6.8291,vilar formoso,
+95100,Delicias-Empalme,40.40027,-3.69247,madrid,

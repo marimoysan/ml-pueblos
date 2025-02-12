@@ -6,6 +6,7 @@ seaborn
 plotly
 pytest
 missingno
+geopandas
 
 #altair==5.0.1
 #ipywidgets==8.0.6
