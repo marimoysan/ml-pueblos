@@ -177,7 +177,7 @@ cython_debug/
 .vscode
 
 # Data 
-data/raw/
+data/
 
 # MAC Stuff
 __MACOSX
