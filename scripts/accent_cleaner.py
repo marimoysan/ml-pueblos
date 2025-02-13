@@ -28,7 +28,7 @@ class AccentCleaner:
 
     def __init__(
         self,
-        dataframes: pd.DataFrame,
+        dataframes: list[pd.DataFrame],
         columns: list[str],
         replacement_dict: dict = accents,
     ):

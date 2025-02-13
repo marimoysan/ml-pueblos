@@ -7,6 +7,7 @@ plotly
 pytest
 missingno
 geopandas
+nbconvert
 
 #altair==5.0.1
 #ipywidgets==8.0.6
