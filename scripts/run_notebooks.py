@@ -1,7 +1,11 @@
 import os
 import nbformat
+from pathlib import Path
 from nbconvert.preprocessors import ExecutePreprocessor
 
+# Get the script's directory and then reference the notebooks directory relative to it
+script_dir = Path(__file__).resolve().parent
+path = script_dir.parent / "notebooks"
 
 def run_all_notebooks(folder_path):
     for root, _, files in os.walk(folder_path):
@@ -22,5 +26,4 @@ def run_notebook(notebook_path):
 
 
 if __name__ == "__main__":
-    folder_path = "notebooks"
-    run_all_notebooks(folder_path)
+    run_all_notebooks(path)
