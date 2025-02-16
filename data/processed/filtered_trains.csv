@@ -1,4 +1,4 @@
-station_code,station_name,latitude,longitude,province_clean,municipality_name_clean
+station_code,station_name,latitude,longitude,province_clean,municipality_clean
 11208,Vitoria/Gasteiz,42.8415284,-2.6726651,alava,vitoria-gasteiz
 11212,Agurain/Salvatierra De Alava,42.8464369,-2.3892266,alava,agurain
 11213,Araia,42.8694713,-2.3068018,alava,arraia-maeztu
