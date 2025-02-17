@@ -8,12 +8,11 @@ script_dir = Path(__file__).resolve().parent
 path = script_dir.parent / "notebooks"
 
 def run_all_notebooks(folder_path):
-    for root, _, files in os.walk(folder_path):
-        for file in files:
-            if file.endswith(".ipynb"):
-                notebook_path = os.path.join(root, file)
-                print(f"Running notebook: {notebook_path}")
-                run_notebook(notebook_path)
+    for file in os.listdir(folder_path):
+        if file.endswith(".ipynb"):
+            notebook_path = os.path.join(folder_path, file)
+            print(f"Running notebook: {notebook_path}")
+            run_notebook(notebook_path)
 
 
 def run_notebook(notebook_path):
