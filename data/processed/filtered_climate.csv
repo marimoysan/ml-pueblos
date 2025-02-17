@@ -136,15 +136,15 @@ cmun,municipality,province,altitude,longitude,latitude,Koppen_Climate,descriptio
 2901,Pozo Cañada,Albacete,826.6574,-1.736837,38.80128,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
 3002,Agost,Alicante,332.424,-0.6395459,38.44117,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
 3003,Agres,Alicante,724.617,-0.5156772,38.77988,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
-3004,Aigües,Alicante,325.356,-0.3627366,38.49932,Bsh,
-3005,Albatera,Alicante,21.50101,-0.8696246,38.1806,Bsh,
+3004,Aigües,Alicante,325.356,-0.3627366,38.49932,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
+3005,Albatera,Alicante,21.50101,-0.8696246,38.1806,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 3006,Alcalalí,Alicante,290.6824,-0.046652,38.75568,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 3008,Alcoleja,Alicante,751.6678,-0.3323183,38.67542,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 3010,Alfafara,Alicante,587.1841,-0.5552129,38.77266,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
-3011,"Alfàs del Pi, l'",Alicante,96.30521,-0.1032094,38.58055,Bsh,
-3012,Algorfa,Alicante,29.95276,-0.7957607,38.08587,Bsh,
+3011,"Alfàs del Pi, l'",Alicante,96.30521,-0.1032094,38.58055,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
+3012,Algorfa,Alicante,29.95276,-0.7957607,38.08587,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 3013,Algueña,Alicante,536.0125,-1.003234,38.33886,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
-3015,Almoradí,Alicante,17.38357,-0.7920032,38.10963,Bsh,
+3015,Almoradí,Alicante,17.38357,-0.7920032,38.10963,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 3016,Almudaina,Alicante,575.8386,-0.35386,38.76115,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 3017,"Alqueria d'Asnar, l'",Alicante,358.3362,-0.4256638,38.77235,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 3018,Altea,Alicante,21.23566,-0.0491708,38.60032,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
@@ -153,16 +153,16 @@ cmun,municipality,province,altitude,longitude,latitude,Koppen_Climate,descriptio
 3021,Banyeres de Mariola,Alicante,825.7204,-0.6558753,38.71685,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 3022,Benasau,Alicante,695.5562,-0.3437617,38.69114,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 3023,Beneixama,Alicante,595.4329,-0.7661394,38.69995,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
-3024,Benejúzar,Alicante,25.65035,-0.8384452,38.07839,Bsh,
-3025,Benferri,Alicante,54.47756,-0.9632033,38.14063,Bsh,
+3024,Benejúzar,Alicante,25.65035,-0.8384452,38.07839,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
+3025,Benferri,Alicante,54.47756,-0.9632033,38.14063,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 3026,Beniarbeig,Alicante,46.27847,-0.0020653,38.82312,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 3028,Beniarrés,Alicante,391.1873,-0.3782794,38.81952,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 3029,Benigembla,Alicante,310.3394,-0.1102239,38.75606,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 3030,Benidoleig,Alicante,102.7022,-0.0281963,38.79387,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
-3031,Benidorm,Alicante,21.19977,-0.1290771,38.53704,Bsh,
+3031,Benidorm,Alicante,21.19977,-0.1290771,38.53704,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 3032,Benifallim,Alicante,730.8427,-0.4003207,38.66279,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 3033,Benifato,Alicante,654.8287,-0.2300378,38.67406,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
-3034,Benijófar,Alicante,35.03075,-0.73795,38.07811,Bsh,
+3034,Benijófar,Alicante,35.03075,-0.73795,38.07811,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 3035,Benilloba,Alicante,535.0692,-0.3904273,38.70023,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 3036,Benillup,Alicante,561.1097,-0.3789057,38.75348,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 3037,Benimantell,Alicante,562.9584,-0.207443,38.67443,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
@@ -172,46 +172,46 @@ cmun,municipality,province,altitude,longitude,latitude,Koppen_Climate,descriptio
 3041,Benissa,Alicante,253.765,0.0533722,38.71623,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 3042,"Poble Nou de Benitatxell, el/Benitachell",Alicante,154.6002,0.1447876,38.73225,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 3043,Biar,Alicante,703.2366,-0.7654974,38.6297,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
-3044,Bigastro,Alicante,29.8936,-0.8955043,38.06304,Bsh,
+3044,Bigastro,Alicante,29.8936,-0.8955043,38.06304,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 3045,Bolulla,Alicante,220.4359,-0.1117929,38.67622,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
-3046,Busot,Alicante,331.5273,-0.4172711,38.48483,Bsh,
+3046,Busot,Alicante,331.5273,-0.4172711,38.48483,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 3048,Callosa d'en Sarrià,Alicante,254.6619,-0.1225342,38.65133,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
-3049,Callosa de Segura,Alicante,22.56134,-0.8784829,38.12413,Bsh,
-3050,"Campello, el",Alicante,25.46509,-0.3978871,38.42892,Bsh,
+3049,Callosa de Segura,Alicante,22.56134,-0.8784829,38.12413,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
+3050,"Campello, el",Alicante,25.46509,-0.3978871,38.42892,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 3051,"Camp de Mirra, el/Campo de Mirra",Alicante,588.4718,-0.7770379,38.68671,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 3052,Cañada,Alicante,561.0671,-0.8098581,38.67524,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 3053,Castalla,Alicante,685.3792,-0.6722506,38.59519,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 3054,Castell de Castells,Alicante,425.5766,-0.1748384,38.75242,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
-3055,Catral,Alicante,11.0,-0.8014995,38.16095,Bsh,
+3055,Catral,Alicante,11.0,-0.8014995,38.16095,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 3056,Cocentaina,Alicante,446.2317,-0.4384323,38.74228,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 3057,Confrides,Alicante,789.8048,-0.2685593,38.68329,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
-3058,Cox,Alicante,20.62896,-0.8870501,38.1416,Bsh,
-3059,Crevillent,Alicante,120.1649,-0.803492,38.24703,Bsh,
+3058,Cox,Alicante,20.62896,-0.8870501,38.1416,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
+3059,Crevillent,Alicante,120.1649,-0.803492,38.24703,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 3060,Quatretondeta,Alicante,622.546,-0.3159135,38.72365,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
-3061,Daya Nueva,Alicante,8.224919,-0.7592378,38.11316,Bsh,
-3062,Daya Vieja,Alicante,6.833565,-0.7387287,38.10484,Bsh,
+3061,Daya Nueva,Alicante,8.224919,-0.7592378,38.11316,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
+3062,Daya Vieja,Alicante,6.833565,-0.7387287,38.10484,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 3063,Dénia,Alicante,11.78009,0.1085751,38.84043,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
-3064,Dolores,Alicante,9.227216,-0.7692993,38.14058,Bsh,
+3064,Dolores,Alicante,9.227216,-0.7692993,38.14058,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 3066,Elda,Alicante,413.189,-0.7904639,38.47803,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
 3068,Famorca,Alicante,691.6473,-0.2463927,38.73206,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
-3069,Finestrat,Alicante,261.4681,-0.2107335,38.56909,Bsh,
-3070,Formentera del Segura,Alicante,10.79573,-0.7453506,38.08562,Bsh,
+3069,Finestrat,Alicante,261.4681,-0.2107335,38.56909,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
+3070,Formentera del Segura,Alicante,10.79573,-0.7453506,38.08562,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 3071,Gata de Gorgos,Alicante,85.46293,0.0812124,38.77425,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 3072,Gaianes,Alicante,414.3354,-0.4103162,38.81155,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 3073,Gorga,Alicante,555.8732,-0.3560984,38.72056,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
-3074,Granja de Rocamora,Alicante,18.04087,-0.8909073,38.15253,Bsh,
+3074,Granja de Rocamora,Alicante,18.04087,-0.8909073,38.15253,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 3075,"Castell de Guadalest, el",Alicante,555.7478,-0.198618,38.67644,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
-3076,Guardamar del Segura,Alicante,26.48124,-0.651254,38.08615,Bsh,
+3076,Guardamar del Segura,Alicante,26.48124,-0.651254,38.08615,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 3077,"Fondó de les Neus, el/Hondón de las Nieves",Alicante,493.7399,-0.9341582,38.30504,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
 3078,Hondón de los Frailes,Alicante,418.041,-0.9276314,38.27319,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
 3079,Ibi,Alicante,753.7646,-0.5713521,38.62551,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
-3080,Jacarilla,Alicante,27.33402,-0.8686115,38.06133,Bsh,
+3080,Jacarilla,Alicante,27.33402,-0.8686115,38.06133,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 3081,Xaló,Alicante,196.9115,-0.0120761,38.73989,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 3084,"Orxa, l'/Lorcha",Alicante,273.9026,-0.309963,38.84306,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 3085,Llíber,Alicante,185.6137,0.0063282,38.74273,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 3086,Millena,Alicante,634.1902,-0.3638289,38.73058,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 3088,Monforte del Cid,Alicante,223.6606,-0.7292369,38.37923,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
-3090,Mutxamel,Alicante,65.50282,-0.4432408,38.41235,Bsh,
+3090,Mutxamel,Alicante,65.50282,-0.4432408,38.41235,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 3091,Murla,Alicante,291.5551,-0.0829431,38.76031,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 3092,Muro de Alcoy,Alicante,411.4849,-0.4402698,38.78075,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 3093,Novelda,Alicante,247.5291,-0.7653857,38.3853,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
@@ -220,7 +220,7 @@ cmun,municipality,province,altitude,longitude,latitude,Koppen_Climate,descriptio
 3096,Onil,Alicante,676.8312,-0.6731591,38.62606,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 3097,Orba,Alicante,160.1064,-0.0637978,38.78033,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 3098,Orxeta,Alicante,186.9968,-0.2619973,38.5636,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
-3099,Orihuela,Alicante,36.18137,-0.9447829,38.08395,Bsh,
+3099,Orihuela,Alicante,36.18137,-0.9447829,38.08395,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 3100,Parcent,Alicante,289.9498,-0.0661097,38.74553,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 3101,Pedreguer,Alicante,87.95199,0.0345502,38.79388,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 3102,Pego,Alicante,83.52785,-0.1175528,38.84324,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
@@ -229,19 +229,19 @@ cmun,municipality,province,altitude,longitude,latitude,Koppen_Climate,descriptio
 3105,"Pinós, el/Pinoso",Alicante,572.8075,-1.041577,38.40112,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
 3106,Planes,Alicante,444.3655,-0.344533,38.7855,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 3107,Polop,Alicante,237.3766,-0.1259112,38.62263,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
-3109,Rafal,Alicante,16.86083,-0.8499723,38.10402,Bsh,
+3109,Rafal,Alicante,16.86083,-0.8499723,38.10402,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 3110,"Ràfol d'Almúnia, el",Alicante,93.19769,-0.0530159,38.82033,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
-3111,Redován,Alicante,26.24458,-0.9107296,38.11617,Bsh,
+3111,Redován,Alicante,26.24458,-0.9107296,38.11617,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 3112,Relleu,Alicante,439.6355,-0.3110441,38.58733,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
-3113,Rojales,Alicante,13.9656,-0.7242546,38.08833,Bsh,
+3113,Rojales,Alicante,13.9656,-0.7242546,38.08833,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 3114,"Romana, la",Alicante,448.9331,-0.9050398,38.38433,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
 3115,Sagra,Alicante,113.3374,-0.0657266,38.81134,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 3116,Salinas,Alicante,491.3814,-0.9121291,38.51891,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
 3117,Sanet y Negrals,Alicante,92.4516,-0.0345811,38.81991,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
-3118,San Fulgencio,Alicante,7.573623,-0.7179557,38.11422,Bsh,
-3119,Sant Joan d'Alacant,Alicante,41.32392,-0.4345329,38.39817,Bsh,
-3120,San Miguel de Salinas,Alicante,77.87773,-0.7892857,37.97993,Bsh,
-3121,Santa Pola,Alicante,10.0,-0.5552066,38.1923,Bsh,
+3118,San Fulgencio,Alicante,7.573623,-0.7179557,38.11422,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
+3119,Sant Joan d'Alacant,Alicante,41.32392,-0.4345329,38.39817,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
+3120,San Miguel de Salinas,Alicante,77.87773,-0.7892857,37.97993,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
+3121,Santa Pola,Alicante,10.0,-0.5552066,38.1923,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 3123,Sax,Alicante,480.8817,-0.8180652,38.53757,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
 3124,Sella,Alicante,421.4968,-0.2730576,38.60862,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 3125,Senija,Alicante,239.5632,0.0405763,38.72786,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
@@ -251,17 +251,17 @@ cmun,municipality,province,altitude,longitude,latitude,Koppen_Climate,descriptio
 3130,Tollos,Alicante,771.4578,-0.2747656,38.75664,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 3131,Tormos,Alicante,130.5348,-0.0721342,38.80195,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 3132,"Torre de les Maçanes, la/Torremanzanas",Alicante,812.3563,-0.4199761,38.61335,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
-3133,Torrevieja,Alicante,15.69942,-0.6832271,37.97747,Bsh,
+3133,Torrevieja,Alicante,15.69942,-0.6832271,37.97747,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 3134,"Vall d'Alcalà, la",Alicante,641.0916,-0.2527778,38.79445,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 3135,"Vall d'Ebo, la",Alicante,381.5167,-0.1570321,38.80732,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 3137,"Vall de Laguar, la",Alicante,548.257,-0.1310217,38.77628,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
-3138,"Verger, el",Alicante,10.94339,-0.5109846,38.33109,Bsh,
-3139,"Vila Joiosa, la/Villajoyosa",Alicante,43.88388,-0.2326134,38.50775,Bsh,
+3138,"Verger, el",Alicante,10.94339,-0.5109846,38.33109,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
+3139,"Vila Joiosa, la/Villajoyosa",Alicante,43.88388,-0.2326134,38.50775,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 3140,Villena,Alicante,522.7245,-0.8661389,38.63634,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
 3901,"Poblets, els",Alicante,12.50598,0.018325,38.85391,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
-3902,Pilar de la Horadada,Alicante,32.33976,-0.7925081,37.86538,Bsh,
-3903,"Montesinos, Los",Alicante,21.59749,-0.743438,38.02732,Bsh,
-3904,San Isidro,Alicante,10.8566,-0.8401969,38.1702,Bsh,
+3902,Pilar de la Horadada,Alicante,32.33976,-0.7925081,37.86538,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
+3903,"Montesinos, Los",Alicante,21.59749,-0.743438,38.02732,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
+3904,San Isidro,Alicante,10.8566,-0.8401969,38.1702,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 4001,Abla,Almería,871.1684,-2.780104,37.14114,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 4002,Abrucena,Almería,976.9387,-2.797098,37.13305,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 4003,Adra,Almería,10.97898,-3.022522,36.74807,,
@@ -272,9 +272,9 @@ cmun,municipality,province,altitude,longitude,latitude,Koppen_Climate,descriptio
 4008,Alcóntar,Almería,955.1331,-2.596944,37.33585,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 4009,Alcudia de Monteagud,Almería,1018.354,-2.266174,37.23598,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 4010,Alhabia,Almería,288.056,-2.587667,36.9893,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
-4011,Alhama de Almería,Almería,523.1963,-2.570075,36.95742,Bsh,
+4011,Alhama de Almería,Almería,523.1963,-2.570075,36.95742,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 4012,Alicún,Almería,420.4872,-2.601994,36.9663,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
-4013,Almería,Almería,27.00703,-2.467922,36.84016,Bsh,
+4013,Almería,Almería,27.00703,-2.467922,36.84016,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 4014,Almócita,Almería,831.1343,-2.790071,37.00236,Csb,"Mediterranean Warm Summer - Cooler, wet winters and warm, dry summers."
 4015,Alsodux,Almería,312.0394,-2.594579,37.002,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
 4016,Antas,Almería,107.2613,-1.917543,37.24516,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
@@ -285,31 +285,31 @@ cmun,municipality,province,altitude,longitude,latitude,Koppen_Climate,descriptio
 4021,Bayarque,Almería,816.2208,-2.43566,37.33091,Csb,"Mediterranean Warm Summer - Cooler, wet winters and warm, dry summers."
 4022,Bédar,Almería,391.56,-1.981898,37.18964,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
 4023,Beires,Almería,919.2347,-2.790928,37.012,Csb,"Mediterranean Warm Summer - Cooler, wet winters and warm, dry summers."
-4024,Benahadux,Almería,113.9746,-2.455683,36.92587,Bsh,
+4024,Benahadux,Almería,113.9746,-2.455683,36.92587,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 4026,Benitagla,Almería,945.0856,-2.239107,37.23124,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
 4027,Benizalón,Almería,933.7475,-2.241685,37.21175,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
 4028,Bentarique,Almería,319.8048,-2.61942,36.98652,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 4029,Berja,Almería,340.7863,-2.949425,36.84644,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 4030,Canjáyar,Almería,607.9745,-2.739681,37.00973,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 4031,Cantoria,Almería,388.6553,-2.193626,37.35259,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
-4032,Carboneras,Almería,6.721787,-1.895012,36.99659,Bsh,
+4032,Carboneras,Almería,6.721787,-1.895012,36.99659,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 4033,Castro de Filabres,Almería,943.7071,-2.439524,37.18464,Csb,"Mediterranean Warm Summer - Cooler, wet winters and warm, dry summers."
 4034,Cóbdar,Almería,606.9962,-2.210223,37.26199,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
-4035,Cuevas del Almanzora,Almería,97.29103,-1.881476,37.29709,Bsh,
+4035,Cuevas del Almanzora,Almería,97.29103,-1.881476,37.29709,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 4036,Chercos,Almería,789.6791,-2.257897,37.26633,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
 4037,Chirivel,Almería,1039.713,-2.264839,37.5956,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
-4038,Dalías,Almería,415.9644,-2.870697,36.82121,Bsh,
+4038,Dalías,Almería,415.9644,-2.870697,36.82121,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 4041,Enix,Almería,720.6339,-2.602107,36.87704,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 4043,Felix,Almería,822.4271,-2.657921,36.86892,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 4044,Fines,Almería,448.7018,-2.262964,37.35888,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
 4045,Fiñana,Almería,950.4163,-2.840678,37.17101,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 4046,Fondón,Almería,858.4697,-2.858356,36.97942,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
-4047,Gádor,Almería,169.0004,-2.492936,36.95393,Bsh,
+4047,Gádor,Almería,169.0004,-2.492936,36.95393,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 4048,"Gallardos, Los",Almería,113.9905,-1.940099,37.16948,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
-4049,Garrucha,Almería,2.56615,-1.821901,37.17925,Bsh,
+4049,Garrucha,Almería,2.56615,-1.821901,37.17925,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 4050,Gérgal,Almería,750.5009,-2.538305,37.1207,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 4051,Huécija,Almería,410.0447,-2.611436,36.96788,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
-4052,Huércal de Almería,Almería,72.52909,-2.435978,36.88415,Bsh,
+4052,Huércal de Almería,Almería,72.52909,-2.435978,36.88415,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 4053,Huércal-Overa,Almería,284.6117,-1.943684,37.39063,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
 4054,Íllar,Almería,428.1185,-2.639302,36.98504,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 4055,Instinción,Almería,434.57,-2.659945,36.99316,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
@@ -331,14 +331,14 @@ cmun,municipality,province,altitude,longitude,latitude,Koppen_Climate,descriptio
 4071,Padules,Almería,745.1029,-2.773482,36.99884,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 4072,Partaloa,Almería,548.585,-2.226434,37.40604,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
 4073,Paterna del Río,Almería,1201.81,-2.953087,37.02088,Csb,"Mediterranean Warm Summer - Cooler, wet winters and warm, dry summers."
-4074,Pechina,Almería,107.5108,-2.440625,36.91667,Bsh,
-4075,Pulpí,Almería,194.9947,-1.745502,37.41183,Bsh,
+4074,Pechina,Almería,107.5108,-2.440625,36.91667,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
+4075,Pulpí,Almería,194.9947,-1.745502,37.41183,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 4076,Purchena,Almería,540.9984,-2.36155,37.34855,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
 4077,Rágol,Almería,404.8323,-2.680989,36.99564,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
-4078,Rioja,Almería,133.2092,-2.462424,36.94406,Bsh,
-4079,Roquetas de Mar,Almería,11.84886,-2.614935,36.76427,Bsh,
+4078,Rioja,Almería,133.2092,-2.462424,36.94406,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
+4079,Roquetas de Mar,Almería,11.84886,-2.614935,36.76427,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 4080,Santa Cruz de Marchena,Almería,328.9739,-2.603768,37.0172,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
-4081,Santa Fe de Mondújar,Almería,210.5975,-2.530279,36.97506,Bsh,
+4081,Santa Fe de Mondújar,Almería,210.5975,-2.530279,36.97506,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 4082,Senés,Almería,1007.387,-2.347544,37.20457,Csb,"Mediterranean Warm Summer - Cooler, wet winters and warm, dry summers."
 4083,Serón,Almería,800.137,-2.508077,37.34361,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
 4084,Sierro,Almería,721.0729,-2.398526,37.32348,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
@@ -357,13 +357,13 @@ cmun,municipality,province,altitude,longitude,latitude,Koppen_Climate,descriptio
 4097,Velefique,Almería,937.5716,-2.403687,37.19375,Csb,"Mediterranean Warm Summer - Cooler, wet winters and warm, dry summers."
 4098,Vélez-Blanco,Almería,1072.432,-2.095682,37.69095,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
 4099,Vélez-Rubio,Almería,842.2859,-2.074232,37.64802,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
-4100,Vera,Almería,102.0657,-1.868238,37.24686,Bsh,
-4101,Viator,Almería,74.79173,-2.426541,36.88963,Bsh,
-4102,Vícar,Almería,276.2602,-2.642515,36.83145,Bsh,
+4100,Vera,Almería,102.0657,-1.868238,37.24686,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
+4101,Viator,Almería,74.79173,-2.426541,36.88963,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
+4102,Vícar,Almería,276.2602,-2.642515,36.83145,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 4103,Zurgena,Almería,248.1582,-2.039607,37.34265,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
 4901,"Tres Villas, Las",Almería,693.0934,-2.7,37.13334,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
-4902,"Ejido, El",Almería,80.0,-2.812738,36.77506,Bsh,
-4903,"Mojonera, La",Almería,41.25403,-2.688159,36.75254,Bsh,
+4902,"Ejido, El",Almería,80.0,-2.812738,36.77506,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
+4903,"Mojonera, La",Almería,41.25403,-2.688159,36.75254,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 5001,Adanero,Ávila,905.2096,-4.606659,40.94591,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 5002,"Adrada, La",Ávila,622.7286,-4.634857,40.29935,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 5005,Albornos,Ávila,909.7402,-4.881355,40.83842,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
@@ -1834,7 +1834,7 @@ cmun,municipality,province,altitude,longitude,latitude,Koppen_Climate,descriptio
 12074,"Llosa, la",Castellón,13.79891,-0.2078121,39.76972,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
 12075,"Mata de Morella, la",Castellón,809.3206,-0.2790673,40.61561,Csb,"Mediterranean Warm Summer - Cooler, wet winters and warm, dry summers."
 12076,Matet,Castellón,574.554,-0.4694385,39.93716,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
-12077,Moncofa,Castellón,8.799705,-0.145778,39.80862,Bsh,
+12077,Moncofa,Castellón,8.799705,-0.145778,39.80862,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 12078,Montán,Castellón,554.3556,-0.5527538,40.03509,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 12079,Montanejos,Castellón,471.2018,-0.5227369,40.06796,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 12080,Morella,Castellón,932.5529,-0.0977334,40.619,Csb,"Mediterranean Warm Summer - Cooler, wet winters and warm, dry summers."
@@ -2630,7 +2630,7 @@ cmun,municipality,province,altitude,longitude,latitude,Koppen_Climate,descriptio
 18014,Alhendín,Granada,736.6528,-3.645584,37.1076,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 18015,Alicún de Ortega,Granada,692.778,-3.137986,37.60968,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 18016,Almegíjar,Granada,811.4709,-3.299801,36.90245,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
-18017,Almuñécar,Granada,24.01802,-3.690736,36.73454,Bsh,
+18017,Almuñécar,Granada,24.01802,-3.690736,36.73454,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 18018,Alquife,Granada,1202.946,-3.116288,37.17983,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 18020,Arenas del Rey,Granada,870.3409,-3.894323,36.95771,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 18021,Armilla,Granada,671.618,-3.617981,37.1401,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
@@ -2725,7 +2725,7 @@ cmun,municipality,province,altitude,longitude,latitude,Koppen_Climate,descriptio
 18136,Montejícar,Granada,1145.294,-3.5047,37.57196,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 18137,Montillana,Granada,1019.378,-3.672423,37.50127,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 18138,Moraleda de Zafayona,Granada,621.8634,-3.965147,37.16977,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
-18140,Motril,Granada,41.48437,-3.516718,36.74467,Bsh,
+18140,Motril,Granada,41.48437,-3.516718,36.74467,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 18141,Murtas,Granada,1134.923,-3.108971,36.88737,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 18143,Nigüelas,Granada,927.8786,-3.539319,36.97741,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 18144,Nívar,Granada,1038.031,-3.577918,37.25794,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
@@ -2750,7 +2750,7 @@ cmun,municipality,province,altitude,longitude,latitude,Koppen_Climate,descriptio
 18168,Quéntar,Granada,855.6412,-3.468192,37.19201,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 18170,Rubite,Granada,778.7302,-3.348044,36.80884,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 18171,Salar,Granada,545.4207,-4.067732,37.14882,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
-18173,Salobreña,Granada,20.95912,-3.587108,36.74626,Bsh,
+18173,Salobreña,Granada,20.95912,-3.587108,36.74626,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 18174,Santa Cruz del Comercio,Granada,737.3204,-3.976717,37.06024,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 18175,Santa Fe,Granada,582.6545,-3.719076,37.18936,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 18176,Soportújar,Granada,944.0207,-3.405133,36.92839,Csb,"Mediterranean Warm Summer - Cooler, wet winters and warm, dry summers."
@@ -2761,7 +2761,7 @@ cmun,municipality,province,altitude,longitude,latitude,Koppen_Climate,descriptio
 18181,Turón,Granada,698.5202,-3.057771,36.86357,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 18182,Ugíjar,Granada,547.5222,-3.054754,36.96075,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 18183,Válor,Granada,901.9865,-3.083123,36.99589,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
-18184,Vélez de Benaudalla,Granada,170.5154,-3.516209,36.83195,Bsh,
+18184,Vélez de Benaudalla,Granada,170.5154,-3.516209,36.83195,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 18185,Ventas de Huelma,Granada,858.721,-3.822133,37.06853,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 18187,Villanueva de las Torres,Granada,645.9392,-3.090193,37.55663,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 18188,Villanueva Mesía,Granada,493.5079,-4.011248,37.2142,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
@@ -4460,7 +4460,7 @@ cmun,municipality,province,altitude,longitude,latitude,Koppen_Climate,descriptio
 29072,Mollina,Málaga,476.1912,-4.657106,37.12564,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 29073,Monda,Málaga,359.9482,-4.831124,36.63018,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 29074,Montejaque,Málaga,696.3243,-5.251382,36.73365,Csb,"Mediterranean Warm Summer - Cooler, wet winters and warm, dry summers."
-29075,Nerja,Málaga,25.00439,-3.876649,36.74503,Bsh,
+29075,Nerja,Málaga,25.00439,-3.876649,36.74503,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 29076,Ojén,Málaga,314.1743,-4.856492,36.56424,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 29077,Parauta,Málaga,819.9631,-5.129627,36.65533,Csb,"Mediterranean Warm Summer - Cooler, wet winters and warm, dry summers."
 29079,Periana,Málaga,570.6861,-4.187304,36.92694,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
@@ -4488,14 +4488,14 @@ cmun,municipality,province,altitude,longitude,latitude,Koppen_Climate,descriptio
 29901,Torremolinos,Málaga,52.33766,-4.500273,36.62179,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 30001,Abanilla,Murcia,215.4028,-1.043499,38.20628,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
 30002,Abarán,Murcia,200.7275,-1.397181,38.20514,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
-30003,Águilas,Murcia,8.231929,-1.581161,37.4038,Bsh,
+30003,Águilas,Murcia,8.231929,-1.581161,37.4038,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 30004,Albudeite,Murcia,180.3854,-1.384766,38.02719,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
 30005,Alcantarilla,Murcia,73.48013,-1.218209,37.97068,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
 30006,Aledo,Murcia,604.458,-1.573683,37.79744,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
 30007,Alguazas,Murcia,84.25748,-1.24202,38.04954,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
 30008,Alhama de Murcia,Murcia,201.4063,-1.424666,37.85101,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
 30009,Archena,Murcia,105.1455,-1.297061,38.11435,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
-30010,Beniel,Murcia,31.7415,-1.001894,38.04591,Bsh,
+30010,Beniel,Murcia,31.7415,-1.001894,38.04591,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 30011,Blanca,Murcia,149.6207,-1.376201,38.1792,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
 30012,Bullas,Murcia,647.6263,-1.670956,38.04808,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
 30013,Calasparra,Murcia,356.5284,-1.701833,38.22923,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
@@ -4520,8 +4520,8 @@ cmun,municipality,province,altitude,longitude,latitude,Koppen_Climate,descriptio
 30032,Pliego,Murcia,386.3144,-1.506185,37.99001,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
 30033,Puerto Lumbreras,Murcia,470.1874,-1.810215,37.56221,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
 30034,Ricote,Murcia,293.4324,-1.367112,38.15238,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
-30035,San Javier,Murcia,26.81056,-0.8345491,37.80569,Bsh,
-30036,San Pedro del Pinatar,Murcia,16.43622,-0.7915859,37.83504,Bsh,
+30035,San Javier,Murcia,26.81056,-0.8345491,37.80569,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
+30036,San Pedro del Pinatar,Murcia,16.43622,-0.7915859,37.83504,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 30037,Torre-Pacheco,Murcia,41.09187,-0.9536195,37.74428,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
 30038,"Torres de Cotillas, Las",Murcia,86.27866,-1.240312,38.02786,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
 30039,Totana,Murcia,259.0672,-1.501004,37.77124,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
@@ -4529,8 +4529,8 @@ cmun,municipality,province,altitude,longitude,latitude,Koppen_Climate,descriptio
 30041,"Unión, La",Murcia,112.227,-0.8800824,37.61675,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
 30042,Villanueva del Río Segura,Murcia,138.7037,-1.324307,38.13569,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
 30043,Yecla,Murcia,604.7735,-1.118017,38.61524,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
-30901,Santomera,Murcia,39.86995,-1.047485,38.05997,Bsh,
-30902,"Alcázares, Los",Murcia,2.761286,-0.8498135,37.74362,Bsh,
+30901,Santomera,Murcia,39.86995,-1.047485,38.05997,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
+30902,"Alcázares, Los",Murcia,2.761286,-0.8498135,37.74362,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 31001,Abáigar,Navarra,485.6676,-2.143441,42.64694,Cfb,Oceanic Climate - Mild temperatures and consistent rainfall.
 31002,Abárzuza/Abartzuza,Navarra,568.4764,-2.022548,42.72641,Cfb,Oceanic Climate - Mild temperatures and consistent rainfall.
 31003,Abaurregaina/Abaurrea Alta,Navarra,1050.703,-1.207954,42.90345,Cfb,Oceanic Climate - Mild temperatures and consistent rainfall.
@@ -5575,8 +5575,8 @@ cmun,municipality,province,altitude,longitude,latitude,Koppen_Climate,descriptio
 37381,"Zarza de Pumareda, La",Salamanca,702.669,-6.627572,41.16283,Csb,"Mediterranean Warm Summer - Cooler, wet winters and warm, dry summers."
 37382,Zorita de la Frontera,Salamanca,830.3544,-5.197237,41.01429,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 38001,Adeje,Santa Cruz de Tenerife,288.9392,-16.72464,28.12185,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
-38002,Agulo,Santa Cruz de Tenerife,199.3272,-17.19591,28.18672,Bsh,
-38003,Alajeró,Santa Cruz de Tenerife,821.5216,-17.23902,28.06276,Bsh,
+38002,Agulo,Santa Cruz de Tenerife,199.3272,-17.19591,28.18672,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
+38003,Alajeró,Santa Cruz de Tenerife,821.5216,-17.23902,28.06276,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 38004,Arafo,Santa Cruz de Tenerife,432.3514,-16.41512,28.34072,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
 38005,Arico,Santa Cruz de Tenerife,362.0416,-16.47941,28.1778,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
 38006,Arona,Santa Cruz de Tenerife,630.8655,-16.68066,28.10047,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
@@ -5587,16 +5587,16 @@ cmun,municipality,province,altitude,longitude,latitude,Koppen_Climate,descriptio
 38011,Candelaria,Santa Cruz de Tenerife,10.0,-16.37013,28.35276,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
 38012,Fasnia,Santa Cruz de Tenerife,482.8613,-16.43982,28.23996,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
 38013,Frontera,Santa Cruz de Tenerife,339.0463,-18.00364,27.75379,,
-38014,Fuencaliente de la Palma,Santa Cruz de Tenerife,604.7274,-17.84942,28.4885,Bsh,
+38014,Fuencaliente de la Palma,Santa Cruz de Tenerife,604.7274,-17.84942,28.4885,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 38015,Garachico,Santa Cruz de Tenerife,11.52424,-16.76521,28.37217,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
 38016,Garafía,Santa Cruz de Tenerife,899.6116,-17.91667,28.81667,Csb,"Mediterranean Warm Summer - Cooler, wet winters and warm, dry summers."
 38017,Granadilla de Abona,Santa Cruz de Tenerife,647.0933,-16.57691,28.12018,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
 38018,"Guancha, La",Santa Cruz de Tenerife,483.8696,-16.65256,28.37436,Csb,"Mediterranean Warm Summer - Cooler, wet winters and warm, dry summers."
 38019,Guía de Isora,Santa Cruz de Tenerife,590.0607,-16.779,28.20995,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
-38020,Güímar,Santa Cruz de Tenerife,307.1391,-16.41325,28.31723,Bsh,
-38021,Hermigua,Santa Cruz de Tenerife,127.1466,-17.19206,28.16725,Bsh,
+38020,Güímar,Santa Cruz de Tenerife,307.1391,-16.41325,28.31723,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
+38021,Hermigua,Santa Cruz de Tenerife,127.1466,-17.19206,28.16725,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 38022,Icod de los Vinos,Santa Cruz de Tenerife,229.9812,-16.71886,28.36761,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
-38023,San Cristóbal de La Laguna,Santa Cruz de Tenerife,548.1752,-16.31478,28.48812,Bsh,
+38023,San Cristóbal de La Laguna,Santa Cruz de Tenerife,548.1752,-16.31478,28.48812,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 38024,"Llanos de Aridane, Los",Santa Cruz de Tenerife,345.7089,-17.91137,28.65619,Csb,"Mediterranean Warm Summer - Cooler, wet winters and warm, dry summers."
 38025,"Matanza de Acentejo, La",Santa Cruz de Tenerife,282.3254,-16.46325,28.45248,Csb,"Mediterranean Warm Summer - Cooler, wet winters and warm, dry summers."
 38026,"Orotava, La",Santa Cruz de Tenerife,342.5714,-16.52354,28.39108,Csb,"Mediterranean Warm Summer - Cooler, wet winters and warm, dry summers."
@@ -5609,21 +5609,21 @@ cmun,municipality,province,altitude,longitude,latitude,Koppen_Climate,descriptio
 38033,San Andrés y Sauces,Santa Cruz de Tenerife,60.90185,-17.76667,28.8,Csb,"Mediterranean Warm Summer - Cooler, wet winters and warm, dry summers."
 38034,San Juan de la Rambla,Santa Cruz de Tenerife,50.26696,-16.65047,28.39464,Csb,"Mediterranean Warm Summer - Cooler, wet winters and warm, dry summers."
 38035,San Miguel de Abona,Santa Cruz de Tenerife,604.5886,-16.61715,28.09838,Csb,"Mediterranean Warm Summer - Cooler, wet winters and warm, dry summers."
-38036,San Sebastián de la Gomera,Santa Cruz de Tenerife,2.807406,-17.11187,28.09222,Bsh,
+38036,San Sebastián de la Gomera,Santa Cruz de Tenerife,2.807406,-17.11187,28.09222,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 38037,Santa Cruz de la Palma,Santa Cruz de Tenerife,3.883548,-17.76396,28.68326,Csb,"Mediterranean Warm Summer - Cooler, wet winters and warm, dry summers."
-38038,Santa Cruz de Tenerife,Santa Cruz de Tenerife,41.29388,-16.25486,28.46981,Bsh,
+38038,Santa Cruz de Tenerife,Santa Cruz de Tenerife,41.29388,-16.25486,28.46981,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 38039,Santa Úrsula,Santa Cruz de Tenerife,284.0858,-16.48891,28.42549,Csb,"Mediterranean Warm Summer - Cooler, wet winters and warm, dry summers."
 38040,Santiago del Teide,Santa Cruz de Tenerife,929.3008,-16.81461,28.29614,Csb,"Mediterranean Warm Summer - Cooler, wet winters and warm, dry summers."
 38041,"Sauzal, El",Santa Cruz de Tenerife,323.1106,-16.43661,28.47941,Csb,"Mediterranean Warm Summer - Cooler, wet winters and warm, dry summers."
 38042,"Silos, Los",Santa Cruz de Tenerife,99.97398,-16.81598,28.36535,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
 38043,Tacoronte,Santa Cruz de Tenerife,488.9084,-16.412,28.48153,Csb,"Mediterranean Warm Summer - Cooler, wet winters and warm, dry summers."
 38044,"Tanque, El",Santa Cruz de Tenerife,1027.389,-16.78752,28.33258,Csb,"Mediterranean Warm Summer - Cooler, wet winters and warm, dry summers."
-38045,Tazacorte,Santa Cruz de Tenerife,124.7486,-17.93224,28.6427,Bsh,
-38046,Tegueste,Santa Cruz de Tenerife,412.2942,-16.33353,28.52328,Bsh,
+38045,Tazacorte,Santa Cruz de Tenerife,124.7486,-17.93224,28.6427,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
+38046,Tegueste,Santa Cruz de Tenerife,412.2942,-16.33353,28.52328,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 38047,Tijarafe,Santa Cruz de Tenerife,615.9692,-17.95,28.7,Csb,"Mediterranean Warm Summer - Cooler, wet winters and warm, dry summers."
 38048,Valverde,Santa Cruz de Tenerife,588.4797,-17.91566,27.8089,,
 38049,Valle Gran Rey,Santa Cruz de Tenerife,607.2831,-17.32575,28.12357,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
-38050,Vallehermoso,Santa Cruz de Tenerife,181.5817,-17.26406,28.17902,Bsh,
+38050,Vallehermoso,Santa Cruz de Tenerife,181.5817,-17.26406,28.17902,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 38051,"Victoria de Acentejo, La",Santa Cruz de Tenerife,387.9303,-16.46762,28.43531,Csb,"Mediterranean Warm Summer - Cooler, wet winters and warm, dry summers."
 38053,Villa de Mazo,Santa Cruz de Tenerife,965.7053,-17.79915,28.58121,Csb,"Mediterranean Warm Summer - Cooler, wet winters and warm, dry summers."
 38901,"Pinar de El Hierro, El",Santa Cruz de Tenerife,1330.287,-18.0243,27.7255,,
@@ -6841,29 +6841,29 @@ cmun,municipality,province,altitude,longitude,latitude,Koppen_Climate,descriptio
 46002,Ador,Valencia,99.2018,-0.2242898,38.91941,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 46003,Atzeneta d'Albaida,Valencia,397.5668,-0.4960669,38.83666,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 46004,Agullent,Valencia,426.091,-0.5489346,38.82132,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
-46005,Alaquàs,Valencia,46.73926,-0.4610681,39.45708,Bsh,
+46005,Alaquàs,Valencia,46.73926,-0.4610681,39.45708,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 46006,Albaida,Valencia,344.094,-0.5156197,38.83701,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
-46007,Albal,Valencia,13.72922,-0.4121969,39.39709,Bsh,
+46007,Albal,Valencia,13.72922,-0.4121969,39.39709,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 46008,Albalat de la Ribera,Valencia,16.92992,-0.3863965,39.2011,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
-46009,Albalat dels Sorells,Valencia,20.43682,-0.3473705,39.54219,Bsh,
+46009,Albalat dels Sorells,Valencia,20.43682,-0.3473705,39.54219,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 46010,Albalat dels Tarongers,Valencia,102.3577,-0.3364196,39.70299,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
-46011,Alberic,Valencia,33.56151,-0.5177308,39.11652,Bsh,
+46011,Alberic,Valencia,33.56151,-0.5177308,39.11652,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 46012,Alborache,Valencia,314.9452,-0.7718443,39.39252,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
-46014,Albuixech,Valencia,12.0,-0.3226356,39.54437,Bsh,
-46015,Alcàsser,Valencia,29.1877,-0.4428184,39.36931,Bsh,
-46016,Alcàntera de Xúquer,Valencia,45.0,-0.5611053,39.06793,Bsh,
-46017,Alzira,Valencia,27.81557,-0.4404637,39.15159,Bsh,
+46014,Albuixech,Valencia,12.0,-0.3226356,39.54437,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
+46015,Alcàsser,Valencia,29.1877,-0.4428184,39.36931,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
+46016,Alcàntera de Xúquer,Valencia,45.0,-0.5611053,39.06793,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
+46017,Alzira,Valencia,27.81557,-0.4404637,39.15159,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 46018,Alcublas,Valencia,779.1219,-0.7021778,39.79716,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
-46019,"Alcúdia, l'",Valencia,40.6911,-0.507092,39.19832,Bsh,
+46019,"Alcúdia, l'",Valencia,40.6911,-0.507092,39.19832,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 46020,"Alcúdia de Crespins, l'",Valencia,162.9035,-0.5911145,38.97096,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
-46021,Aldaia,Valencia,49.20547,-0.4613582,39.46505,Bsh,
-46022,Alfafar,Valencia,14.41185,-0.3898719,39.42323,Bsh,
+46021,Aldaia,Valencia,49.20547,-0.4613582,39.46505,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
+46022,Alfafar,Valencia,14.41185,-0.3898719,39.42323,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 46023,Alfauir,Valencia,89.19871,-0.2517238,38.92825,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
-46025,Alfara del Patriarca,Valencia,34.0,-0.3865961,39.54523,Bsh,
+46025,Alfara del Patriarca,Valencia,34.0,-0.3865961,39.54523,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 46027,Alfarrasí,Valencia,201.9004,-0.4964219,38.90528,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 46029,Algemesí,Valencia,23.95206,-0.4347581,39.19387,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 46031,Alginet,Valencia,33.26551,-0.4673142,39.26482,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
-46032,Almàssera,Valencia,13.57227,-0.3551791,39.51298,Bsh,
+46032,Almàssera,Valencia,13.57227,-0.3551791,39.51298,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 46033,Almiserà,Valencia,147.6635,-0.2857652,38.91521,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 46034,Almoines,Valencia,37.68532,-0.1798222,38.94316,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 46035,Almussafes,Valencia,12.22051,-0.4107316,39.29333,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
@@ -6884,8 +6884,8 @@ cmun,municipality,province,altitude,longitude,latitude,Koppen_Climate,descriptio
 46050,Benagéber,Valencia,783.6801,-1.100758,39.70691,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
 46051,Benaguasil,Valencia,129.399,-0.5890565,39.59147,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
 46052,Benavites,Valencia,39.9698,-0.2573594,39.74054,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
-46053,Beneixida,Valencia,57.80067,-0.5489059,39.05722,Bsh,
-46054,Benetússer,Valencia,16.70827,-0.3974029,39.42465,Bsh,
+46053,Beneixida,Valencia,57.80067,-0.5489059,39.05722,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
+46054,Benetússer,Valencia,16.70827,-0.3974029,39.42465,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 46055,Beniarjó,Valencia,48.86893,-0.1874941,38.93229,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 46056,Beniatjar,Valencia,393.6027,-0.41688,38.84798,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 46057,Benicolet,Valencia,246.7301,-0.3469744,38.9191,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
@@ -6893,27 +6893,27 @@ cmun,municipality,province,altitude,longitude,latitude,Koppen_Climate,descriptio
 46059,Benifairó de la Valldigna,Valencia,40.15332,-0.3022293,39.05379,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 46060,Benifaió,Valencia,25.18363,-0.4270781,39.28524,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 46061,Beniflá,Valencia,49.0,-0.1886494,38.92797,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
-46063,Benimodo,Valencia,48.09188,-0.52738,39.21346,Bsh,
-46064,Benimuslem,Valencia,25.46984,-0.4928766,39.13147,Bsh,
-46065,Beniparrell,Valencia,9.134038,-0.4126262,39.38113,Bsh,
+46063,Benimodo,Valencia,48.09188,-0.52738,39.21346,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
+46064,Benimuslem,Valencia,25.46984,-0.4928766,39.13147,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
+46065,Beniparrell,Valencia,9.134038,-0.4126262,39.38113,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 46066,Benirredrà,Valencia,32.96222,-0.1935661,38.9611,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 46068,Benissoda,Valencia,334.6183,-0.5308933,38.8327,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 46070,Bétera,Valencia,107.5116,-0.4588638,39.58848,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
 46071,Bicorp,Valencia,293.4095,-0.78779,39.13191,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 46072,Bocairent,Valencia,625.4228,-0.6086135,38.76781,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 46073,Bolbaite,Valencia,243.4025,-0.6746119,39.06267,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
-46074,Bonrepòs i Mirambell,Valencia,16.36778,-0.3648613,39.51847,Bsh,
+46074,Bonrepòs i Mirambell,Valencia,16.36778,-0.3648613,39.51847,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 46075,Bufali,Valencia,238.4063,-0.5142651,38.86781,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 46076,Bugarra,Valencia,180.4909,-0.7733291,39.60923,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
 46077,Buñol,Valencia,357.3485,-0.7907688,39.41825,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
-46078,Burjassot,Valencia,43.95247,-0.4149856,39.51051,Bsh,
+46078,Burjassot,Valencia,43.95247,-0.4149856,39.51051,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 46079,Calles,Valencia,356.5529,-0.9739533,39.7253,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
 46080,Camporrobles,Valencia,914.2482,-1.396582,39.64718,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 46081,Canals,Valencia,161.0747,-0.5842204,38.96075,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
-46082,Canet d'En Berenguer,Valencia,14.79732,-0.2209121,39.67979,Bsh,
-46083,Carcaixent,Valencia,30.51869,-0.4496824,39.12122,Bsh,
-46084,Càrcer,Valencia,43.0,-0.5652466,39.0689,Bsh,
-46085,Carlet,Valencia,55.64799,-0.5231268,39.22771,Bsh,
+46082,Canet d'En Berenguer,Valencia,14.79732,-0.2209121,39.67979,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
+46083,Carcaixent,Valencia,30.51869,-0.4496824,39.12122,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
+46084,Càrcer,Valencia,43.0,-0.5652466,39.0689,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
+46085,Carlet,Valencia,55.64799,-0.5231268,39.22771,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 46086,Carrícola,Valencia,336.8991,-0.4716639,38.84059,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 46087,Casas Altas,Valencia,728.7411,-1.263725,40.03962,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
 46088,Casas Bajas,Valencia,694.5356,-1.259783,40.02377,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
@@ -6922,15 +6922,15 @@ cmun,municipality,province,altitude,longitude,latitude,Koppen_Climate,descriptio
 46091,Castellonet de la Conquesta,Valencia,183.2389,-0.2634233,38.91521,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 46092,Castielfabib,Valencia,922.0709,-1.303953,40.131,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
 46093,Catadau,Valencia,96.20319,-0.5696288,39.27526,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
-46094,Catarroja,Valencia,16.26744,-0.4035184,39.40274,Bsh,
+46094,Catarroja,Valencia,16.26744,-0.4035184,39.40274,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 46095,Caudete de las Fuentes,Valencia,783.4852,-1.27799,39.56,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
 46096,Cerdà,Valencia,148.9015,-0.5741573,38.98569,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 46097,Cofrentes,Valencia,382.015,-1.061885,39.22937,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
 46098,Corbera,Valencia,17.43971,-0.3554173,39.15796,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 46099,Cortes de Pallás,Valencia,426.9374,-0.9407222,39.2431,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
-46100,Cotes,Valencia,43.87196,-0.5760061,39.07086,Bsh,
+46100,Cotes,Valencia,43.87196,-0.5760061,39.07086,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 46101,Quart de les Valls,Valencia,55.67834,-0.2714849,39.73926,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
-46102,Quart de Poblet,Valencia,48.0,-0.4450733,39.48259,Bsh,
+46102,Quart de Poblet,Valencia,48.0,-0.4450733,39.48259,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 46103,Quartell,Valencia,45.31203,-0.2632652,39.73771,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
 46104,Quatretonda,Valencia,225.2918,-0.4022922,38.94835,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 46105,Cullera,Valencia,12.5917,-0.2559119,39.16514,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
@@ -6938,14 +6938,14 @@ cmun,municipality,province,altitude,longitude,latitude,Koppen_Climate,descriptio
 46107,Chella,Valencia,227.4745,-0.6614693,39.04458,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
 46108,Chera,Valencia,642.4711,-0.9727963,39.59335,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 46109,Cheste,Valencia,220.9698,-0.6845004,39.49511,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
-46110,Xirivella,Valencia,35.01973,-0.4277937,39.46669,Bsh,
+46110,Xirivella,Valencia,35.01973,-0.4277937,39.46669,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 46111,Chiva,Valencia,279.1065,-0.717811,39.47272,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
 46112,Chulilla,Valencia,319.9139,-0.8918707,39.65631,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
 46113,Daimús,Valencia,12.69039,-0.1538377,38.97,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 46114,Domeño,Valencia,209.0107,-0.6708114,39.66214,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
 46115,Dos Aguas,Valencia,362.2265,-0.7998479,39.28932,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
-46116,"Eliana, l'",Valencia,93.11724,-0.5302467,39.56632,Bsh,
-46117,Emperador,Valencia,19.49965,-0.3396982,39.55432,Bsh,
+46116,"Eliana, l'",Valencia,93.11724,-0.5302467,39.56632,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
+46117,Emperador,Valencia,19.49965,-0.3396982,39.55432,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 46118,Enguera,Valencia,313.453,-0.6884746,38.98003,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 46120,Estivella,Valencia,118.094,-0.347827,39.71229,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 46121,Estubeny,Valencia,167.0915,-0.623651,39.01794,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
@@ -6953,14 +6953,14 @@ cmun,municipality,province,altitude,longitude,latitude,Koppen_Climate,descriptio
 46123,Favara,Valencia,10.1655,-0.2910376,39.12743,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 46124,Fontanars dels Alforins,Valencia,628.7396,-0.785831,38.78442,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 46125,Fortaleny,Valencia,10.85651,-0.3135945,39.18376,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
-46126,Foios,Valencia,21.95792,-0.3565129,39.53762,Bsh,
+46126,Foios,Valencia,21.95792,-0.3565129,39.53762,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 46127,"Font d'en Carròs, la",Valencia,5.068284,-0.3268051,39.48134,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 46129,Fuenterrobles,Valencia,890.5018,-1.363273,39.58606,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
-46130,Gavarda,Valencia,35.14901,-0.5596363,39.0915,Bsh,
+46130,Gavarda,Valencia,35.14901,-0.5596363,39.0915,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 46131,Gandia,Valencia,36.61599,-0.1851868,38.96902,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 46133,Gestalgar,Valencia,195.7673,-0.8332318,39.60403,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
 46134,Gilet,Valencia,146.7077,-0.3244466,39.67611,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
-46135,Godella,Valencia,49.22687,-0.4171347,39.5223,Bsh,
+46135,Godella,Valencia,49.22687,-0.4171347,39.5223,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 46136,Godelleta,Valencia,265.5036,-0.6861337,39.42506,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
 46137,"Granja de la Costera, la",Valencia,114.7557,-0.5571381,38.99599,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 46139,Guadassuar,Valencia,33.0038,-0.4792251,39.18823,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
@@ -6972,97 +6972,97 @@ cmun,municipality,province,altitude,longitude,latitude,Koppen_Climate,descriptio
 46145,Xàtiva,Valencia,118.2864,-0.5156137,38.98887,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 46146,Xeresa,Valencia,34.05847,-0.2179918,39.0091,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 46147,Llíria,Valencia,179.2893,-0.5947581,39.62458,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
-46148,Loriguilla,Valencia,112.4705,-0.570056,39.49041,Bsh,
+46148,Loriguilla,Valencia,112.4705,-0.570056,39.49041,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 46149,Losa del Obispo,Valencia,386.8517,-0.8719551,39.69542,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
 46150,Llutxent,Valencia,295.1466,-0.3566575,38.94266,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 46151,Llocnou d'En Fenollet,Valencia,96.64848,-0.467483,39.01358,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
-46152,Llocnou de la Corona,Valencia,6.0,-0.3823406,39.42027,Bsh,
+46152,Llocnou de la Corona,Valencia,6.0,-0.3823406,39.42027,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 46153,Llocnou de Sant Jeroni,Valencia,153.7695,-0.2856349,38.91246,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 46154,Llanera de Ranes,Valencia,145.5483,-0.5719063,38.99286,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 46155,Llaurí,Valencia,17.93051,-0.3302556,39.14708,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 46156,Llombai,Valencia,102.9383,-0.5724804,39.28243,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
-46157,"Llosa de Ranes, la",Valencia,115.6288,-0.5336824,39.01865,Bsh,
+46157,"Llosa de Ranes, la",Valencia,115.6288,-0.5336824,39.01865,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 46158,Macastre,Valencia,372.9472,-0.7852511,39.38176,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
-46159,Manises,Valencia,51.54403,-0.4558824,39.49073,Bsh,
+46159,Manises,Valencia,51.54403,-0.4558824,39.49073,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 46160,Manuel,Valencia,52.98642,-0.4940807,39.05259,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 46161,Marines,Valencia,216.1194,-0.5621002,39.67394,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
-46163,Massalfassar,Valencia,15.84554,-0.3263003,39.55756,Bsh,
-46164,Massamagrell,Valencia,20.72736,-0.3351273,39.56923,Bsh,
-46165,Massanassa,Valencia,18.94774,-0.4002014,39.4113,Bsh,
-46166,Meliana,Valencia,17.93604,-0.348772,39.52907,Bsh,
+46163,Massalfassar,Valencia,15.84554,-0.3263003,39.55756,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
+46164,Massamagrell,Valencia,20.72736,-0.3351273,39.56923,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
+46165,Massanassa,Valencia,18.94774,-0.4002014,39.4113,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
+46166,Meliana,Valencia,17.93604,-0.348772,39.52907,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 46167,Millares,Valencia,363.7968,-0.7732546,39.23738,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 46168,Miramar,Valencia,13.39062,-0.1387654,38.9516,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
-46169,Mislata,Valencia,33.95041,-0.4193065,39.47624,Bsh,
-46171,Moncada,Valencia,34.29377,-0.3934617,39.54554,Bsh,
+46169,Mislata,Valencia,33.95041,-0.4193065,39.47624,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
+46171,Moncada,Valencia,34.29377,-0.3934617,39.54554,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 46172,Montserrat,Valencia,167.5811,-0.6031014,39.3578,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
 46173,Montaverner,Valencia,188.4312,-0.4963465,38.88851,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 46174,Montesa,Valencia,286.9374,-0.6511041,38.94968,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 46175,Montitxelvo/Montichelvo,Valencia,267.0021,-0.3389177,38.89122,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
-46177,Museros,Valencia,21.05551,-0.3406455,39.56345,Bsh,
+46177,Museros,Valencia,21.05551,-0.3406455,39.56345,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 46179,Navarrés,Valencia,279.2114,-0.6936884,39.10121,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
 46181,Oliva,Valencia,32.63683,-0.1226779,38.91939,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 46182,Olocau,Valencia,276.5376,-0.5312006,39.69985,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
 46183,"Olleria, l'",Valencia,263.7793,-0.5494962,38.91419,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 46184,Ontinyent,Valencia,357.7181,-0.610547,38.82102,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 46185,Otos,Valencia,326.1026,-0.4449853,38.8542,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
-46186,Paiporta,Valencia,25.99648,-0.4188691,39.42845,Bsh,
+46186,Paiporta,Valencia,25.99648,-0.4188691,39.42845,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 46187,Palma de Gandía,Valencia,67.23204,-0.2206952,38.92455,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 46188,Palmera,Valencia,25.12042,-0.1523275,38.94215,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 46189,"Palomar, el",Valencia,315.6286,-0.5028418,38.85373,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
-46190,Paterna,Valencia,59.44596,-0.4405986,39.50206,Bsh,
+46190,Paterna,Valencia,59.44596,-0.4405986,39.50206,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 46191,Pedralba,Valencia,157.6005,-0.7265272,39.60485,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
 46192,Petrés,Valencia,79.98814,-0.3095023,39.68353,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
-46193,Picanya,Valencia,29.60459,-0.4346522,39.43625,Bsh,
-46194,Picassent,Valencia,55.50201,-0.4626281,39.36,Bsh,
+46193,Picanya,Valencia,29.60459,-0.4346522,39.43625,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
+46194,Picassent,Valencia,55.50201,-0.4626281,39.36,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 46195,Piles,Valencia,13.96428,-0.1345093,38.94081,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 46196,Pinet,Valencia,352.6049,-0.338099,38.98334,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 46197,Polinyà de Xúquer,Valencia,15.4143,-0.3696187,39.19607,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 46198,Potries,Valencia,66.22852,-0.1954594,38.91528,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
-46199,"Pobla de Farnals, la",Valencia,17.41248,-0.326051,39.57779,Bsh,
+46199,"Pobla de Farnals, la",Valencia,17.41248,-0.326051,39.57779,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 46200,"Pobla del Duc, la",Valencia,243.4341,-0.4173577,38.90348,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 46201,Puebla de San Miguel,Valencia,1097.674,-1.145066,40.04535,Csb,"Mediterranean Warm Summer - Cooler, wet winters and warm, dry summers."
 46202,"Pobla de Vallbona, la",Valencia,100.6849,-0.5529038,39.59043,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
-46203,"Pobla Llarga, la",Valencia,35.54498,-0.4755329,39.08592,Bsh,
-46205,Puçol,Valencia,12.53519,-0.300809,39.61639,Bsh,
+46203,"Pobla Llarga, la",Valencia,35.54498,-0.4755329,39.08592,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
+46205,Puçol,Valencia,12.53519,-0.300809,39.61639,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 46206,Quesa,Valencia,223.3543,-0.7405544,39.1196,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
 46208,Rafelcofer,Valencia,36.06348,-0.1661192,38.93344,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 46209,Rafelguaraf,Valencia,48.39763,-0.45462,39.05197,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 46210,Ráfol de Salem,Valencia,295.8902,-0.3966209,38.86491,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 46213,Requena,Valencia,701.6198,-1.100322,39.48788,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
-46214,Riba-roja de Túria,Valencia,100.1154,-0.5667182,39.54548,Bsh,
+46214,Riba-roja de Túria,Valencia,100.1154,-0.5667182,39.54548,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 46215,Riola,Valencia,12.24097,-0.3343216,39.19768,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
-46216,Rocafort,Valencia,40.4511,-0.4104713,39.53096,Bsh,
-46217,Rotglà i Corberà,Valencia,125.9154,-0.565334,39.00407,Bsh,
+46216,Rocafort,Valencia,40.4511,-0.4104713,39.53096,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
+46217,Rotglà i Corberà,Valencia,125.9154,-0.565334,39.00407,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 46219,Rugat,Valencia,294.8879,-0.3614008,38.87893,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 46221,Salem,Valencia,371.894,-0.3811189,38.85503,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
-46223,Sedaví,Valencia,13.74977,-0.3857862,39.42505,Bsh,
+46223,Sedaví,Valencia,13.74977,-0.3857862,39.42505,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 46224,Segart,Valencia,273.3418,-0.3736177,39.68359,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 46225,Sellent,Valencia,82.35025,-0.5877986,39.03104,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
 46226,Sempere,Valencia,169.2104,-0.4808759,38.9197,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
-46227,Senyera,Valencia,42.80965,-0.5105379,39.06372,Bsh,
+46227,Senyera,Valencia,42.80965,-0.5105379,39.06372,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 46228,Serra,Valencia,354.7964,-0.4296759,39.68616,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 46229,Siete Aguas,Valencia,706.5231,-0.9170417,39.47197,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
-46230,Silla,Valencia,13.0,-0.4126143,39.36135,Bsh,
+46230,Silla,Valencia,13.0,-0.4126143,39.36135,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 46231,Simat de la Valldigna,Valencia,59.11103,-0.3106008,39.04354,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 46232,Sinarcas,Valencia,896.1122,-1.231574,39.73395,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 46233,Sollana,Valencia,6.460212,-0.3814589,39.27798,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 46234,Sot de Chera,Valencia,345.3529,-0.9100129,39.62111,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
 46235,Sueca,Valencia,13.82494,-0.3106423,39.20264,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 46236,Sumacàrcer,Valencia,59.70922,-0.6296024,39.09618,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
-46237,Tavernes Blanques,Valencia,17.46152,-0.3655908,39.50699,Bsh,
+46237,Tavernes Blanques,Valencia,17.46152,-0.3655908,39.50699,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 46238,Tavernes de la Valldigna,Valencia,24.54434,-0.2677154,39.07167,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 46239,Teresa de Cofrentes,Valencia,535.5968,-1.051532,39.10665,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 46240,Terrateig,Valencia,258.0876,-0.3206492,38.89435,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 46241,Titaguas,Valencia,838.8098,-1.080663,39.86609,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 46242,Torrebaja,Valencia,744.5679,-1.257538,40.09685,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
 46243,Torrella,Valencia,150.0653,-0.5717116,38.98889,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
-46244,Torrent,Valencia,51.56449,-0.4653109,39.43688,Bsh,
+46244,Torrent,Valencia,51.56449,-0.4653109,39.43688,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 46245,Torres Torres,Valencia,187.0952,-0.355686,39.74312,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 46246,Tous,Valencia,100.126,-0.5867855,39.1381,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
 46247,Tuéjar,Valencia,608.8101,-1.039951,39.76346,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
 46248,Turís,Valencia,278.5063,-0.7114099,39.38978,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
 46249,Utiel,Valencia,740.0797,-1.203385,39.56762,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
-46250,València,Valencia,23.3349,-0.3768049,39.47024,Bsh,
+46250,València,Valencia,23.3349,-0.3768049,39.47024,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 46251,Vallada,Valencia,292.5007,-0.6917616,38.89553,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 46252,Vallanca,Valencia,967.4936,-1.338187,40.06289,Csb,"Mediterranean Warm Summer - Cooler, wet winters and warm, dry summers."
 46253,Vallés,Valencia,118.1331,-0.5563067,38.98592,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
@@ -7070,12 +7070,12 @@ cmun,municipality,province,altitude,longitude,latitude,Koppen_Climate,descriptio
 46256,Vilamarxant,Valencia,106.5428,-0.6222726,39.56751,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
 46258,Villar del Arzobispo,Valencia,519.1837,-0.8277042,39.73537,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
 46259,Villargordo del Cabriel,Valencia,850.9744,-1.440612,39.53635,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
-46260,Vinalesa,Valencia,27.0,-0.3699957,39.54,Bsh,
+46260,Vinalesa,Valencia,27.0,-0.3699957,39.54,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 46261,Yátova,Valencia,441.8114,-0.808174,39.385,BSk,"Cold Semi-Arid Climate - Dry, but with lower temperatures."
-46262,"Yesa, La",Valencia,52.28455,-0.426125,39.49916,Bsh,
+46262,"Yesa, La",Valencia,52.28455,-0.426125,39.49916,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 46263,Zarra,Valencia,576.0366,-1.075068,39.09138,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 46902,Gátova,Valencia,595.0809,-0.5198705,39.77004,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
-46903,San Antonio de Benagéber,Valencia,117.6917,-0.5004753,39.56189,Bsh,
+46903,San Antonio de Benagéber,Valencia,117.6917,-0.5004753,39.56189,Bsh,Hot Semi-Arid Climate - Dry with higher temperatures.
 46904,Benicull de Xúquer,Valencia,24.44505,-0.3858408,39.18639,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
 47001,Adalia,Valladolid,774.0638,-5.121545,41.64888,Csb,"Mediterranean Warm Summer - Cooler, wet winters and warm, dry summers."
 47002,Aguasal,Valladolid,754.7618,-4.652815,41.27509,Csa,"Mediterranean Hot Summer - Hot, dry summers and mild, wet winters."
