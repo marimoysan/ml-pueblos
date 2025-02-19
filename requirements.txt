@@ -11,6 +11,12 @@ nbconvert
 geopy
 pandarallel
 scikit-learn
+python-dotenv
+langchain
+mistralai
+langchain_mistralai
+langchain_community
+faiss-cpu
 
 #altair==5.0.1
 #ipywidgets==8.0.6

@@ -1,0 +1,39 @@
+Galapagar is a town of 20,000 habitants. It is in Madrid. It has a warm climate in summer and cold in winter. It has several schools in the surroundings and two hospitals nearby. Its job situation is good enough. It has excellent connections, and the cost of living is 140 EUR a day. It is not close to the beach.
+
+Santander is a town of 170,000 habitants. It is in Cantabria. It has mild summers and cool winters. It has several schools in the surroundings and three hospitals nearby. Its job situation is fair. It has excellent connections, and the cost of living is 120 EUR a day. It is close to the beach.
+
+Segovia is a town of 55,000 habitants. It is in Castilla y León. It has a continental climate with cold winters and warm summers. It has several schools in the surroundings and two hospitals nearby. Its job situation is moderate. It has good connections, and the cost of living is 110 EUR a day. It is not close to the beach.
+
+Salou is a town of 27,000 habitants. It is in Tarragona. It has a Mediterranean climate with hot summers and mild winters. It has several schools in the surroundings and one hospital nearby. Its job situation is seasonal. It has good connections, and the cost of living is 130 EUR a day. It is close to the beach.
+
+Toledo is a town of 85,000 habitants. It is in Castilla-La Mancha. It has hot summers and cold winters. It has several schools in the surroundings and two hospitals nearby. Its job situation is fair. It has good connections, and the cost of living is 125 EUR a day. It is not close to the beach.
+
+Ávila is a town of 58,000 habitants. It is in Castilla y León. It has very cold winters and warm summers. It has several schools in the surroundings and one hospital nearby. Its job situation is moderate. It has good connections, and the cost of living is 110 EUR a day. It is not close to the beach.
+
+Lugo is a town of 97,000 habitants. It is in Galicia. It has cool and rainy weather throughout the year. It has several schools in the surroundings and two hospitals nearby. Its job situation is moderate. It has good connections, and the cost of living is 115 EUR a day. It is not close to the beach.
+
+Torrevieja is a town of 82,000 habitants. It is in Alicante. It has a warm Mediterranean climate. It has several schools in the surroundings and one hospital nearby. Its job situation is seasonal. It has good connections, and the cost of living is 135 EUR a day. It is close to the beach.
+
+Manresa is a town of 78,000 habitants. It is in Barcelona. It has warm summers and cool winters. It has several schools in the surroundings and two hospitals nearby. Its job situation is fair. It has excellent connections, and the cost of living is 140 EUR a day. It is not close to the beach.
+
+Mérida is a town of 60,000 habitants. It is in Extremadura. It has hot summers and mild winters. It has several schools in the surroundings and two hospitals nearby. Its job situation is fair. It has good connections, and the cost of living is 120 EUR a day. It is not close to the beach.
+
+Gandía is a town of 75,000 habitants. It is in Valencia. It has a Mediterranean climate with warm summers and mild winters. It has several schools in the surroundings and two hospitals nearby. Its job situation is seasonal. It has good connections, and the cost of living is 135 EUR a day. It is close to the beach.
+
+Cuenca is a town of 54,000 habitants. It is in Castilla-La Mancha. It has cold winters and warm summers. It has several schools in the surroundings and two hospitals nearby. Its job situation is moderate. It has good connections, and the cost of living is 115 EUR a day. It is not close to the beach.
+
+Ferrol is a town of 65,000 habitants. It is in Galicia. It has mild temperatures and frequent rain. It has several schools in the surroundings and one hospital nearby. Its job situation is moderate. It has good connections, and the cost of living is 110 EUR a day. It is close to the beach.
+
+Ronda is a town of 34,000 habitants. It is in Málaga. It has warm summers and mild winters. It has several schools in the surroundings and one hospital nearby. Its job situation is fair. It has good connections, and the cost of living is 120 EUR a day. It is not close to the beach.
+
+Palencia is a town of 79,000 habitants. It is in Castilla y León. It has cold winters and mild summers. It has several schools in the surroundings and two hospitals nearby. Its job situation is moderate. It has good connections, and the cost of living is 115 EUR a day. It is not close to the beach.
+
+Sanlúcar de Barrameda is a town of 69,000 habitants. It is in Cádiz. It has a warm climate with mild winters. It has several schools in the surroundings and one hospital nearby. Its job situation is seasonal. It has good connections, and the cost of living is 125 EUR a day. It is close to the beach.
+
+Cáceres is a town of 96,000 habitants. It is in Extremadura. It has hot summers and mild winters. It has several schools in the surroundings and two hospitals nearby. Its job situation is moderate. It has good connections, and the cost of living is 120 EUR a day. It is not close to the beach.
+
+Castellón de la Plana is a town of 171,000 habitants. It is in Valencia. It has a Mediterranean climate with warm summers and mild winters. It has several schools in the surroundings and three hospitals nearby. Its job situation is fair. It has good connections, and the cost of living is 130 EUR a day. It is close to the beach.
+
+Ponferrada is a town of 64,000 habitants. It is in Castilla y León. It has cold winters and warm summers. It has several schools in the surroundings and two hospitals nearby. Its job situation is moderate. It has good connections, and the cost of living is 115 EUR a day. It is not close to the beach.
+
+Estepona is a town of 70,000 habitants. It is in Málaga. It has warm summers and mild winters. It has several schools in the surroundings and one hospital nearby. Its job situation is seasonal. It has good connections, and the cost of living is 130 EUR a day. It is close to the beach.
