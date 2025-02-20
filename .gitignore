@@ -176,6 +176,9 @@ cython_debug/
 # vscode Stuff
 .vscode
 
+# PyCharm Stuff
+.idea/
+
 # Data 
 data/raw/
 data/large_files/
