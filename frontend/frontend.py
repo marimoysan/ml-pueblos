@@ -23,42 +23,37 @@ clusters = df["cluster_kmeans"].unique()
 # Create a row of columns; one column per card
 cols = st.columns(len(clusters))
 
-# Loop over each cluster and sample one town to display in a card
-for col, idx in zip(cols, clusters):
-    df_current = df.loc[df["cluster_kmeans"] == idx].sample(1)
-    # st.dataframe(df_current)
+# Initialize session state for storing dataframe values if not already present
+if "selected_villages" not in st.session_state:
+    st.session_state.setdefault("selected_villages", pd.DataFrame(columns=df.columns))
+    st.session_state.setdefault("counter", 0)
 
-    municipality = df_current.iloc[0]["municipality"]
-    population = df_current.iloc[0]["total_population"]
-    province = df_current.iloc[0]["province"]
+if st.session_state.counter <= 5:
+    st.session_state.counter += 1
 
-    with col:
-        card(
-            title=municipality,
-            text=f"Population: {population}  |  Province: {province}  |  Population: {population}",
-            on_click=lambda: st.write(f"Selected: {municipality}"),
-            styles={
-                "card": {
-                    "width": "auto",
-                    "height": "300px",
-                    "border-radius": "10px",
-                    "box-shadow": "0 2px 10px rgba(0,0,0,0.25)",
-                    "background-color": "#649AA7",
-                    "margin": "5px",
-                    "padding": "10px",
-                },
-                "text": {
-                    "font-family": "Arial",
-                    "color": "#FFF",
-                    "font-size": "12px",
-                    "text-align": "center",
-                },
-                "title": {
-                    "font-family": "Arial",
-                    "color": "#FFF",
-                    "font-size": "20px",
-                    "font-weight": "bold",
-                    "text-align": "center",
-                },
-            },
-        )
+    # Loop over each cluster and sample one town to display in a card
+    for col, idx in zip(cols, clusters):
+        df_current = df.loc[df["cluster_kmeans"] == idx].sample(1)
+        # st.dataframe(df_current)
+
+        municipality = df_current.iloc[0]["municipality"]
+        population = df_current.iloc[0]["total_population"]
+        province = df_current.iloc[0]["province"]
+
+        with col:
+            with st.form(str(idx)):
+                st.write(municipality)
+                # Every form must have a submit button.
+                submitted = st.form_submit_button("Submit")
+                if submitted:
+                    # Add the current row to the session state dataframe
+                    st.session_state.selected_villages = pd.concat(
+                        [st.session_state.selected_villages, df_current]
+                    )
+                    df_current.to_csv("../data/output/test.csv")
+
+else:
+    st.write("# Thank you for your preferences!")
+    # Display the selected villages
+    st.write("## Selected Villages")
+    st.dataframe(st.session_state.selected_villages)
