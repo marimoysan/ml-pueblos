@@ -28,10 +28,9 @@ if "selected_villages" not in st.session_state:
     st.session_state.setdefault("selected_villages", pd.DataFrame(columns=df.columns))
     st.session_state.setdefault("counter", 0)
 
-if st.session_state.counter <= 5:
+if st.session_state.counter < 5:
     st.session_state.counter += 1
 
-    # Loop over each cluster and sample one town to display in a card
     for col, idx in zip(cols, clusters):
         df_current = df.loc[df["cluster_kmeans"] == idx].sample(1)
         # st.dataframe(df_current)
@@ -39,12 +38,27 @@ if st.session_state.counter <= 5:
         municipality = df_current.iloc[0]["municipality"]
         population = df_current.iloc[0]["total_population"]
         province = df_current.iloc[0]["province"]
+        internet = df_current.iloc[0]["connectivity_category"]
+        climate = df_current.iloc[0]["description"]
 
         with col:
             with st.form(str(idx)):
-                st.write(municipality)
+                st.markdown(
+                    f"<u><b style='font-size: 18px'>{municipality}</b></u>",
+                    unsafe_allow_html=True,
+                )
+                st.write(f"Population: {population}")
+                st.write(f"Province: {province}")
+                st.write(f"Connectivity: {internet}")
+                st.write(f"Climate: {climate}")
                 # Every form must have a submit button.
-                submitted = st.form_submit_button("Submit")
+                submitted = st.form_submit_button("Choose")
+
+                ######## This is just a test ##################
+                ######## This is just a test ##################
+                ######## This is just a test ##################
+                ######## This is just a test ##################
+
                 if submitted:
                     # Add the current row to the session state dataframe
                     st.session_state.selected_villages = pd.concat(
