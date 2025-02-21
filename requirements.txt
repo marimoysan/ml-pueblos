@@ -17,6 +17,9 @@ mistralai
 langchain_mistralai
 langchain_community
 faiss-cpu
+nbstripout
+streamlit
+
 
 #altair==5.0.1
 #ipywidgets==8.0.6
