@@ -14,13 +14,13 @@ output_csv_path = "../data/output/selected_villages.csv"
 df = pd.read_csv(csv_path)
 
 # Get unique cluster IDs from the dataframe (assumes clusters are numeric)
-clusters = sorted(df["cluster_kmeans"].unique())
+cluster_ids = sorted(df["cluster_kmeans"].unique())
 
 
 # Function to load new samples
 def load_samples():
     samples = {}
-    for cl in clusters:
+    for cl in cluster_ids:
         samples[cl] = df.loc[df["cluster_kmeans"] == cl].sample(1)
     return samples
 
@@ -29,11 +29,11 @@ def load_samples():
 if "samples" not in st.session_state:
     st.session_state["samples"] = load_samples()
 
-# Create a row of columns—one for each cluster sample
-cols = st.columns(len(clusters))
+# Create a row of columns— one for each cluster sample
+cols = st.columns(len(cluster_ids))
 
 # Loop over each sample (keyed by cluster id)
-for cl, col in zip(clusters, cols):
+for cl, col in zip(cluster_ids, cols):
     # Retrieve the sample from session_state
     sample_df = st.session_state["samples"][cl]
     row = sample_df.iloc[0]
@@ -44,6 +44,7 @@ for cl, col in zip(clusters, cols):
     climate = row["description"]
 
     with col:
+        st.dataframe(st.session_state["samples"][cl])
         st.markdown(
             f"""<div style="border:1px solid #ccc; border-radius:8px; padding:16px; background-color:#f9f9f9">
             <h3 style="text-decoration:underline; font-size:18px;">{municipality}</h3>
@@ -56,8 +57,6 @@ for cl, col in zip(clusters, cols):
         )
         # Each card has its own selection button
         if st.button(f"Choose {municipality}", key=f"choose_{cl}"):
-            # Append the chosen sample to the output CSV file.
-            # Use header only if the file does not exist.
             sample_df.to_csv(
                 output_csv_path,
                 mode="a",
@@ -67,5 +66,4 @@ for cl, col in zip(clusters, cols):
             st.success(f"Appended {municipality} to CSV!")
             # Load new samples
             st.session_state["samples"] = load_samples()
-
-st.write("### Thank you for your preferences!")
+            st.rerun()
