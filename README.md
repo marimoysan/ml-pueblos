@@ -13,6 +13,13 @@ The added [requirements.txt file](requirements.txt) contains all libraries and d
 2. python3 unzip.py
 3. check data in data/
 
+### Run the Frontend
+
+1. got to frontend/
+2. streamlit frontend.py
+3. App should be available under localhost:8501
+
+## Python Installation
 
 ### **`macOS`** type the following commands : 
 
