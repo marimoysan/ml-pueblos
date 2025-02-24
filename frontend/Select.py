@@ -1,6 +1,7 @@
 import os
 import streamlit as st
 import pandas as pd
+import math
 
 st.set_page_config(
     page_title="Select Columns",
@@ -23,9 +24,6 @@ st.sidebar.success("Select Columns")
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 st.write("## Los Pueblos")
 
-import streamlit as st
-import math
-
 
 csv_path = "../data/processed/3_aggregated_pueblos.csv"
 df = pd.read_csv(csv_path)
@@ -46,10 +44,6 @@ for i in range(len(layout_cols)):
         for elem in chunks[i]:
             if st.checkbox(f"{elem}", key=elem):
                 st.session_state["df_select"][elem] = df[elem]
-
-
-# selections = st.multiselect("Choose Columns", list(df.columns), [])
-# st.write(selections)
 
 
 st.markdown("<br><br>", unsafe_allow_html=True)
