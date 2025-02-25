@@ -22,7 +22,7 @@ st.sidebar.success("Select Columns")
 
 # Set the working directory to the script's location and configure page
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
-st.write("## Los Pueblos")
+st.title("Los Pueblos")
 
 
 csv_path = "../data/processed/3_aggregated_pueblos.csv"
@@ -45,8 +45,7 @@ for i in range(len(layout_cols)):
             if st.checkbox(f"{elem}", key=elem):
                 st.session_state["df_select"][elem] = df[elem]
 
-
-st.markdown("<br><br>", unsafe_allow_html=True)
+st.markdown("---")
 if not st.session_state["df_select"].empty:
     st.dataframe(st.session_state["df_select"].sample(5))
 
