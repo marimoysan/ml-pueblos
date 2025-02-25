@@ -44,10 +44,13 @@ for i in range(len(layout_cols)):
         for elem in chunks[i]:
             if st.checkbox(f"{elem}", key=elem):
                 st.session_state["df_select"][elem] = df[elem]
+            else:
+                if elem in st.session_state["df_select"]:
+                    st.session_state["df_select"].drop(columns=[elem], inplace=True)
 
 st.markdown("---")
 if not st.session_state["df_select"].empty:
-    st.dataframe(st.session_state["df_select"].sample(5))
+    st.dataframe(st.session_state["df_select"])
 
 if st.button("Save DataFrame to CSV"):
     st.session_state["df_select"].to_csv("../data/output/streamlined.csv")

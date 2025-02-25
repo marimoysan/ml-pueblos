@@ -12,26 +12,24 @@ st.title("Feature Engineering")
 if "df_select" not in st.session_state:
     st.session_state["df_select"] = pd.DataFrame()
 
-st.session_state["df"] = pd.DataFrame()
+if "columns" not in st.session_state:
+    st.session_state["columns"] = pd.DataFrame()
 
 st.write("### Current DataFrame")
 st.write(st.session_state["df_select"])
 
-st.write("### Which columns should be transformed with OneHotEncoder?")
+st.write("### Which categorical columns should be transformed with OneHotEncoder?")
 
-columns = st.session_state["df_select"].columns.to_list()
+for elem in st.session_state["df_select"].columns.to_list():
+    checkbox_state = st.checkbox(f"{elem}", key=f"fe_{elem}")
+    if checkbox_state:
+        st.session_state["columns"][elem] = st.session_state["df_select"][elem]
+    else:
+        if elem in st.session_state["columns"]:
+            st.session_state["columns"].drop(columns=[elem], inplace=True)
 
-st.write(columns)
 
-layout_cols = st.columns(4)
-
-for i in columns:
-    if st.checkbox(f"{i}", key=i):
-        st.session_state["df"][i] = st.session_state["df_select"][i]
-
-st.markdown("<br><br>", unsafe_allow_html=True)
-if not st.session_state["df"].empty:
-    st.dataframe(st.session_state["df"].sample(5))
+st.write(st.session_state["columns"])
 
 if st.button("Save DataFrame to CSV"):
-    st.session_state["df"].to_csv("../data/output/streamlined.csv")
+    st.session_state["columns"].to_csv("../data/output/ohe_marked.csv")
