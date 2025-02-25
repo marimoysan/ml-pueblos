@@ -1,8 +1,5 @@
-import os
 import streamlit as st
 import pandas as pd
-import io
-import math
 
 st.set_page_config(page_title="Feature Engineering", page_icon="📈")
 st.sidebar.header("Feature Engineering")
@@ -18,6 +15,7 @@ if "columns" not in st.session_state:
 st.write("### Current DataFrame")
 st.write(st.session_state["df_select"])
 
+st.write("---")
 st.write("### Which categorical columns should be transformed with OneHotEncoder?")
 
 for elem in st.session_state["df_select"].columns.to_list():
