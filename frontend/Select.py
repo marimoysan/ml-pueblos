@@ -4,6 +4,8 @@ import pandas as pd
 import math
 from utils import remove_big_cities
 
+import streamlit as st
+
 st.set_page_config(
     page_title="Select Columns",
     page_icon="👋",
@@ -44,6 +46,17 @@ else:
     st.write(f"New shape: {df.shape}")
 
 st.markdown("---")
+
+# Define age group columns
+age_groups = ["0-17", "18-24", "25-34", "35-54", "55+"]
+
+# Sum only the age group columns
+df["total_population"] = df[age_groups].sum(axis=1)
+
+# Compute percentages for each age group
+for col in age_groups:
+    df[col + "_pct"] = (df[col] / df["total_population"]) * 100
+
 
 cb_show = st.checkbox(f"Show DataFrame")
 if cb_show:
