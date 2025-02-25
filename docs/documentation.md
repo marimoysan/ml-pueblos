@@ -1,5 +1,29 @@
 ## Data Sources  
 
+This project relies on various datasets to analyze municipalities, hospitals, and educational facilities across Spain. The raw data can be found in "../data/raw".
+
+The raw files have been processed, cleaned and standarized, and stored in "../data/processed" with the prefix "filtered_"
+
+
+Below are the main data sources used:
+
+| Raw file                  | Source                            | Notebook                            |Processed                            |
+|---------------------------|-----------------------------------|-----------------------------------|-----------------------------------|
+| 68542.csv        | age | |filtered_airports.csv |
+| connectivity_municipality.csv  | connectivity |          |filtered_airports.csv |
+| coordinates_towns_spain.csv | [Business Intelligence](https://www.businessintelligence.info/varios/longitud-latitud-pueblos-espana.html)    |
+| hospitals_spain.csv | [ArcGIS Hub](https://hub.arcgis.com/datasets/ComunidadSIG::hospitales-de-espa%C3%B1a/explore?location=34.913972%2C-6.829606%2C5.58)   |
+| industry.csv | industry                                 |  |filtered_airports.csv |
+| listado_completo_av_ld_md.csv| trains                                 |
+| population_towns.csv |[INE (Instituto Nacional de Estadística)](https://ine.es/dynt3/inebase/es/index.htm?padre=525) |                            | | |filtered_airports.csv |
+| pueblos_agoedores_rating.csv | pueblos acogedores                               |
+| rent_municipality.csv | rent                               |
+| spain_municipalities_climate_final.csv | climate                             | filtered_airports.csv |
+| spanish_airports.geojson | schools                                 | filtered_airports.csv |
+| spanish_schools.geojson | [ArcGIS Hub](https://hub.arcgis.com/datasets/1632db0c4f0848099f545e33b19c024d_0/explore)                                 | filtered_airports.csv |
+
+## Data & Features  
+
 This project relies on various datasets to analyze municipalities, hospitals, and educational facilities across Spain. Below are the main data sources used:
 
 | Category                  | Source                            |
@@ -10,9 +34,7 @@ This project relies on various datasets to analyze municipalities, hospitals, an
 | Educational Facilities     | Schools in Spain: [ArcGIS Hub](https://hub.arcgis.com/datasets/1632db0c4f0848099f545e33b19c024d_0/explore)     |
 | Climate Information        | -                                 |
 | Housing Prices             | Rent                                 |
-| Transport                  | Airports in Spain                                 |
-
-
+| Transport                  | Airports in Spain         
 
 ## Naming Standards
 
@@ -49,6 +71,22 @@ By using these standardized names, we ensure that the project maintains geograph
 | Navarra                             | Navarra                                                   |
 | La Rioja                            | La Rioja                                                  |
 | Comunidad Valenciana                | Alicante, Castellón, Valencia   
+
+
+
+## Scoring  
+
+This project relies on various datasets to analyze municipalities, hospitals, and educational facilities across Spain. Below are the main data sources used:
+
+| Category                  | Source                            |
+|---------------------------|-----------------------------------|
+| Demographic Data             | [INE (Instituto Nacional de Estadística)](https://ine.es/dynt3/inebase/es/index.htm?padre=525) |
+| Geographical Coordinates   | [Business Intelligence](https://www.businessintelligence.info/varios/longitud-latitud-pueblos-espana.html) |          |
+| Healthcare Facilities      | Hospitals in Spain: [ArcGIS Hub](https://hub.arcgis.com/datasets/ComunidadSIG::hospitales-de-espa%C3%B1a/explore?location=34.913972%2C-6.829606%2C5.58)   |
+| Educational Facilities     | Schools in Spain: [ArcGIS Hub](https://hub.arcgis.com/datasets/1632db0c4f0848099f545e33b19c024d_0/explore)     |
+| Climate Information        | -                                 |
+| Housing Prices             | Rent                                 |
+| Transport                  | Airports in Spain                                 |
 
 
 
