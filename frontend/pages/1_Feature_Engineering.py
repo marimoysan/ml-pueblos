@@ -15,6 +15,9 @@ if "columns" not in st.session_state:
 st.write("### Current DataFrame")
 st.write(st.session_state["df_select"])
 
+st.write(f"New shape:")
+st.write(st.session_state["df_select"].shape)
+
 st.write("---")
 st.write("### Which categorical columns should be transformed with OneHotEncoder?")
 
@@ -28,6 +31,8 @@ for elem in st.session_state["df_select"].columns.to_list():
 
 
 st.write(st.session_state["columns"])
+st.write(f"New shape:")
+st.write(st.session_state["df_select"].shape)
 
 if st.button("Save DataFrame to CSV"):
     st.session_state["columns"].to_csv("../data/output/ohe_marked.csv")

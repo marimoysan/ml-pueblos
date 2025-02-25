@@ -41,6 +41,9 @@ if is_small:
     st.write(f"New shape: {df.shape}")
 else:
     df = restore_df
+    st.write(f"New shape: {df.shape}")
+
+st.markdown("---")
 
 cb_show = st.checkbox(f"Show DataFrame")
 if cb_show:
@@ -70,4 +73,6 @@ if not st.session_state["df_select"].empty:
     st.write(st.session_state["df_select"].shape)
 
 if st.button("Save DataFrame to CSV"):
+    st.write(f"New shape:")
+    st.write(st.session_state["df_select"].shape)
     st.session_state["df_select"].to_csv("../data/output/streamlined.csv")
