@@ -29,11 +29,11 @@ st.set_page_config(page_title="Clustering", page_icon="✣")
 st.sidebar.header("Clustering")
 
 number_of_components = st.sidebar.slider(
-    "PCA components: ", min_value=1, max_value=10, value=7, step=1
+    "PCA components: ", min_value=2, max_value=10, value=4, step=1
 )
 
 number_of_clusters = st.sidebar.slider(
-    "Clusters: ", min_value=1, max_value=10, value=7, step=1
+    "Clusters: ", min_value=2, max_value=10, value=4, step=1
 )
 
 
@@ -83,6 +83,8 @@ st.dataframe(pca_df)
 st.write(f"New shape:")
 st.write(st.session_state["df_origin"].shape)
 st.dataframe(st.session_state["df_origin"])
-
 df_final = pd.concat([pca_df, st.session_state["df_origin"]], axis=1)
-df_final.to_csv("../../data/end-product-data/pueblos_recommender.csv")
+
+
+if st.button("Save DataFrame to CSV"):
+    df_final.to_csv("../../data/end-product-data/pueblos_recommender.csv")
