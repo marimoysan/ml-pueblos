@@ -88,4 +88,4 @@ if not st.session_state["df_select"].empty:
 if st.button("Save DataFrame to CSV"):
     st.write(f"New shape:")
     st.write(st.session_state["df_select"].shape)
-    st.session_state["df_select"].to_csv("../data/output/streamlined.csv")
+    st.session_state["df_select"].to_csv("../data/interim/streamlined.csv")
