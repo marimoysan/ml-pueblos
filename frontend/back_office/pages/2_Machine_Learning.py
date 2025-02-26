@@ -1,11 +1,9 @@
 import pandas as pd
 import numpy as np
-import seaborn as sns
-import plotly.express as px
 import matplotlib.pyplot as plt
 from sklearn.preprocessing import OneHotEncoder
 from sklearn.preprocessing import StandardScaler, MinMaxScaler
-from sklearn.pipeline import make_pipeline, Pipeline
+from sklearn.pipeline import Pipeline
 from sklearn.compose import ColumnTransformer
 import streamlit as st
 
@@ -17,8 +15,8 @@ plt.style.use(
 # Define default session state values
 default_session_state = {
     "df_select": pd.DataFrame(),
-    "columns": pd.DataFrame(),
-    "another_key": "default_value",
+    "df_cat_columns": pd.DataFrame(),
+    "df_train": pd.DataFrame(),
 }
 # Initialize session state
 for key, value in default_session_state.items():
@@ -30,7 +28,7 @@ st.sidebar.header("Machine Learning Demo")
 
 
 # Define categorical and numerical features based on the dataframe
-categorical_features = st.session_state["columns"].columns.to_list()
+categorical_features = st.session_state["df_cat_columns"].columns.to_list()
 numerical_features = (
     st.session_state["df_select"].select_dtypes(include=[np.number]).columns.tolist()
 )
@@ -44,12 +42,16 @@ fe_transformer = ColumnTransformer(
         ("transf_cat", pipeline, categorical_features),
         ("scaled", StandardScaler(), numerical_features),
     ],
-    remainder="passthrough",
+    remainder="drop",
 )
 
 # Fit the transformer to the dataframe
 fe_transformer.fit(st.session_state["df_select"])
+st.session_state["df_train"] = fe_transformer.transform(st.session_state["df_select"])
 
-df_train = fe_transformer.transform(st.session_state["df_select"])
+st.dataframe(st.session_state.df_train)
 
-st.dataframe(df_train)
+if st.button("Save DataFrame to CSV"):
+    pd.DataFrame(st.session_state["df_train"]).to_csv(
+        "../../data/interim/training_data.csv"
+    )

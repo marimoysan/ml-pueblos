@@ -32,18 +32,20 @@ csv_path = "../../data/processed/3_aggregated_pueblos.csv"
 df = pd.read_csv(csv_path)
 
 
-village_size = st.slider(
+village_size = st.sidebar.slider(
     "Village size: ", min_value=500, max_value=10000, value=6000, step=500
 )
 
-is_small = st.checkbox(f"Remove cities larger than {village_size} people?")
+is_small = st.sidebar.checkbox(
+    f"Remove cities larger than {village_size} people?", value=True
+)
 restore_df = df.copy()
 if is_small:
     df = remove_big_cities(df, village_size)
-    st.write(f"New shape: {df.shape}")
+    st.write(f"Shape: {df.shape}")
 else:
     df = restore_df
-    st.write(f"New shape: {df.shape}")
+    st.write(f"Shape: {df.shape}")
 
 st.markdown("---")
 
@@ -63,7 +65,7 @@ if cb_show:
     st.dataframe(df)
     st.write(f"New shape: {df.shape}")
 
-st.write("### Which columns would you like to incorporate for clustering?")
+st.write("### **Which columns would you like to incorporate for clustering?**")
 
 columns = df.columns.to_list()
 layout_cols = st.columns(3)
@@ -73,7 +75,7 @@ chunks = [columns[i : i + chunk_size] for i in range(0, len(columns), chunk_size
 for i in range(len(layout_cols)):
     with layout_cols[i]:
         for elem in chunks[i]:
-            if st.checkbox(f"{elem}", key=elem):
+            if st.checkbox(f"{elem}", key=elem, value=True):
                 st.session_state["df_select"][elem] = df[elem]
             else:
                 if elem in st.session_state["df_select"]:
