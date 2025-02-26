@@ -26,23 +26,26 @@ for key, value in default_session_state.items():
 st.set_page_config(page_title="Clustering", page_icon="✣")
 st.sidebar.header("Clustering")
 
-village_clusters = st.sidebar.slider(
+number_of_components = st.sidebar.slider(
     "PCA components: ", min_value=1, max_value=10, value=7, step=1
 )
 
-pca_columns = list(f"PC{i + 1}" for i in range(village_clusters))
+number_of_clusters = st.sidebar.slider(
+    "Clusters: ", min_value=1, max_value=10, value=7, step=1
+)
 
 
 st.title("Clustering")
 st.write(f"Shape: {st.session_state.df_train.shape}")
 
 # Initialize PCA
-pca = PCA(n_components=village_clusters)
+pca = PCA(n_components=number_of_components)
 
 # Apply PCA
 pca_result = pca.fit_transform(st.session_state.df_train)
 
 # Create a DataFrame with PCA results
+pca_columns = list(f"PC{i + 1}" for i in range(number_of_components))
 pca_df = pd.DataFrame(pca_result, columns=pca_columns)
 
 # Check explained variance
@@ -53,7 +56,7 @@ st.write("Total explained variance ratio:", total_explained_variance)
 
 
 # Initialize KMeans with desired number of clusters (e.g., 3)
-agg_cluster = AgglomerativeClustering(n_clusters=village_clusters, linkage="ward")
+agg_cluster = AgglomerativeClustering(n_clusters=number_of_clusters, linkage="ward")
 agg_cluster.fit_predict(st.session_state.df_train)
 
 # Get cluster labels

@@ -59,7 +59,6 @@ df["total_population"] = df[age_groups].sum(axis=1)
 for col in age_groups:
     df[col + "_pct"] = (df[col] / df["total_population"]) * 100
 
-
 cb_show = st.checkbox(f"Show DataFrame")
 if cb_show:
     st.dataframe(df)
@@ -72,10 +71,18 @@ layout_cols = st.columns(3)
 chunk_size = math.ceil(len(columns) / len(layout_cols))
 chunks = [columns[i : i + chunk_size] for i in range(0, len(columns), chunk_size)]
 
+selection_defaults = [
+    "province",
+    "total_population",
+    "koppen_climate",
+    "connectivity_category",
+    "economy_score",
+]
+
 for i in range(len(layout_cols)):
     with layout_cols[i]:
         for elem in chunks[i]:
-            if st.checkbox(f"{elem}", key=elem, value=True):
+            if st.checkbox(f"{elem}", key=elem, value=(elem in selection_defaults)):
                 st.session_state["df_select"][elem] = df[elem]
             else:
                 if elem in st.session_state["df_select"]:
