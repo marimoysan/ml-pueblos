@@ -50,7 +50,7 @@ if st.session_state.counter < 5:
         with col:
             # st.dataframe(st.session_state["samples"][cl])
             st.markdown(
-                f"""<div style="border:1px solid #ccc; height:350px; width: 240px; border-radius:8px; padding:16px; background-color:#f9f9f9">
+                f"""<div style="border:1px solid #ccc; color: black !important; height:350px; width: 240px; border-radius:8px; padding:16px; background-color:#f9f9f9 !important">
                 <h3 style="text-decoration:underline; font-size:16px;">{municipality}</h3>
                 <p>Population: {population}</p>
                 <p>Province: {province}</p>
@@ -65,7 +65,8 @@ if st.session_state.counter < 5:
                 <style>
                 div.stButton > button {
                     width: 240px;
-                    background: #f9f9f9
+                    background: #f9f9f9 !important;
+                    color: black !important;
                 }
                 </style>
                 """,
