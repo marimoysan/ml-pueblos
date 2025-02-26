@@ -83,6 +83,10 @@ st.dataframe(pca_df)
 st.write(f"New shape:")
 st.write(st.session_state["df_origin"].shape)
 st.dataframe(st.session_state["df_origin"])
+# Reset indices of both DataFrames before concatenation
+pca_df.reset_index(drop=True, inplace=True)
+st.session_state["df_origin"].reset_index(drop=True, inplace=True)
+
 df_final = pd.concat([pca_df, st.session_state["df_origin"]], axis=1)
 
 

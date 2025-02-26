@@ -96,6 +96,12 @@ if st.session_state.initial_run:
         "koppen_climate",
         "connectivity_category",
         "economy_score",
+        "final_age_category",
+        "town_size",
+        "economy_score_area",
+        "hospital_score_area",
+        "school_score_area",
+        "transport_score",
     ]
 else:
     selection_defaults = st.session_state["df_select"].columns.to_list()
