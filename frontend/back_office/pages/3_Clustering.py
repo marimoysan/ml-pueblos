@@ -85,4 +85,4 @@ st.write(st.session_state["df_origin"].shape)
 st.dataframe(st.session_state["df_origin"])
 
 df_final = pd.concat([pca_df, st.session_state["df_origin"]], axis=1)
-df_final.to_csv("../../../data/end-product-data/pueblos_recommender.csv")
+df_final.to_csv("../../data/end-product-data/pueblos_recommender.csv")
