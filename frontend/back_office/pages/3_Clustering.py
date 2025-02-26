@@ -14,8 +14,10 @@ from sklearn.decomposition import PCA
 
 default_session_state = {
     "df_select": pd.DataFrame(),
-    "df_columns": pd.DataFrame(),
+    "df_cat_columns": pd.DataFrame(),
     "df_train": pd.DataFrame(),
+    "df_origin": pd.DataFrame(),
+    "initial_run": False,
 }
 # Initialize session state
 for key, value in default_session_state.items():
@@ -49,8 +51,10 @@ pca_columns = list(f"PC{i + 1}" for i in range(number_of_components))
 pca_df = pd.DataFrame(pca_result, columns=pca_columns)
 
 # Check explained variance
-st.write(pca_columns)
-st.write("Explained variance ratio:", pca.explained_variance_ratio_)
+st.write(
+    "Explained variance ratio:",
+    ", ".join(map(lambda x: f"{x:.2f}", pca.explained_variance_ratio_)),
+)
 total_explained_variance = pca.explained_variance_ratio_.sum()
 st.write("Total explained variance ratio:", total_explained_variance)
 
@@ -62,8 +66,6 @@ agg_cluster.fit_predict(st.session_state.df_train)
 # Get cluster labels
 pca_df["cluster_agg"] = agg_cluster.labels_
 
-st.write(pca_df["cluster_agg"])
-
 fig = plt.figure(figsize=(8, 6))
 sns.scatterplot(x="PC1", y="PC2", hue="cluster_agg", data=pca_df, palette="Set2", s=60)
 plt.title("Agg Clustering on PCA-Reduced Data", fontsize=16)
@@ -71,3 +73,16 @@ plt.xlabel("Principal Component 1")
 plt.ylabel("Principal Component 2")
 plt.legend()
 st.pyplot(fig)
+
+
+st.write(f"New shape:")
+st.write(pca_df.shape)
+st.dataframe(pca_df)
+
+
+st.write(f"New shape:")
+st.write(st.session_state["df_origin"].shape)
+st.dataframe(st.session_state["df_origin"])
+
+df_final = pd.concat([pca_df, st.session_state["df_origin"]], axis=1)
+df_final.to_csv("../../../data/end-product-data/pueblos_recommender.csv")

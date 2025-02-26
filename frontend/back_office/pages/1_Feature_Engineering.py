@@ -7,11 +7,18 @@ st.sidebar.header("Feature Engineering")
 
 st.title("Feature Engineering")
 
-if "df_select" not in st.session_state:
-    st.session_state["df_select"] = pd.DataFrame()
+default_session_state = {
+    "df_select": pd.DataFrame(),
+    "df_cat_columns": pd.DataFrame(),
+    "df_train": pd.DataFrame(),
+    "df_origin": pd.DataFrame(),
+    "initial_run": False,
+}
+# Initialize session state
+for key, value in default_session_state.items():
+    if key not in st.session_state:
+        st.session_state[key] = value
 
-if "df_cat_columns" not in st.session_state:
-    st.session_state["df_cat_columns"] = pd.DataFrame()
 
 st.write("### Current DataFrame")
 st.write(st.session_state["df_select"])

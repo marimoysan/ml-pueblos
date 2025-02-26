@@ -12,11 +12,12 @@ pd.set_option("display.max_columns", None)
 plt.style.use(
     "https://github.com/dhaitz/matplotlib-stylesheets/raw/master/pitayasmoothie-light.mplstyle"
 )
-# Define default session state values
 default_session_state = {
     "df_select": pd.DataFrame(),
     "df_cat_columns": pd.DataFrame(),
     "df_train": pd.DataFrame(),
+    "df_origin": pd.DataFrame(),
+    "initial_run": False,
 }
 # Initialize session state
 for key, value in default_session_state.items():
