@@ -35,4 +35,4 @@ st.write(f"New shape:")
 st.write(st.session_state["df_select"].shape)
 
 if st.button("Save DataFrame to CSV"):
-    st.session_state["columns"].to_csv("../data/interim/ohe_marked.csv")
+    st.session_state["columns"].to_csv("../../data/interim/ohe_marked.csv")

@@ -44,7 +44,7 @@ fe_transformer = ColumnTransformer(
         ("transf_cat", pipeline, categorical_features),
         ("scaled", StandardScaler(), numerical_features),
     ],
-    remainder="drop",
+    remainder="passthrough",
 )
 
 # Fit the transformer to the dataframe

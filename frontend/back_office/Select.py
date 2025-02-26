@@ -28,7 +28,7 @@ os.chdir(os.path.dirname(os.path.abspath(__file__)))
 st.title("Los Pueblos")
 
 
-csv_path = "../data/processed/3_aggregated_pueblos.csv"
+csv_path = "../../data/processed/3_aggregated_pueblos.csv"
 df = pd.read_csv(csv_path)
 
 
@@ -88,4 +88,4 @@ if not st.session_state["df_select"].empty:
 if st.button("Save DataFrame to CSV"):
     st.write(f"New shape:")
     st.write(st.session_state["df_select"].shape)
-    st.session_state["df_select"].to_csv("../data/interim/streamlined.csv")
+    st.session_state["df_select"].to_csv("../../data/interim/streamlined.csv")

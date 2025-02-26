@@ -10,8 +10,8 @@ st.write("## Los Pueblos")
 st.text("Please select your preferred village")
 
 # CSV file path for input and output
-csv_path = "../data/end-product-data/pueblos_backoffice.csv"
-output_csv_path = f"../data/user_output/{uuid.uuid4().hex}.csv"
+csv_path = "../../data/end-product-data/pueblos_backoffice.csv"
+output_csv_path = f"../../data/user_output/{uuid.uuid4().hex}.csv"
 df = pd.read_csv(csv_path)
 
 # Get unique cluster IDs from the dataframe (assumes clusters are numeric)
@@ -73,7 +73,7 @@ if st.session_state.counter < 5:
                 unsafe_allow_html=True,
             )
             if st.button(f"Choose", key=f"choose_{cl}"):
-                # if st.button(f"Choose {municipality}", key=f"choose_{cl}"): 
+                # if st.button(f"Choose {municipality}", key=f"choose_{cl}"):
                 st.session_state.collected_df.append(sample_df)
                 # Load new samples
                 st.session_state["samples"] = load_samples()
