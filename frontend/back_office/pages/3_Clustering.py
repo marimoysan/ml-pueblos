@@ -87,8 +87,10 @@ st.dataframe(st.session_state["df_origin"])
 pca_df.reset_index(drop=True, inplace=True)
 st.session_state["df_origin"].reset_index(drop=True, inplace=True)
 
-df_final = pd.concat([pca_df, st.session_state["df_origin"]], axis=1)
+df_final = pd.concat([st.session_state["df_origin"], pca_df, st.session_state["df_train"]], axis=1)
 
+st.write("this is a df with everything we need")
+st.dataframe(df_final)
 
 if st.button("Save DataFrame to CSV"):
     df_final.to_csv("../../data/end-product-data/pueblos_recommender.csv")

@@ -48,7 +48,14 @@ fe_transformer = ColumnTransformer(
 
 # Fit the transformer to the dataframe
 fe_transformer.fit(st.session_state["df_select"])
-st.session_state["df_train"] = fe_transformer.transform(st.session_state["df_select"])
+df = pd.DataFrame(fe_transformer.transform(st.session_state["df_select"]))
+
+df.columns = ['enc_' + str(col) for col in df.columns]
+
+
+st.session_state["df_train"] = df
+
+
 
 st.dataframe(st.session_state.df_train)
 
