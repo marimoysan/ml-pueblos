@@ -94,3 +94,41 @@ def create_cluster_scatter_plot(pca_df, labels, title="Clustering on PCA-Reduced
     plt.legend()
 
     return fig
+
+
+
+import seaborn as sns
+import matplotlib.pyplot as plt
+import pandas as pd
+
+def create_cluster_pairplot(pca_df, labels, title="Pairplot of Clusters on PCA-Reduced Data"):
+    """
+    Creates a Seaborn pairplot of clusters on multiple PCA components.
+
+    Parameters:
+    -----------
+    pca_df : pandas.DataFrame
+        DataFrame containing PCA components.
+    labels : array-like
+        Cluster labels.
+    title : str
+        Title for the plot.
+
+    Returns:
+    --------
+    seaborn.axisgrid.PairGrid
+        The pairplot figure.
+    """
+    pca_with_clusters = pca_df.copy()
+    pca_with_clusters["cluster"] = labels  # Add cluster labels
+
+    # Create pairplot with hue as clusters
+    pairplot = sns.pairplot(pca_with_clusters, hue="cluster", palette="Set2", diag_kind="hist")
+
+    # Set title
+    pairplot.fig.suptitle(title, fontsize=16, y=1.02)
+
+    return pairplot
+
+
+

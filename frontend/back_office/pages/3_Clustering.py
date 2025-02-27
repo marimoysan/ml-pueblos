@@ -6,6 +6,7 @@ from clustering_utils import (
     perform_pca,
     perform_clustering,
     create_cluster_scatter_plot,
+    create_cluster_pairplot
 )
 
 # Setup page
@@ -56,6 +57,14 @@ cluster_plot = create_cluster_scatter_plot(
     pca_df, cluster_labels, f"{clustering_method} Clustering on PCA-Reduced Data"
 )
 st.pyplot(cluster_plot)
+
+
+st.write("---")
+pairplot = create_cluster_pairplot(pca_df, cluster_labels)
+st.pyplot(pairplot)
+
+st.write("---")
+
 
 # Display dataframes
 st.write(f"PCA DataFrame Shape: {pca_df.shape}")
