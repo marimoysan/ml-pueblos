@@ -1,24 +1,22 @@
 import pandas as pd
-import numpy as np
-import seaborn as sns
-import plotly.express as px
-import matplotlib.pyplot as plt
-from sklearn.preprocessing import OneHotEncoder
-from sklearn.preprocessing import StandardScaler, MinMaxScaler
-from sklearn.pipeline import Pipeline
-from sklearn.compose import ColumnTransformer
 import streamlit as st
-from sklearn.cluster import KMeans, DBSCAN, AgglomerativeClustering
-from sklearn.decomposition import PCA
 import datetime
 from session_state_manager import initialize_session_state
+from clustering_utils import (
+    perform_pca,
+    perform_clustering,
+    create_cluster_scatter_plot,
+)
 
-
+# Setup page
 st.set_page_config(page_title="Clustering", page_icon="✣")
-initialize_session_state()
-st.session_state["initial_run"] = False
 st.sidebar.header("Clustering")
 
+# Initialize state
+initialize_session_state()
+st.session_state["initial_run"] = False
+
+# Sidebar controls
 number_of_components = st.sidebar.slider(
     "PCA components: ", min_value=2, max_value=10, value=4, step=1
 )
@@ -27,54 +25,46 @@ number_of_clusters = st.sidebar.slider(
     "Clusters: ", min_value=2, max_value=10, value=4, step=1
 )
 
+clustering_method = st.sidebar.selectbox(
+    "Clustering Method", ["Agglomerative", "KMeans", "DBSCAN"], index=0
+)
 
 st.title("Clustering")
 st.write(f"Shape: {st.session_state.df_train.shape}")
 
-# Initialize PCA
-pca = PCA(n_components=number_of_components)
-
-# Apply PCA
-pca_result = pca.fit_transform(st.session_state.df_train)
-
-# Create a DataFrame with PCA results
-pca_columns = list(f"PC{i + 1}" for i in range(number_of_components))
-pca_df = pd.DataFrame(pca_result, columns=pca_columns)
-
-# Check explained variance
-st.write(
-    "Explained variance ratio:",
-    ", ".join(map(lambda x: f"{x:.2f}", pca.explained_variance_ratio_)),
+# Perform PCA
+pca_df, pca_model, explained_variance = perform_pca(
+    st.session_state.df_train, number_of_components
 )
-total_explained_variance = pca.explained_variance_ratio_.sum()
-st.write("Total explained variance ratio:", total_explained_variance)
 
+# Display PCA information
+st.write("Explained variance ratio:", ", ".join(f"{x:.2f}" for x in explained_variance))
+st.write("Total explained variance ratio:", explained_variance.sum())
 
-# Initialize KMeans with desired number of clusters (e.g., 3)
-agg_cluster = AgglomerativeClustering(n_clusters=number_of_clusters, linkage="ward")
-agg_cluster.fit_predict(st.session_state.df_train)
+# Perform clustering
+cluster_labels, cluster_model = perform_clustering(
+    st.session_state.df_train,
+    method=clustering_method.lower(),
+    n_clusters=number_of_clusters,
+)
 
-# Get cluster labels
-pca_df["cluster_agg"] = agg_cluster.labels_
+# Add cluster labels to PCA dataframe
+pca_df["cluster"] = cluster_labels
 
-fig = plt.figure(figsize=(8, 6))
-sns.scatterplot(x="PC1", y="PC2", hue="cluster_agg", data=pca_df, palette="Set2", s=60)
-plt.title("Agg Clustering on PCA-Reduced Data", fontsize=16)
-plt.xlabel("Principal Component 1")
-plt.ylabel("Principal Component 2")
-plt.legend()
-st.pyplot(fig)
+# Create and display the plot
+cluster_plot = create_cluster_scatter_plot(
+    pca_df, cluster_labels, f"{clustering_method} Clustering on PCA-Reduced Data"
+)
+st.pyplot(cluster_plot)
 
-
-st.write(f"New shape:")
-st.write(pca_df.shape)
+# Display dataframes
+st.write(f"PCA DataFrame Shape: {pca_df.shape}")
 st.dataframe(pca_df)
 
-
-st.write(f"New shape:")
-st.write(st.session_state["df_origin"].shape)
+st.write(f"Original DataFrame Shape: {st.session_state['df_origin'].shape}")
 st.dataframe(st.session_state["df_origin"])
-# Reset indices of both DataFrames before concatenation
+
+# Combine dataframes
 pca_df.reset_index(drop=True, inplace=True)
 st.session_state["df_origin"].reset_index(drop=True, inplace=True)
 
@@ -82,9 +72,10 @@ df_final = pd.concat(
     [st.session_state["df_origin"], pca_df, st.session_state["df_train"]], axis=1
 )
 
-st.write("this is a df with everything we need")
+st.write("Combined DataFrame")
 st.dataframe(df_final)
 
+# Save option
 if st.button("Save DataFrame to CSV"):
     timestamp = datetime.datetime.now().strftime("%d%m%Y_%H%M%S")
     filename = f"../../data/interim/pueblos_recommender_{timestamp}.csv"
