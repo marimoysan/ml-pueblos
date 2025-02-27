@@ -182,6 +182,7 @@ cython_debug/
 # Data 
 data/raw/
 data/large_files/
+data/interim/
 
 # MAC Stuff
 __MACOSX
