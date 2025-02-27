@@ -2,9 +2,9 @@ import os
 import streamlit as st
 import pandas as pd
 import math
-from utils import remove_big_cities
-
+from session_state_manager import initialize_session_state, reset_session_state
 import streamlit as st
+from utils import remove_big_cities, create_age_percentages
 
 st.set_page_config(
     page_title="Select Columns",
@@ -17,20 +17,7 @@ st.set_page_config(
     },
 )
 
-default_session_state = {
-    "df_select": pd.DataFrame(),
-    "df_cat_columns": pd.DataFrame(),
-    "df_train": pd.DataFrame(),
-    "df_origin": pd.DataFrame(),
-    "initial_run": True,
-}
-
-# Initialize session state
-for key, value in default_session_state.items():
-    if key not in st.session_state:
-        st.session_state[key] = value
-
-st.sidebar.success("Select Columns")
+initialize_session_state()
 
 # Set the working directory to the script's location and configure page
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
@@ -48,9 +35,10 @@ village_size = st.sidebar.slider(
 is_small = st.sidebar.checkbox(
     f"Remove cities larger than {village_size} people?", value=True
 )
+
 restore_df = st.session_state["df_origin"].copy()
+
 if is_small:
-    st.write("Is small")
     st.session_state["df_origin"] = remove_big_cities(
         st.session_state["df_origin"], village_size
     )
@@ -61,20 +49,7 @@ else:
 
 st.markdown("---")
 
-# Define age group columns
-age_groups = ["0-17", "18-24", "25-34", "35-54", "55+"]
-
-# Sum only the age group columns
-st.session_state["df_origin"]["total_population"] = st.session_state["df_origin"][
-    age_groups
-].sum(axis=1)
-
-# Compute percentages for each age group
-for col in age_groups:
-    st.session_state["df_origin"][col + "_pct"] = (
-        st.session_state["df_origin"][col]
-        / st.session_state["df_origin"]["total_population"]
-    ) * 100
+st.session_state["df_origin"] = create_age_percentages(st.session_state["df_origin"])
 
 cb_show = st.checkbox(f"Show DataFrame")
 if cb_show:
@@ -131,5 +106,3 @@ if not st.session_state["df_select"].empty:
 #     st.write(f"New shape:")
 #     st.write(st.session_state["df_select"].shape)
 #     st.session_state["df_select"].to_csv("../../data/interim/streamlined.csv")
-
-st.session_state.initial_run = False

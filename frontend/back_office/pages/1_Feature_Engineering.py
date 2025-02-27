@@ -1,24 +1,14 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
+from session_state_manager import initialize_session_state
 
 st.set_page_config(page_title="Feature Engineering", page_icon="📈")
+initialize_session_state()
+st.session_state["initial_run"] = False
+
 st.sidebar.header("Feature Engineering")
-
 st.title("Feature Engineering")
-
-default_session_state = {
-    "df_select": pd.DataFrame(),
-    "df_cat_columns": pd.DataFrame(),
-    "df_train": pd.DataFrame(),
-    "df_origin": pd.DataFrame(),
-    "initial_run": False,
-}
-# Initialize session state
-for key, value in default_session_state.items():
-    if key not in st.session_state:
-        st.session_state[key] = value
-
 
 st.write("### Current DataFrame")
 st.write(st.session_state["df_select"])
@@ -47,6 +37,3 @@ for elem in categorical_columns:
 st.write(st.session_state["df_cat_columns"])
 st.write(f"New shape:")
 st.write(st.session_state["df_select"].shape)
-
-# if st.button("Save DataFrame to CSV"):
-#     st.session_state["df_cat_columns"].to_csv("../../data/interim/ohe_marked.csv")

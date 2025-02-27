@@ -11,22 +11,12 @@ import streamlit as st
 from sklearn.cluster import KMeans, DBSCAN, AgglomerativeClustering
 from sklearn.decomposition import PCA
 import datetime
-
-
-default_session_state = {
-    "df_select": pd.DataFrame(),
-    "df_cat_columns": pd.DataFrame(),
-    "df_train": pd.DataFrame(),
-    "df_origin": pd.DataFrame(),
-    "initial_run": False,
-}
-# Initialize session state
-for key, value in default_session_state.items():
-    if key not in st.session_state:
-        st.session_state[key] = value
+from session_state_manager import initialize_session_state
 
 
 st.set_page_config(page_title="Clustering", page_icon="✣")
+initialize_session_state()
+st.session_state["initial_run"] = False
 st.sidebar.header("Clustering")
 
 number_of_components = st.sidebar.slider(
