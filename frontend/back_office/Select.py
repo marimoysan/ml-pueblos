@@ -37,7 +37,7 @@ os.chdir(os.path.dirname(os.path.abspath(__file__)))
 st.title("Los Pueblos")
 
 
-csv_path = "../../data/end-product-data/pueblos_input.csv"
+csv_path = "../../data/end-product-data/input_clusterer.csv"
 st.session_state["df_origin"] = pd.read_csv(csv_path)
 
 
@@ -127,9 +127,9 @@ if not st.session_state["df_select"].empty:
     st.write(f"New shape:")
     st.write(st.session_state["df_select"].shape)
 
-if st.button("Save DataFrame to CSV"):
-    st.write(f"New shape:")
-    st.write(st.session_state["df_select"].shape)
-    st.session_state["df_select"].to_csv("../../data/interim/streamlined.csv")
+# if st.button("Save DataFrame to CSV"):
+#     st.write(f"New shape:")
+#     st.write(st.session_state["df_select"].shape)
+#     st.session_state["df_select"].to_csv("../../data/interim/streamlined.csv")
 
 st.session_state.initial_run = False

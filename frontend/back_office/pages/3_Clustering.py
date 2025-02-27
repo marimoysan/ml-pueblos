@@ -10,6 +10,7 @@ from sklearn.compose import ColumnTransformer
 import streamlit as st
 from sklearn.cluster import KMeans, DBSCAN, AgglomerativeClustering
 from sklearn.decomposition import PCA
+import datetime
 
 
 default_session_state = {
@@ -87,10 +88,15 @@ st.dataframe(st.session_state["df_origin"])
 pca_df.reset_index(drop=True, inplace=True)
 st.session_state["df_origin"].reset_index(drop=True, inplace=True)
 
-df_final = pd.concat([st.session_state["df_origin"], pca_df, st.session_state["df_train"]], axis=1)
+df_final = pd.concat(
+    [st.session_state["df_origin"], pca_df, st.session_state["df_train"]], axis=1
+)
 
 st.write("this is a df with everything we need")
 st.dataframe(df_final)
 
 if st.button("Save DataFrame to CSV"):
-    df_final.to_csv("../../data/end-product-data/pueblos_recommender.csv")
+    timestamp = datetime.datetime.now().strftime("%d%m%Y_%H%M%S")
+    filename = f"../../data/interim/pueblos_recommender_{timestamp}.csv"
+    df_final.to_csv(filename)
+    st.write(f"DataFrame saved to {filename}")

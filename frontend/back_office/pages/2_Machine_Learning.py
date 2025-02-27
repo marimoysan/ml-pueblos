@@ -50,16 +50,15 @@ fe_transformer = ColumnTransformer(
 fe_transformer.fit(st.session_state["df_select"])
 df = pd.DataFrame(fe_transformer.transform(st.session_state["df_select"]))
 
-df.columns = ['enc_' + str(col) for col in df.columns]
+df.columns = ["enc_" + str(col) for col in df.columns]
 
 
 st.session_state["df_train"] = df
 
 
-
 st.dataframe(st.session_state.df_train)
 
-if st.button("Save DataFrame to CSV"):
-    pd.DataFrame(st.session_state["df_train"]).to_csv(
-        "../../data/interim/training_data.csv"
-    )
+# if st.button("Save DataFrame to CSV"):
+#     pd.DataFrame(st.session_state["df_train"]).to_csv(
+#         "../../data/interim/training_data.csv"
+#     )
