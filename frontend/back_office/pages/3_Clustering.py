@@ -87,6 +87,7 @@ st.dataframe(df_final)
 # Save option
 if st.button("Save DataFrame to CSV"):
     timestamp = datetime.datetime.now().strftime("%d%m%Y_%H%M%S")
-    filename = f"../../data/interim/pueblos_recommender_{timestamp}.csv"
+    filename = f"../../data/interim/pueblos_recommender.csv"
+    # filename = f"../../data/interim/pueblos_recommender_{timestamp}.csv"
     df_final.to_csv(filename, index=False)
     st.write(f"DataFrame saved to {filename}")

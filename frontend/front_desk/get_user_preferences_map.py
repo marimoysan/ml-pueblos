@@ -6,38 +6,39 @@ import numpy as np
 import random
 import uuid
 
+
 def show():
-    menu_items={
+    menu_items = (
+        {
             "Get Help": "https://www.extremelycoolapp.com/help",
             "Report a bug": "https://www.extremelycoolapp.com/bug",
             "About": "# This is a header. This is an *extremely* cool app!",
-        }, 
-    
+        },
+    )
+
     # CSV file path for input and output
     # csv_path = "../../data/end-product-data/pueblos_backoffice.csv"
-    csv_path = "../../data/end-product-data/pueblos_recommender.csv" ## we would change it to original_df + onehote...
+    csv_path = "../../data/interim/pueblos_recommender.csv"  ## we would change it to original_df + onehote...
     output_csv_path = f"../../data/user_output/{uuid.uuid4().hex}.csv"
 
     df = pd.read_csv(csv_path)
 
     if "output_path" not in st.session_state:
         st.session_state["output_path"] = output_csv_path
-    
 
     st.write(st.session_state["output_path"])
     st.write("## So, if you would have these options, where would you like to live?")
     st.text("Think carefully...")
 
     # Get unique cluster IDs from the dataframe (assumes clusters are numeric)
-    cluster_ids = sorted(df["cluster_agg"].unique())
+    cluster_ids = sorted(df["cluster"].unique())
 
     # Function to load new samples
     def load_samples():
         samples = {}
         for cl in cluster_ids:
-            samples[cl] = df.loc[df["cluster_agg"] == cl].sample(1)
+            samples[cl] = df.loc[df["cluster"] == cl].sample(1)
         return samples
-
 
     # Create samples only once and store in session_state to avoid re-sampling on every run.
     if "samples" not in st.session_state:
@@ -45,7 +46,9 @@ def show():
         st.session_state.collected_df = []
         st.session_state["counter"] = 0
 
-    options_samples = pd.concat(list(st.session_state["samples"].values()), ignore_index=True)
+    options_samples = pd.concat(
+        list(st.session_state["samples"].values()), ignore_index=True
+    )
 
     # Define the map layer
     scatter_options = pdk.Layer(
@@ -59,13 +62,13 @@ def show():
 
     # define the initial view state for Spain (Peninsula)
     view_state = pdk.ViewState(
-        latitude=40.0,    # Center over Spain
-        longitude=-3.5,   # Near Madrid for a balanced view
-        zoom=5,           # Zoom level to fit all of Spain
-        min_zoom =5,
-        max_zoom = 5,
-        pitch=0,          # Top-down view
-        draggable = False
+        latitude=40.0,  # Center over Spain
+        longitude=-3.5,  # Near Madrid for a balanced view
+        zoom=5,  # Zoom level to fit all of Spain
+        min_zoom=5,
+        max_zoom=5,
+        pitch=0,  # Top-down view
+        draggable=False,
     )
 
     # Define tooltips with more details
@@ -83,18 +86,19 @@ def show():
             "backgroundColor": "white",
             "color": "black",
             "padding": "10px",
-            "borderRadius": "8px"
-        }
+            "borderRadius": "8px",
+        },
     }
 
-
     # Create the pydeck chart
-    st.pydeck_chart(pdk.Deck(
-        layers=[scatter_options],
-        initial_view_state=view_state,
-        tooltip=tooltip,
-        map_style="mapbox://styles/mapbox/light-v9",  # Change map style (light, dark, satellite, etc.)
-    ))
+    st.pydeck_chart(
+        pdk.Deck(
+            layers=[scatter_options],
+            initial_view_state=view_state,
+            tooltip=tooltip,
+            map_style="mapbox://styles/mapbox/light-v9",  # Change map style (light, dark, satellite, etc.)
+        )
+    )
 
     # Create a row of columns— one for each cluster sample
     cols = st.columns(len(cluster_ids))
@@ -110,9 +114,8 @@ def show():
             province = row["province"]
             connectivity = row["connectivity_category"]
             climate = row["description"]
-                
 
-            with col:               
+            with col:
                 # Each card has its own selection button
                 st.markdown(
                     """
@@ -135,22 +138,17 @@ def show():
                     st.session_state.counter += 1
                     st.rerun()
 
-
-
     else:
-            pd.concat(st.session_state.collected_df, ignore_index=True).to_csv(
+        pd.concat(st.session_state.collected_df, ignore_index=True).to_csv(
             st.session_state.output_path,
             mode="a",
             index=False,
             header=not os.path.exists(output_csv_path),
         )
-            st.write("thanks")
-            st.session_state.page = "get_recommendations"
-            st.rerun()  # Reload the app to show the main page
+        st.write("thanks")
+        st.session_state.page = "get_recommendations"
+        st.rerun()  # Reload the app to show the main page
 
 
 ## user selection:
- # five rows with 5 selected towns. original data + ohe
-
-
-
+# five rows with 5 selected towns. original data + ohe
