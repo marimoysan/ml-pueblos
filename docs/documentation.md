@@ -7,6 +7,21 @@ The raw files have been processed, cleaned and standarized, and stored in "../da
 
 Below are the main data sources used:
 
+| Notebook                  | Raw Files (source)                | Processed                         |
+|---------------------------|-----------------------------------|-----------------------------------|
+|  Transport: eda_transport.ipynb  |  Airports Coordinates [ArgisHUB]; Airports Traffic (WIKI); Trains (Ministry of transport)   | filtered_airports.csv, filtered_trains.csv        |
+|  Transport: eda_transport.ipynb  |  Airports Coordinates [ArgisHUB]; Airports Traffic (WIKI); Trains (Ministry of transport)   | filtered_airports.csv, filtered_trains.csv        |
+|  Transport: eda_transport.ipynb  |  Airports Coordinates [ArgisHUB]; Airports Traffic (WIKI); Trains (Ministry of transport)   | filtered_airports.csv, filtered_trains.csv        |
+|  Transport: eda_transport.ipynb  |  Airports Coordinates [ArgisHUB]; Airports Traffic (WIKI); Trains (Ministry of transport)   | filtered_airports.csv, filtered_trains.csv        |
+|  Transport: eda_transport.ipynb  |  Airports Coordinates [ArgisHUB]; Airports Traffic (WIKI); Trains (Ministry of transport)   | filtered_airports.csv, filtered_trains.csv        |
+
+
+
+
+
+
+
+
 | Raw file                  | Source                            | Notebook                            |Processed                            |
 |---------------------------|-----------------------------------|-----------------------------------|-----------------------------------|
 | 68542.csv        | age | |filtered_airports.csv |
