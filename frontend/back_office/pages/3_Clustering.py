@@ -6,7 +6,7 @@ from clustering_utils import (
     perform_pca,
     perform_clustering,
     create_cluster_scatter_plot,
-    create_cluster_pairplot
+    create_cluster_pairplot,
 )
 
 # Setup page
@@ -88,5 +88,5 @@ st.dataframe(df_final)
 if st.button("Save DataFrame to CSV"):
     timestamp = datetime.datetime.now().strftime("%d%m%Y_%H%M%S")
     filename = f"../../data/interim/pueblos_recommender_{timestamp}.csv"
-    df_final.to_csv(filename)
+    df_final.to_csv(filename, index=False)
     st.write(f"DataFrame saved to {filename}")
