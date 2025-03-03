@@ -9,8 +9,9 @@ Below are the main data sources used:
 
 | Notebook                  | Raw Files (source)                | Processed                         |
 |---------------------------|-----------------------------------|-----------------------------------|
-|  Transport: eda_transport.ipynb  |  Airports Coordinates [ArgisHUB]; Airports Traffic (WIKI); Trains (Ministry of transport)   | filtered_airports.csv, filtered_trains.csv        |
-|  Transport: eda_transport.ipynb  |  Airports Coordinates [ArgisHUB]; Airports Traffic (WIKI); Trains (Ministry of transport)   | filtered_airports.csv, filtered_trains.csv        |
+|  Main Info: `eda_municipalities_coordinates.ipynb`  |  [INE (Instituto Nacional de Estadística)](https://ine.es/dynt3/inebase/es/index.htm?padre=525) </br>  [Business Intelligence](https://www.businessintelligence.info/varios/longitud-latitud-pueblos-espana.html) | `filtered_municipalities.csv`      |
+|  Demographics: `eda_demographics.ipynb`  |  [INE (Instituto Nacional de Estadística)](https://ine.es/jaxi/Tabla.htm?path=/t20/e244/avance/p02/l0/&file=1mun00.px&L=0)   | `filtered_demographics.csv`    |
+|  Transport: `eda_transport.ipynb`  |  Airports Coordinates [ArgisHUB]; Airports Traffic (WIKI); Trains (Ministry of transport)   | `filtered_airports.csv`, `filtered_trains.csv`        |
 |  Transport: eda_transport.ipynb  |  Airports Coordinates [ArgisHUB]; Airports Traffic (WIKI); Trains (Ministry of transport)   | filtered_airports.csv, filtered_trains.csv        |
 |  Transport: eda_transport.ipynb  |  Airports Coordinates [ArgisHUB]; Airports Traffic (WIKI); Trains (Ministry of transport)   | filtered_airports.csv, filtered_trains.csv        |
 |  Transport: eda_transport.ipynb  |  Airports Coordinates [ArgisHUB]; Airports Traffic (WIKI); Trains (Ministry of transport)   | filtered_airports.csv, filtered_trains.csv        |
@@ -26,7 +27,7 @@ Below are the main data sources used:
 |---------------------------|-----------------------------------|-----------------------------------|-----------------------------------|
 | 68542.csv        | age | |filtered_airports.csv |
 | connectivity_municipality.csv  | connectivity |          |filtered_airports.csv |
-| coordinates_towns_spain.csv | [Business Intelligence](https://www.businessintelligence.info/varios/longitud-latitud-pueblos-espana.html)    |
+| coordinates_towns_spain.csv | [Business Intelligence](https://www.businessintelligence.info/varios/longitud-latitud-pueblos-espana.html),  [Business Intelligence](https://www.businessintelligence.info/varios/longitud-latitud-pueblos-espana.html)    |
 | hospitals_spain.csv | [ArcGIS Hub](https://hub.arcgis.com/datasets/ComunidadSIG::hospitales-de-espa%C3%B1a/explore?location=34.913972%2C-6.829606%2C5.58)   |
 | industry.csv | industry                                 |  |filtered_airports.csv |
 | listado_completo_av_ld_md.csv| trains                                 |
