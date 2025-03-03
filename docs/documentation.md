@@ -22,7 +22,7 @@ Below are the main data sources and the cleaned (filtered) outcomes:
 
 </br>
 
-# 2. Aggregation and Feature Engineering
+# 2. Aggregation
 
 ## 2.1. Distances (Airports, Trains, Schools and Hospitals)
 
@@ -43,12 +43,12 @@ Al the processed data sets can be found in `"../noteboks/no_process/all_datasets
 | `aggregation.ipynb`  | All files contained in the `filtered_files` folder are added to the aggregation notebook for merging on "cmun". Out of this notebook we get a dataframe that includes all available clean data form our raw sources, without any feature engineering.  | The file can be found with the rest of processed data as `../data/processed/aggregated_pueblos.csv`|
 
 
-## 2.3. Feature Engineering
+# 3. Feature Engineering
 
 We have left out the islands for the MVP, as distance calculation was not accurate enough. 
 
 
-### 1. Population
+## 3.1. Population
 
 After calculating the outliers of the total population, we have left out all cities over 6000 habitants. (Cities bigger than 20000 habitants that can be found in file `../data/processed/split_cities.csv`, as they can be used as a feature for pueblos)
 
@@ -60,15 +60,15 @@ After calculating the outliers of the total population, we have left out all cit
  *  **Very Small** (less than 100) 
  
 
-### 2. Connectivity
+## 3.2. Connectivity
 
  `connectivity_score`:
 
 | **Factor**            | **New Weight (%)** | **Reasoning** |
 |-----------------------|-------------------|--------------|
-| ftth               | **50%**            | Fiber is the most important for stable, high-speed connectivity. |
-| reception_100mbps  | **35%**            | Ensures fast broadband availability, even if not fiber. |
-| 4g                | **15%**            | Still essential for mobile broadband, but not the primary factor. |
+| *ftth*               | **50%**            | Fiber is the most important for stable, high-speed connectivity. |
+| *reception_100mbps*  | **35%**            | Ensures fast broadband availability, even if not fiber. |
+| *4g*                | **15%**            | Still essential for mobile broadband, but not the primary factor. |
 
 </br>
 
@@ -83,11 +83,11 @@ After calculating the outliers of the total population, we have left out all cit
 
 
 
-### 3. Industry
+## 3.3. Industry
 
  `economy_score`:
 
-| **Factor**                      | **New Weight (%)** | **Revised Reasoning** |
+| **Factor**                      | **New Weight (%)** | **Reasoning** |
 |--------------------------------|-------------------|------------------|
 | *n_industry*               | **25%**            | The industrial sector is a major driver of economic output, employment, and local business ecosystems, especially in manufacturing-heavy towns. |
 | *n_construction*             | **10%**            | Construction supports economic growth by enabling infrastructure development, but it is more cyclical and often depends on external investments. |
