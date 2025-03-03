@@ -11,7 +11,7 @@ Below are the main data sources used:
 |---------------------------|-----------------------------------|-----------------------------------|
 |  Main Info: `eda_municipalities_coordinates.ipynb`  |  [INE (Instituto Nacional de Estadística)](https://ine.es/dynt3/inebase/es/index.htm?padre=525) </br>  [Business Intelligence](https://www.businessintelligence.info/varios/longitud-latitud-pueblos-espana.html) | `filtered_municipalities.csv`      |
 |  Demographics: `eda_demographics.ipynb`  |  [INE (Instituto Nacional de Estadística)](https://ine.es/jaxi/Tabla.htm?path=/t20/e244/avance/p02/l0/&file=1mun00.px&L=0)   | `filtered_demographics.csv`    |
-|  Transport: `eda_transport.ipynb`  |  Airports Coordinates [ArgisHUB]; Airports Traffic (WIKI); Trains (Ministry of transport)   | `filtered_airports.csv`, `filtered_trains.csv`        |
+|  Transport: `eda_transport.ipynb`  |  Airports Coordinates [ArgisHUB]; Airports Traffic (WIKI); Trains (Ministry of transport)   | `filtered_airports.csv`, `filtered_trains.csv`, `filtered_regional_trains.csv`        |
 |  Transport: eda_transport.ipynb  |  Airports Coordinates [ArgisHUB]; Airports Traffic (WIKI); Trains (Ministry of transport)   | filtered_airports.csv, filtered_trains.csv        |
 |  Transport: eda_transport.ipynb  |  Airports Coordinates [ArgisHUB]; Airports Traffic (WIKI); Trains (Ministry of transport)   | filtered_airports.csv, filtered_trains.csv        |
 |  Transport: eda_transport.ipynb  |  Airports Coordinates [ArgisHUB]; Airports Traffic (WIKI); Trains (Ministry of transport)   | filtered_airports.csv, filtered_trains.csv        |
