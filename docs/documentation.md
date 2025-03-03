@@ -40,10 +40,68 @@ Al the processed data sets can be found in `"../noteboks/no_process/all_datasets
 
 | Notebook                  | Comments| |
 |---------------------------|-----------------------------------|----------------------|
-| `aggregation.ipynb`  | All files contained in the `filtered_files` folder are added to the aggregation notebook for merging on "cmun". Out of this notebook we get a dataframe that includes all available clean data form our raw sources, without any feature engineering.  | The file can be found with the rest of processed data as `"../data/processed/aggregated_pueblos.csv"`|
+| `aggregation.ipynb`  | All files contained in the `filtered_files` folder are added to the aggregation notebook for merging on "cmun". Out of this notebook we get a dataframe that includes all available clean data form our raw sources, without any feature engineering.  | The file can be found with the rest of processed data as `../data/processed/aggregated_pueblos.csv`|
 
 
 ## 2.3. Feature Engineering
+
+We have left out the islands for the MVP, as distance calculation was not accurate enough. 
+
+
+### 1. Population
+
+After calculating the outliers of the total population, we have left out all cities over 6000 habitants. (Cities bigger than 20000 habitants that can be found in file `../data/processed/split_cities.csv`, as they can be used as a feature for pueblos)
+
+ `town_size`:
+ 
+ *  **Big** (>3000), 
+ *  **Medium** (between 500 and 3000), 
+ *  **Small** (between 100 and 300), 
+ *  **Very Small** (less than 100) 
+ 
+
+### 2. Connectivity
+
+ `connectivity_score`:
+
+| **Factor**            | **New Weight (%)** | **Reasoning** |
+|-----------------------|-------------------|--------------|
+| ftth               | **50%**            | Fiber is the most important for stable, high-speed connectivity. |
+| reception_100mbps  | **35%**            | Ensures fast broadband availability, even if not fiber. |
+| 4g                | **15%**            | Still essential for mobile broadband, but not the primary factor. |
+
+</br>
+
+ `connectivity_category`:
+| **Score Range**  | **Category**          | **Description** |
+|------------------|----------------------|----------------|
+| **80 - 100**     | **Excellent**         | Strong fiber coverage and high-speed internet. |
+| **60 - 79**      | **Good**              | Decent broadband with fiber or high-speed non-fiber options. |
+| **40 - 59**      | **Moderate**          | Some high-speed coverage, but fiber may be limited. |
+| **20 - 39**      | **Weak**              | Basic connectivity with limited high-speed access. |
+| **0 - 19**       | **Poor**              | Very poor or no access to high-speed internet. |
+
+
+
+### 3. Industry
+
+ `economy_score`:
+
+| **Factor**                      | **New Weight (%)** | **Revised Reasoning** |
+|--------------------------------|-------------------|------------------|
+| *n_industry*               | **25%**            | The industrial sector is a major driver of economic output, employment, and local business ecosystems, especially in manufacturing-heavy towns. |
+| *n_construction*             | **10%**            | Construction supports economic growth by enabling infrastructure development, but it is more cyclical and often depends on external investments. |
+| *n_info_communications*      | **10%**            | The tech and communications sector is growing in importance, driving innovation, high-income jobs, and business services. |
+| *n_financial_insurance*      | **10%**            | Financial services provide stability, capital, and investment to other sectors, but their direct impact on local economies varies. |
+| *n_real_estate*              | **10%**            | The real estate sector reflects economic health through property development, market demand, and wealth accumulation. |
+| *n_professional_technical*   | **15%**            | This sector includes consulting, R&D, and high-skilled jobs, contributing significantly to knowledge-based economies. |
+| *n_education_health_social*  | **15%**            | Essential for workforce development, healthcare access, and social stability, making it a critical economic pillar. |
+| *n_other*                   | **5%**            | A mix of various industries with a less direct but still relevant economic impact. |
+
+
+ `economy_score_area`:
+
+We calculate the towns in the vicinity (within a 40km raidus) and calculate the average economy_score of all towns in vicinity. 
 
 
 </br>
