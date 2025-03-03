@@ -1,6 +1,5 @@
 import streamlit as st
 import welcome
-import get_user_preferences
 import get_user_preferences_map
 import recommendations
 import os
@@ -10,7 +9,7 @@ st.set_page_config(
     page_title="Pueblos",
     page_icon="🌾",
     initial_sidebar_state="expanded",
-    layout= "wide",
+    layout="wide",
     menu_items={
         "Get Help": "https://www.extremelycoolapp.com/help",
         "Report a bug": "https://www.extremelycoolapp.com/bug",
@@ -18,7 +17,7 @@ st.set_page_config(
     },
 )
 
-os.chdir(os.path.dirname(os.path.abspath(__file__)))     
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 
 # Initialize session state for navigation

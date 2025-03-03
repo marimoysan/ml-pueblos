@@ -24,7 +24,7 @@ os.chdir(os.path.dirname(os.path.abspath(__file__)))
 st.title("Los Pueblos")
 
 
-csv_path = "../../data/end-product-data/input_clusterer.csv"
+csv_path = "../../data/end_product_data/input_clusterer.csv"
 
 # TODO only taking a fraction of the df for now
 

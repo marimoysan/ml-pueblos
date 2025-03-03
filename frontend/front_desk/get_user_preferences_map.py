@@ -18,7 +18,7 @@ def show():
 
     # CSV file path for input and output
     # csv_path = "../../data/end-product-data/pueblos_backoffice.csv"
-    csv_path = "../../data/interim/pueblos_recommender.csv"  ## we would change it to original_df + onehote...
+    csv_path = "../../data/end_product_data/pueblos_recommender.csv"  ## we would change it to original_df + onehote...
     output_csv_path = f"../../data/user_output/{uuid.uuid4().hex}.csv"
 
     df = pd.read_csv(csv_path)
