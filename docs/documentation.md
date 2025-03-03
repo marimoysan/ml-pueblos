@@ -28,7 +28,7 @@ Below are the main data sources and the cleaned (filtered) outcomes:
 
 | Notebook                  | Comments                | Processed                         |
 |---------------------------|-----------------------------------|-----------------------------------|
-|  `CAREFUL_accessibility_eda.ipynb`  | This document calculates the distance from each town to the nearest hospital and the nearest school. The results will be used in subsequent analyses. </br> **Important Note:** Running this calculation is time-consuming, so execute it with caution. | --> out of this notebook we get a dataframe that includes all available data form our raw sources, without any feature engineering. The file can be found with the rest of filtered data as `filtered_distances.csv`      |
+|  `CAREFUL_accessibility_eda.ipynb`  | This document calculates the distance from each town to the nearest hospital and the nearest school. The results will be used in subsequent analyses. </br> **Important Note:** Running this calculation is time-consuming, so execute it with caution. |  `filtered_distances.csv`      |
 
 
  
@@ -38,9 +38,9 @@ Below are the main data sources and the cleaned (filtered) outcomes:
 
 Al the processed data sets can be found in `"../noteboks/no_process/all_datasets.ipynb"`. 
 
-| Notebook                  | Comments               | 
-|---------------------------|-----------------------------------|
-| `aggregation.ipynb`  | This document calculates the distance from each town to the nearest hospital and the nearest school. The results will be used in subsequent analyses. </br> **Important Note:** Running this calculation is time-consuming, so execute it with caution.
+| Notebook                  | Comments| |
+|---------------------------|-----------------------------------|----------------------|
+| `aggregation.ipynb`  | All files contained in the `filtered_files` folder are added to the aggregation notebook for merging on "cmun". Out of this notebook we get a dataframe that includes all available clean data form our raw sources, without any feature engineering.  | The file can be found with the rest of processed data as `"../data/processed/aggregated_pueblos.csv"`|
 
 
 ## 2.3. Feature Engineering
