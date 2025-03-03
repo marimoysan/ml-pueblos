@@ -25,8 +25,13 @@ st.title("Los Pueblos")
 
 
 csv_path = "../../data/end-product-data/input_clusterer.csv"
-st.session_state["df_origin"] = pd.read_csv(csv_path)
 
+# TODO only taking a fraction of the df for now
+
+df_origin = pd.read_csv(csv_path)
+df_origin = df_origin.iloc[::5]
+
+st.session_state["df_origin"] = df_origin
 
 village_size = st.sidebar.slider(
     "Village size: ", min_value=500, max_value=10000, value=6000, step=500

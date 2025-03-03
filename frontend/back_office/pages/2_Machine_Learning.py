@@ -27,14 +27,13 @@ numerical_features = (
 )
 
 pipelines = Pipelines()
-df = pipelines.build(
+feature_names, df = pipelines.build(
     st.session_state["df_select"],
     categorical_features,
     numerical_features,
 )
 
-df.columns = ["enc_" + str(col) for col in df.columns]
-
+df.columns = ["enc_" + feature_names[col] for col in df.columns]
 
 st.session_state["df_train"] = df
 st.dataframe(st.session_state.df_train)
