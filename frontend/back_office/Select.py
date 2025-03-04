@@ -24,9 +24,7 @@ os.chdir(os.path.dirname(os.path.abspath(__file__)))
 st.title("Los Pueblos")
 
 
-csv_path = "../../data/end_product_data/input_clusterer.csv"
-
-# TODO only taking a fraction of the df for now
+csv_path = "../../data/end_product_data/2_scored_pueblos.csv"
 
 df_origin = pd.read_csv(csv_path)
 # just in case we need a fraction of the dataset
@@ -55,6 +53,7 @@ else:
 
 st.markdown("---")
 
+# TODO put it to 3_feature_engineering
 st.session_state["df_origin"] = create_age_percentages(st.session_state["df_origin"])
 
 cb_show = st.checkbox(f"Show DataFrame")
@@ -75,14 +74,6 @@ if st.session_state.initial_run:
         "province",
         "total_population",
         "koppen_climate",
-        "connectivity_category",
-        "economy_score",
-        "final_age_category",
-        "town_size",
-        "economy_score_area",
-        "hospital_score_area",
-        "school_score_area",
-        "transport_score",
     ]
 else:
     selection_defaults = st.session_state["df_select"].columns.to_list()

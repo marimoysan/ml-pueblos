@@ -16,7 +16,6 @@ class ColumnAligner:
         pass
 
     def alignColumns(self):
-        # TODO make this more flexible by using the pattern, no hardcode
         commas = self.boss.municipality_name_clean.str.contains(r".*, ")
         extract_list = self.boss[commas][self.column].str.split(",").str[0].to_list()
 

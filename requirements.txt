@@ -23,6 +23,7 @@ watchdog
 gensim
 node2vec
 networkx
+unidecode
 
 #altair==5.0.1
 #ipywidgets==8.0.6

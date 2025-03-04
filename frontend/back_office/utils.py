@@ -6,6 +6,7 @@ def remove_big_cities(df: pd.DataFrame, size) -> pd.DataFrame:
     return df
 
 
+# TODO put it to 3_feature_engineering
 def create_age_percentages(df: pd.DataFrame) -> pd.DataFrame:
     # Define age group columns
     age_groups = ["0-17", "18-24", "25-34", "35-54", "55+"]
