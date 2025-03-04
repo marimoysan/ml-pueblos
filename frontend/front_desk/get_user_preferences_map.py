@@ -78,7 +78,7 @@ def show():
             <b>🏡 Municipality:</b> {municipality}<br>
             <b>🌍 Province:</b> {province}<br>
             <b>👥 Population:</b> {total_population}<br>
-            <b>📡 Connectivity:</b> {connectivity_category}<br>
+            <b>📡 Connectivity:</b> {category_connectivity}<br>
             <b>🌤️ Climate:</b> {description}
         </div>
         """,
@@ -112,7 +112,7 @@ def show():
             municipality = row["municipality"]
             population = row["total_population"]
             province = row["province"]
-            connectivity = row["connectivity_category"]
+            connectivity = row["category_connectivity"]
             climate = row["description"]
 
             with col:

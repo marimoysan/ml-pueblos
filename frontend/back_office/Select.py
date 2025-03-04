@@ -4,7 +4,7 @@ import pandas as pd
 import math
 from session_state_manager import initialize_session_state, reset_session_state
 import streamlit as st
-from utils import remove_big_cities, create_age_percentages
+from utils import remove_big_cities
 
 st.set_page_config(
     page_title="Select Columns",
@@ -52,9 +52,6 @@ else:
     st.write(f"Shape: {st.session_state['df_origin'].shape}")
 
 st.markdown("---")
-
-# TODO put it to 3_feature_engineering
-st.session_state["df_origin"] = create_age_percentages(st.session_state["df_origin"])
 
 cb_show = st.checkbox(f"Show DataFrame")
 if cb_show:
