@@ -5,7 +5,7 @@ from nbconvert.preprocessors import ExecutePreprocessor
 
 # Get the script's directory and then reference the notebooks directory relative to it
 script_dir = Path(__file__).resolve().parent
-path = script_dir.parent / "notebooks"
+path = script_dir.parent / "notebooks/1_cleaning_and_eda"
 
 def run_all_notebooks(folder_path):
     for file in os.listdir(folder_path):
