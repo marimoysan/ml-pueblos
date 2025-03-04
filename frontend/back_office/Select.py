@@ -29,7 +29,7 @@ csv_path = "../../data/end_product_data/input_clusterer.csv"
 # TODO only taking a fraction of the df for now
 
 df_origin = pd.read_csv(csv_path)
-df_origin = df_origin.iloc[::5]
+df_origin = df_origin.sample(frac=0.5, random_state=1)
 
 st.session_state["df_origin"] = df_origin
 
