@@ -1,3 +1,4 @@
+
 import os
 import streamlit as st
 import pandas as pd
@@ -18,7 +19,7 @@ def show():
 
     # CSV file path for input and output
     # csv_path = "../../data/end-product-data/pueblos_backoffice.csv"
-    csv_path = "../../data/end_product_data/pueblos_recommender.csv"  ## we would change it to original_df + onehote...
+    csv_path = "../../data/end_product_data/pueblos_recommender.csv" 
     output_csv_path = f"../../data/user_output/{uuid.uuid4().hex}.csv"
 
     df = pd.read_csv(csv_path)
@@ -26,9 +27,9 @@ def show():
     if "output_path" not in st.session_state:
         st.session_state["output_path"] = output_csv_path
 
-    st.write(st.session_state["output_path"])
-    st.write("## So, if you would have these options, where would you like to live?")
-    st.text("Think carefully...")
+ 
+    st.write("## If you would have these options, where would you like to live?")
+    st.text("By settling in one of these towns, you’d be actively contributing to revitalizing rural communities and reversing depopulation trends.")
 
     # Get unique cluster IDs from the dataframe (assumes clusters are numeric)
     cluster_ids = sorted(df["cluster"].unique())
@@ -60,6 +61,7 @@ def show():
         pickable=True,  # Enables hover tooltips
     )
 
+
     # define the initial view state for Spain (Peninsula)
     view_state = pdk.ViewState(
         latitude=40.0,  # Center over Spain
@@ -77,9 +79,6 @@ def show():
         <div style="font-size:14px; padding:5px;">
             <b>🏡 Municipality:</b> {municipality}<br>
             <b>🌍 Province:</b> {province}<br>
-            <b>👥 Population:</b> {total_population}<br>
-            <b>📡 Connectivity:</b> {category_connectivity}<br>
-            <b>🌤️ Climate:</b> {description}
         </div>
         """,
         "style": {
@@ -104,19 +103,55 @@ def show():
     cols = st.columns(len(cluster_ids))
 
     if st.session_state.counter < 5:
-        # Loop over each sample (keyed by cluster id)
+        # Köppen Climate Emoji Mapping
+        climate_emojis = {
+            "Cfb": "🌦️",  # Oceanic
+            "Csb": "🌤️",  # Warm-summer Mediterranean
+            "Cfa": "🌞",  # Humid Subtropical
+            "Csa": "☀️",  # Hot-summer Mediterranean
+            "BSk": "🌾",  # Cold Semi-Arid
+            "Bsh": "🏜️",  # Hot Semi-Arid
+        }
+
+        transport_emojis = {
+            "Excellent": "🌟🌟🌟",
+            "Very Good": "🌟🌟",
+            "Good": "🌟",
+            "Average": "",
+            "Poor": "❌"
+        }
+
+        depopulation_risk_labels = {
+            "Very Young Town": "🏡 Very Low Risk (Young Town)",
+            "Young & Growing": "🌱 Low Risk (Growing Town)",
+            "Balanced Town": "⚖️ Moderate Risk (Balanced)",
+            "Aging Town": "📉 High Risk (Aging Town)",
+            "Highly Aging Town": "🚨 Very High Risk (Depopulating)"
+        }
+
+       # Loop over each sample (keyed by cluster id)
         for cl, col in zip(cluster_ids, cols):
-            # Retrieve the sample from session_state
             sample_df = st.session_state["samples"][cl]
             row = sample_df.iloc[0]
+
             municipality = row["municipality"]
             population = row["total_population"]
             province = row["province"]
             connectivity = row["category_connectivity"]
-            climate = row["description"]
+            transport = row["category_transport"]
+            climate = row["description"]  
+            climate_code = row["koppen_climate"]
+
+            # Get emojis for climate & transport
+            climate_emoji = climate_emojis.get(climate_code, "🌍")  
+            transport_category = row["category_transport"] if "category_transport" in row else "Unknown"
+            transport_display = transport_emojis.get(transport_category, "🚆❓")  
+
+            # ✅ Convert `category_town_age` to a more readable format
+            town_age_category = row["cagetory_town_age"] if "cagetory_town_age" in row else "Unknown"
+            depopulation_risk = depopulation_risk_labels.get(town_age_category, "❓ Unknown Risk")
 
             with col:
-                # Each card has its own selection button
                 st.markdown(
                     """
                     <style>
@@ -130,13 +165,27 @@ def show():
                     unsafe_allow_html=True,
                 )
 
-                if st.button(f"{municipality}", key=f"choose_{cl}"):
-                    # if st.button(f"Choose {municipality}", key=f"choose_{cl}"):
+                st.markdown(f"""
+                <span style="font-size:18px"><b>{municipality}</b></span>  -  {depopulation_risk} </br>
+                </br>
+                📍 <i>{province}</i>  </br>
+                👥<b>{population:,}</b> habitants  </br>
+                🚆 Transport: <b>{transport}</b>  </br>
+                📡 Connectivity: <b>{connectivity}</b>  </br>
+                {climate_emoji}{climate}  </b>
+                </br>
+                """, unsafe_allow_html=True)
+
+                # Button for selecting town
+                if st.button(f"Choose", key=f"choose_{cl}"):
                     st.session_state.collected_df.append(sample_df)
-                    # Load new samples
                     st.session_state["samples"] = load_samples()
                     st.session_state.counter += 1
                     st.rerun()
+
+
+
+
 
     else:
         pd.concat(st.session_state.collected_df, ignore_index=True).to_csv(
@@ -148,7 +197,3 @@ def show():
         st.write("thanks")
         st.session_state.page = "get_recommendations"
         st.rerun()  # Reload the app to show the main page
-
-
-## user selection:
-# five rows with 5 selected towns. original data + ohe
