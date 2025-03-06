@@ -36,15 +36,9 @@ def show():
     # Centered Text
     st.markdown("""
     <p style="font-size: 18px; line-height: 1.6; max-width: 700px; margin: 0 auto; text-align: center;">
-    Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el 
-    texto de relleno estándar de las industrias desde el año 1500, cuando un impresor desconocido usó una galería 
-    de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. 
+    Our pueblos are more than just places—they are the heart of our culture, history, and identity. Yet, many of them face challenges like depopulation, economic struggles, and the loss of traditions. This project is essential because it aims to preserve and revitalize these communities, ensuring they thrive for future generations. By supporting local economies, restoring historical landmarks, and fostering community engagement, we can keep the spirit of our pueblos alive. This is not just about saving places; it’s about sustaining a way of life that defines who we are.
     </p>
-    <p style="font-size: 18px; line-height: 1.6; max-width: 700px; margin: 0 auto; text-align: center;">
-    No sólo sobrevivió 500 años, sino que también ingresó como texto de relleno en documentos electrónicos, 
-    quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset" 
-    y más recientemente con software de autoedición como Aldus PageMaker.
-    </p>
+    </br>
     """, unsafe_allow_html=True)
     st.markdown('<div></dvi>', unsafe_allow_html=True)
     # Centered Button

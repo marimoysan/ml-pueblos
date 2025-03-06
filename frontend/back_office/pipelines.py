@@ -29,4 +29,7 @@ class Pipelines:
 
         # Fit the transformer to the dataframe
         fe_transformer.fit(dataframe)
-        return pd.DataFrame(fe_transformer.transform(dataframe))
+        return (
+            fe_transformer.get_feature_names_out(),
+            pd.DataFrame(fe_transformer.transform(dataframe)),
+        )

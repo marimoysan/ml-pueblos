@@ -4,7 +4,7 @@ import pandas as pd
 import math
 from session_state_manager import initialize_session_state, reset_session_state
 import streamlit as st
-from utils import remove_big_cities, create_age_percentages
+from utils import remove_big_cities
 
 st.set_page_config(
     page_title="Select Columns",
@@ -24,9 +24,13 @@ os.chdir(os.path.dirname(os.path.abspath(__file__)))
 st.title("Los Pueblos")
 
 
-csv_path = "../../data/end-product-data/input_clusterer.csv"
-st.session_state["df_origin"] = pd.read_csv(csv_path)
+csv_path = "../../data/end_product_data/2_scored_pueblos.csv"
 
+df_origin = pd.read_csv(csv_path)
+# just in case we need a fraction of the dataset
+# df_origin = df_origin.sample(frac=0.5, random_state=1)
+
+st.session_state["df_origin"] = df_origin
 
 village_size = st.sidebar.slider(
     "Village size: ", min_value=500, max_value=10000, value=6000, step=500
@@ -49,8 +53,6 @@ else:
 
 st.markdown("---")
 
-st.session_state["df_origin"] = create_age_percentages(st.session_state["df_origin"])
-
 cb_show = st.checkbox(f"Show DataFrame")
 if cb_show:
     st.dataframe(st.session_state["df_origin"])
@@ -69,14 +71,6 @@ if st.session_state.initial_run:
         "province",
         "total_population",
         "koppen_climate",
-        "connectivity_category",
-        "economy_score",
-        "final_age_category",
-        "town_size",
-        "economy_score_area",
-        "hospital_score_area",
-        "school_score_area",
-        "transport_score",
     ]
 else:
     selection_defaults = st.session_state["df_select"].columns.to_list()
