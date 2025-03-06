@@ -1,0 +1,222 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 800px;
+                 background-color: #ffffff;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+             #loadingBar {
+                 position:absolute;
+                 top:0px;
+                 left:0px;
+                 width: 100%;
+                 height: 800px;
+                 background-color:rgba(200,200,200,0.8);
+                 -webkit-transition: all 0.5s ease;
+                 -moz-transition: all 0.5s ease;
+                 -ms-transition: all 0.5s ease;
+                 -o-transition: all 0.5s ease;
+                 transition: all 0.5s ease;
+                 opacity:1;
+             }
+
+             #bar {
+                 position:absolute;
+                 top:0px;
+                 left:0px;
+                 width:20px;
+                 height:20px;
+                 margin:auto auto auto auto;
+                 border-radius:11px;
+                 border:2px solid rgba(30,30,30,0.05);
+                 background: rgb(0, 173, 246); /* Old browsers */
+                 box-shadow: 2px 0px 4px rgba(0,0,0,0.4);
+             }
+
+             #border {
+                 position:absolute;
+                 top:10px;
+                 left:10px;
+                 width:500px;
+                 height:23px;
+                 margin:auto auto auto auto;
+                 box-shadow: 0px 0px 4px rgba(0,0,0,0.2);
+                 border-radius:10px;
+             }
+
+             #text {
+                 position:absolute;
+                 top:8px;
+                 left:530px;
+                 width:30px;
+                 height:50px;
+                 margin:auto auto auto auto;
+                 font-size:22px;
+                 color: #000000;
+             }
+
+             div.outerBorder {
+                 position:relative;
+                 top:400px;
+                 width:600px;
+                 height:44px;
+                 margin:auto auto auto auto;
+                 border:8px solid rgba(0,0,0,0.1);
+                 background: rgb(252,252,252); /* Old browsers */
+                 background: -moz-linear-gradient(top,  rgba(252,252,252,1) 0%, rgba(237,237,237,1) 100%); /* FF3.6+ */
+                 background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(252,252,252,1)), color-stop(100%,rgba(237,237,237,1))); /* Chrome,Safari4+ */
+                 background: -webkit-linear-gradient(top,  rgba(252,252,252,1) 0%,rgba(237,237,237,1) 100%); /* Chrome10+,Safari5.1+ */
+                 background: -o-linear-gradient(top,  rgba(252,252,252,1) 0%,rgba(237,237,237,1) 100%); /* Opera 11.10+ */
+                 background: -ms-linear-gradient(top,  rgba(252,252,252,1) 0%,rgba(237,237,237,1) 100%); /* IE10+ */
+                 background: linear-gradient(to bottom,  rgba(252,252,252,1) 0%,rgba(237,237,237,1) 100%); /* W3C */
+                 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#ededed',GradientType=0 ); /* IE6-9 */
+                 border-radius:72px;
+                 box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+             }
+             
+
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+            <div id="loadingBar">
+              <div class="outerBorder">
+                <div id="text">0%</div>
+                <div id="border">
+                  <div id="bar"></div>
+                </div>
+              </div>
+            </div>
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#d62728", "id": "48063", "label": "Mendexa", "shape": "dot", "size": 15}, {"color": "#d62728", "id": "15037", "label": "Fisterra", "shape": "dot", "size": 15}, {"color": "#d62728", "id": "33018", "label": "Coa\u00f1a", "shape": "dot", "size": 15}, {"color": "#ff7f0e", "id": "39011", "label": "Bareyo", "shape": "dot", "size": 15}, {"color": "#d62728", "id": "8241", "label": "Sant Sadurn\u00ed d\u0027Osormort", "shape": "dot", "size": 15}, {"color": "#d62728", "id": "22248", "label": "Vici\u00e9n", "shape": "dot", "size": 15}, {"color": "#d62728", "id": "8293", "label": "Vallcebre", "shape": "dot", "size": 15}, {"color": "#d62728", "id": "20907", "label": "Gaztelu", "shape": "dot", "size": 15}, {"color": "#d62728", "id": "43173", "label": "Vilella Alta, La", "shape": "dot", "size": 15}, {"color": "#ff7f0e", "id": "24076", "label": "Garrafe de Tor\u00edo", "shape": "dot", "size": 15}, {"color": "#d62728", "id": "9251", "label": "Pancorbo", "shape": "dot", "size": 15}, {"color": "#d62728", "id": "24134", "label": "Robla, La", "shape": "dot", "size": 15}, {"color": "#d62728", "id": "43074", "label": "Lloren\u00e7 del Pened\u00e8s", "shape": "dot", "size": 15}, {"color": "#d62728", "id": "40119", "label": "Mart\u00edn Miguel", "shape": "dot", "size": 15}, {"color": "#d62728", "id": "37253", "label": "Pino de Tormes, El", "shape": "dot", "size": 15}, {"color": "#d62728", "id": "48089", "label": "Urduliz", "shape": "dot", "size": 15}, {"color": "#d62728", "id": "37117", "label": "Do\u00f1inos de Salamanca", "shape": "dot", "size": 15}, {"color": "#d62728", "id": "37342", "label": "Valverd\u00f3n", "shape": "dot", "size": 15}, {"color": "#d62728", "id": "37067", "label": "Cabrerizos", "shape": "dot", "size": 15}, {"color": "#d62728", "id": "32071", "label": "Ri\u00f3s", "shape": "dot", "size": 15}, {"color": "#d62728", "id": "8242", "label": "Marganell", "shape": "dot", "size": 15}, {"color": "#d62728", "id": "47104", "label": "Olmedo", "shape": "dot", "size": 15}, {"color": "#d62728", "id": "8004", "label": "Alpens", "shape": "dot", "size": 15}, {"color": "#d62728", "id": "8139", "label": "Mura", "shape": "dot", "size": 15}, {"color": "#d62728", "id": "22163", "label": "Nueno", "shape": "dot", "size": 15}, {"color": "#d62728", "id": "1030", "label": "Lagr\u00e1n", "shape": "dot", "size": 15}, {"color": "#d62728", "id": "31014", "label": "Anc\u00edn/Antzin", "shape": "dot", "size": 15}, {"color": "#d62728", "id": "32055", "label": "Paderne de Allariz", "shape": "dot", "size": 15}, {"color": "#d62728", "id": "37182", "label": "Martinamor", "shape": "dot", "size": 15}, {"color": "#d62728", "id": "25088", "label": "Estamariu", "shape": "dot", "size": 15}, {"color": "#d62728", "id": "25032", "label": "Ars\u00e8guel", "shape": "dot", "size": 15}, {"color": "#d62728", "id": "17216", "label": "Viladasens", "shape": "dot", "size": 15}, {"color": "#d62728", "id": "43024", "label": "Bellvei", "shape": "dot", "size": 15}, {"color": "#d62728", "id": "15015", "label": "Cabanas", "shape": "dot", "size": 15}, {"color": "#d62728", "id": "1033", "label": "Lapuebla de Labarca", "shape": "dot", "size": 15}, {"color": "#d62728", "id": "39019", "label": "Casta\u00f1eda", "shape": "dot", "size": 15}, {"color": "#d62728", "id": "31019", "label": "Aoiz/Agoitz", "shape": "dot", "size": 15}, {"color": "#d62728", "id": "50202", "label": "Paracuellos de la Ribera", "shape": "dot", "size": 15}, {"color": "#ff7f0e", "id": "33047", "label": "Pe\u00f1amellera Baja", "shape": "dot", "size": 15}, {"color": "#d62728", "id": "43029", "label": "Blancafort", "shape": "dot", "size": 15}, {"color": "#d62728", "id": "20016", "label": "Aia", "shape": "dot", "size": 15}, {"color": "#d62728", "id": "47159", "label": "Serrada", "shape": "dot", "size": 15}, {"color": "#d62728", "id": "26111", "label": "Ollauri", "shape": "dot", "size": 15}, {"color": "#d62728", "id": "17002", "label": "Aiguaviva", "shape": "dot", "size": 15}, {"color": "#ff7f0e", "id": "25126", "label": "Llavors\u00ed", "shape": "dot", "size": 15}, {"color": "#ff7f0e", "id": "39091", "label": "Vald\u00e1liga", "shape": "dot", "size": 15}, {"color": "#d62728", "id": "47101", "label": "Nava del Rey", "shape": "dot", "size": 15}, {"color": "#d62728", "id": "44241", "label": "Valdealgorfa", "shape": "dot", "size": 15}, {"color": "#d62728", "id": "39018", "label": "Cartes", "shape": "dot", "size": 15}, {"color": "#d62728", "id": "17225", "label": "Vilamacolum", "shape": "dot", "size": 15}, {"color": "#d62728", "id": "48052", "label": "Larrabetzu", "shape": "dot", "size": 15}, {"color": "#d62728", "id": "26008", "label": "Aldeanueva de Ebro", "shape": "dot", "size": 15}, {"color": "#d62728", "id": "50204", "label": "Pedrola", "shape": "dot", "size": 15}, {"color": "#d62728", "id": "26063", "label": "Fonzaleche", "shape": "dot", "size": 15}, {"color": "#d62728", "id": "15018", "label": "Capela, A", "shape": "dot", "size": 15}, {"color": "#d62728", "id": "25098", "label": "Gavet de la Conca", "shape": "dot", "size": 15}, {"color": "#d62728", "id": "20010", "label": "Anoeta", "shape": "dot", "size": 15}, {"color": "#d62728", "id": "8111", "label": "Malla", "shape": "dot", "size": 15}, {"color": "#d62728", "id": "24209", "label": "Villafranca del Bierzo", "shape": "dot", "size": 15}, {"color": "#d62728", "id": "48911", "label": "Ajangiz", "shape": "dot", "size": 15}, {"color": "#d62728", "id": "8154", "label": "Pacs del Pened\u00e8s", "shape": "dot", "size": 15}, {"color": "#d62728", "id": "9218", "label": "Milagros", "shape": "dot", "size": 15}, {"color": "#d62728", "id": "20075", "label": "Villabona", "shape": "dot", "size": 15}, {"color": "#d62728", "id": "27003", "label": "Antas de Ulla", "shape": "dot", "size": 15}, {"color": "#d62728", "id": "9029", "label": "Atapuerca", "shape": "dot", "size": 15}, {"color": "#d62728", "id": "31047", "label": "Bargota", "shape": "dot", "size": 15}, {"color": "#d62728", "id": "25215", "label": "Talarn", "shape": "dot", "size": 15}, {"color": "#d62728", "id": "34102", "label": "Mazariegos", "shape": "dot", "size": 15}, {"color": "#d62728", "id": "22226", "label": "Tardienta", "shape": "dot", "size": 15}, {"color": "#ff7f0e", "id": "20052", "label": "Legorreta", "shape": "dot", "size": 15}, {"color": "#d62728", "id": "22059", "label": "Biescas", "shape": "dot", "size": 15}, {"color": "#d62728", "id": "33040", "label": "Nava", "shape": "dot", "size": 15}, {"color": "#d62728", "id": "43042", "label": "Castellvell del Camp", "shape": "dot", "size": 15}, {"color": "#d62728", "id": "37185", "label": "Castellanos de Villiquera", "shape": "dot", "size": 15}, {"color": "#d62728", "id": "31124", "label": "Ibargoiti", "shape": "dot", "size": 15}, {"color": "#8c564b", "id": "49114", "label": "Matilla la Seca", "shape": "dot", "size": 15}, {"color": "#8c564b", "id": "9247", "label": "Palacios de Riopisuerga", "shape": "dot", "size": 15}, {"color": "#8c564b", "id": "9415", "label": "Valle de Valdelucio", "shape": "dot", "size": 15}, {"color": "#8c564b", "id": "9217", "label": "Merindad de Valdivielso", "shape": "dot", "size": 15}, {"color": "#8c564b", "id": "42131", "label": "Nolay", "shape": "dot", "size": 15}, {"color": "#8c564b", "id": "9360", "label": "San Vicente del Valle", "shape": "dot", "size": 15}, {"color": "#8c564b", "id": "9014", "label": "Altos, Los", "shape": "dot", "size": 15}, {"color": "#8c564b", "id": "9354", "label": "Santa Olalla de Bureba", "shape": "dot", "size": 15}, {"color": "#8c564b", "id": "50168", "label": "Mianos", "shape": "dot", "size": 15}, {"color": "#8c564b", "id": "37233", "label": "Pastores", "shape": "dot", "size": 15}, {"color": "#8c564b", "id": "40178", "label": "San Crist\u00f3bal de la Vega", "shape": "dot", "size": 15}, {"color": "#8c564b", "id": "24016", "label": "Benuza", "shape": "dot", "size": 15}, {"color": "#8c564b", "id": "39097", "label": "Vega de Pas", "shape": "dot", "size": 15}, {"color": "#8c564b", "id": "43168", "label": "Vilanova de Prades", "shape": "dot", "size": 15}, {"color": "#8c564b", "id": "9443", "label": "Villamayor de los Montes", "shape": "dot", "size": 15}, {"color": "#ff7f0e", "id": "22062", "label": "Bisaurri", "shape": "dot", "size": 15}, {"color": "#8c564b", "id": "37061", "label": "Cabaco, El", "shape": "dot", "size": 15}, {"color": "#8c564b", "id": "26135", "label": "Santa Engracia del Jubera", "shape": "dot", "size": 15}, {"color": "#8c564b", "id": "31196", "label": "Orbara", "shape": "dot", "size": 15}, {"color": "#8c564b", "id": "24153", "label": "Santa Cristina de Valmadrigal", "shape": "dot", "size": 15}, {"color": "#8c564b", "id": "39092", "label": "Valdeolea", "shape": "dot", "size": 15}, {"color": "#8c564b", "id": "40192", "label": "Sauquillo de Cabezas", "shape": "dot", "size": 15}, {"color": "#8c564b", "id": "19116", "label": "Estri\u00e9gana", "shape": "dot", "size": 15}, {"color": "#8c564b", "id": "34230", "label": "Villarmentero de Campos", "shape": "dot", "size": 15}, {"color": "#8c564b", "id": "37324", "label": "Tordillos", "shape": "dot", "size": 15}, {"color": "#8c564b", "id": "37327", "label": "Torresmenudas", "shape": "dot", "size": 15}, {"color": "#8c564b", "id": "40127", "label": "Membibre de la Hoz", "shape": "dot", "size": 15}, {"color": "#8c564b", "id": "49104", "label": "Mahide", "shape": "dot", "size": 15}, {"color": "#8c564b", "id": "37033", "label": "Arcediano", "shape": "dot", "size": 15}, {"color": "#8c564b", "id": "44226", "label": "Torrelac\u00e1rcel", "shape": "dot", "size": 15}, {"color": "#8c564b", "id": "47199", "label": "Villacid de Campos", "shape": "dot", "size": 15}, {"color": "#8c564b", "id": "49231", "label": "Vega de Tera", "shape": "dot", "size": 15}, {"color": "#8c564b", "id": "9466", "label": "Villaverde del Monte", "shape": "dot", "size": 15}, {"color": "#8c564b", "id": "34068", "label": "Dehesa de Romanos", "shape": "dot", "size": 15}, {"color": "#8c564b", "id": "9169", "label": "Hortig\u00fcela", "shape": "dot", "size": 15}, {"color": "#8c564b", "id": "47187", "label": "Vega de Ruiponce", "shape": "dot", "size": 15}, {"color": "#8c564b", "id": "40058", "label": "Codorniz", "shape": "dot", "size": 15}, {"color": "#8c564b", "id": "34186", "label": "Valbuena de Pisuerga", "shape": "dot", "size": 15}, {"color": "#8c564b", "id": "47153", "label": "Santerv\u00e1s de Campos", "shape": "dot", "size": 15}, {"color": "#8c564b", "id": "34087", "label": "Hornillos de Cerrato", "shape": "dot", "size": 15}, {"color": "#8c564b", "id": "31129", "label": "Ituren", "shape": "dot", "size": 15}, {"color": "#8c564b", "id": "47163", "label": "Tiedra", "shape": "dot", "size": 15}, {"color": "#8c564b", "id": "37186", "label": "Mata de Ledesma, La", "shape": "dot", "size": 15}, {"color": "#8c564b", "id": "34012", "label": "Antig\u00fcedad", "shape": "dot", "size": 15}, {"color": "#8c564b", "id": "31213", "label": "Sald\u00edas", "shape": "dot", "size": 15}, {"color": "#8c564b", "id": "27012", "label": "Cervantes", "shape": "dot", "size": 15}, {"color": "#8c564b", "id": "50280", "label": "Vera de Moncayo", "shape": "dot", "size": 15}, {"color": "#8c564b", "id": "42217", "label": "Vozmediano", "shape": "dot", "size": 15}, {"color": "#8c564b", "id": "9446", "label": "Villamedianilla", "shape": "dot", "size": 15}, {"color": "#8c564b", "id": "9905", "label": "Valle de Sedano", "shape": "dot", "size": 15}, {"color": "#8c564b", "id": "49247", "label": "Villalcampo", "shape": "dot", "size": 15}, {"color": "#8c564b", "id": "47130", "label": "Quintanilla de Trigueros", "shape": "dot", "size": 15}, {"color": "#8c564b", "id": "34028", "label": "B\u00e1scones de Ojeda", "shape": "dot", "size": 15}, {"color": "#8c564b", "id": "47003", "label": "Aguilar de Campos", "shape": "dot", "size": 15}, {"color": "#8c564b", "id": "47113", "label": "Pedrosa del Rey", "shape": "dot", "size": 15}, {"color": "#8c564b", "id": "50096", "label": "Embid de Ariza", "shape": "dot", "size": 15}, {"color": "#8c564b", "id": "24081", "label": "Gusendos de los Oteros", "shape": "dot", "size": 15}, {"color": "#8c564b", "id": "31141", "label": "Lapoblaci\u00f3n", "shape": "dot", "size": 15}, {"color": "#8c564b", "id": "34184", "label": "Torremormoj\u00f3n", "shape": "dot", "size": 15}, {"color": "#8c564b", "id": "49004", "label": "Alcubilla de Nogales", "shape": "dot", "size": 15}, {"color": "#8c564b", "id": "42007", "label": "Alcubilla de Avellaneda", "shape": "dot", "size": 15}, {"color": "#8c564b", "id": "39067", "label": "Ruesga", "shape": "dot", "size": 15}, {"color": "#8c564b", "id": "37366", "label": "Villarmuerto", "shape": "dot", "size": 15}, {"color": "#8c564b", "id": "42197", "label": "Valderrodilla", "shape": "dot", "size": 15}, {"color": "#8c564b", "id": "21068", "label": "Santa B\u00e1rbara de Casa", "shape": "dot", "size": 15}, {"color": "#8c564b", "id": "49091", "label": "Granja de Moreruela", "shape": "dot", "size": 15}, {"color": "#8c564b", "id": "24172", "label": "Truchas", "shape": "dot", "size": 15}, {"color": "#8c564b", "id": "9129", "label": "Fresneda de la Sierra Tir\u00f3n", "shape": "dot", "size": 15}, {"color": "#ff7f0e", "id": "33029", "label": "Illano", "shape": "dot", "size": 15}, {"color": "#e377c2", "id": "44251", "label": "Villafranca del Campo", "shape": "dot", "size": 15}, {"color": "#e377c2", "id": "3068", "label": "Famorca", "shape": "dot", "size": 15}, {"color": "#e377c2", "id": "32022", "label": "Castrelo de Mi\u00f1o", "shape": "dot", "size": 15}, {"color": "#e377c2", "id": "10168", "label": "Santa Marta de Magasca", "shape": "dot", "size": 15}, {"color": "#e377c2", "id": "10176", "label": "Serrej\u00f3n", "shape": "dot", "size": 15}, {"color": "#e377c2", "id": "10198", "label": "Valdefuentes", "shape": "dot", "size": 15}, {"color": "#e377c2", "id": "4071", "label": "Padules", "shape": "dot", "size": 15}, {"color": "#e377c2", "id": "10046", "label": "Carbajo", "shape": "dot", "size": 15}, {"color": "#e377c2", "id": "6040", "label": "Corte de Peleas", "shape": "dot", "size": 15}, {"color": "#e377c2", "id": "49146", "label": "Pego, El", "shape": "dot", "size": 15}, {"color": "#e377c2", "id": "12006", "label": "Alcudia de Veo", "shape": "dot", "size": 15}, {"color": "#e377c2", "id": "1017", "label": "Campezo/Kanpezu", "shape": "dot", "size": 15}, {"color": "#e377c2", "id": "25206", "label": "Soler\u00e0s, El", "shape": "dot", "size": 15}, {"color": "#e377c2", "id": "32003", "label": "Arnoia, A", "shape": "dot", "size": 15}, {"color": "#e377c2", "id": "10009", "label": "Alcollar\u00edn", "shape": "dot", "size": 15}, {"color": "#e377c2", "id": "37160", "label": "Hinojosa de Duero", "shape": "dot", "size": 15}, {"color": "#e377c2", "id": "26023", "label": "Badar\u00e1n", "shape": "dot", "size": 15}, {"color": "#e377c2", "id": "44179", "label": "Pe\u00f1arroya de Tastavins", "shape": "dot", "size": 15}, {"color": "#e377c2", "id": "18176", "label": "Soport\u00fajar", "shape": "dot", "size": 15}, {"color": "#e377c2", "id": "10077", "label": "Garciaz", "shape": "dot", "size": 15}, {"color": "#e377c2", "id": "23004", "label": "Aldeaquemada", "shape": "dot", "size": 15}, {"color": "#e377c2", "id": "9350", "label": "Santa Mar\u00eda del Campo", "shape": "dot", "size": 15}, {"color": "#e377c2", "id": "28024", "label": "Braojos", "shape": "dot", "size": 15}, {"color": "#e377c2", "id": "6129", "label": "T\u00e1liga", "shape": "dot", "size": 15}, {"color": "#e377c2", "id": "10217", "label": "Zarza de Mont\u00e1nchez", "shape": "dot", "size": 15}, {"color": "#e377c2", "id": "10012", "label": "Aldea del Cano", "shape": "dot", "size": 15}, {"color": "#e377c2", "id": "49224", "label": "Trefacio", "shape": "dot", "size": 15}, {"color": "#e377c2", "id": "5110", "label": "Lanzah\u00edta", "shape": "dot", "size": 15}, {"color": "#e377c2", "id": "40095", "label": "Gomezserrac\u00edn", "shape": "dot", "size": 15}, {"color": "#e377c2", "id": "32090", "label": "Vilar de Santos", "shape": "dot", "size": 15}, {"color": "#1f77b4", "id": "10147", "label": "Piornal", "shape": "dot", "size": 15}, {"color": "#e377c2", "id": "29003", "label": "Alfarnate", "shape": "dot", "size": 15}, {"color": "#e377c2", "id": "36016", "label": "Doz\u00f3n", "shape": "dot", "size": 15}, {"color": "#e377c2", "id": "26029", "label": "Bergasillas Bajera", "shape": "dot", "size": 15}, {"color": "#e377c2", "id": "47184", "label": "Valoria la Buena", "shape": "dot", "size": 15}, {"color": "#e377c2", "id": "37141", "label": "Gajates", "shape": "dot", "size": 15}, {"color": "#e377c2", "id": "12039", "label": "Castellnovo", "shape": "dot", "size": 15}, {"color": "#e377c2", "id": "47194", "label": "Viloria", "shape": "dot", "size": 15}, {"color": "#e377c2", "id": "25094", "label": "Foradada", "shape": "dot", "size": 15}, {"color": "#e377c2", "id": "10117", "label": "Marchagaz", "shape": "dot", "size": 15}, {"color": "#e377c2", "id": "49033", "label": "Camarzana de Tera", "shape": "dot", "size": 15}, {"color": "#e377c2", "id": "18038", "label": "Campot\u00e9jar", "shape": "dot", "size": 15}, {"color": "#e377c2", "id": "24078", "label": "Gordoncillo", "shape": "dot", "size": 15}, {"color": "#e377c2", "id": "31134", "label": "Jaurrieta", "shape": "dot", "size": 15}, {"color": "#e377c2", "id": "41073", "label": "Pedroso, El", "shape": "dot", "size": 15}, {"color": "#e377c2", "id": "21015", "label": "Cabezas Rubias", "shape": "dot", "size": 15}, {"color": "#e377c2", "id": "10005", "label": "Aceituna", "shape": "dot", "size": 15}, {"color": "#e377c2", "id": "28078", "label": "Madarcos", "shape": "dot", "size": 15}, {"color": "#e377c2", "id": "34171", "label": "Santib\u00e1\u00f1ez de la Pe\u00f1a", "shape": "dot", "size": 15}, {"color": "#e377c2", "id": "5220", "label": "San Pedro del Arroyo", "shape": "dot", "size": 15}, {"color": "#e377c2", "id": "44108", "label": "Fresneda, La", "shape": "dot", "size": 15}, {"color": "#e377c2", "id": "44209", "label": "Santa Eulalia", "shape": "dot", "size": 15}, {"color": "#17becf", "id": "49013", "label": "Argujillo", "shape": "dot", "size": 15}, {"color": "#17becf", "id": "16169", "label": "Pozuelo, El", "shape": "dot", "size": 15}, {"color": "#17becf", "id": "2016", "label": "Bienservida", "shape": "dot", "size": 15}, {"color": "#17becf", "id": "40019", "label": "Arahuetes", "shape": "dot", "size": 15}, {"color": "#17becf", "id": "16004", "label": "Albaladejo del Cuende", "shape": "dot", "size": 15}, {"color": "#17becf", "id": "19115", "label": "Establ\u00e9s", "shape": "dot", "size": 15}, {"color": "#17becf", "id": "42097", "label": "Gormaz", "shape": "dot", "size": 15}, {"color": "#17becf", "id": "45096", "label": "Mazarambroz", "shape": "dot", "size": 15}, {"color": "#17becf", "id": "16119", "label": "Leganiel", "shape": "dot", "size": 15}, {"color": "#17becf", "id": "44065", "label": "Castej\u00f3n de Tornos", "shape": "dot", "size": 15}, {"color": "#17becf", "id": "16152", "label": "Parra de las Vegas, La", "shape": "dot", "size": 15}, {"color": "#17becf", "id": "16272", "label": "Villas de la Ventosa", "shape": "dot", "size": 15}, {"color": "#17becf", "id": "47121", "label": "Pollos", "shape": "dot", "size": 15}, {"color": "#17becf", "id": "2014", "label": "Ballestero, El", "shape": "dot", "size": 15}, {"color": "#17becf", "id": "45110", "label": "Navalc\u00e1n", "shape": "dot", "size": 15}, {"color": "#17becf", "id": "19290", "label": "Trijueque", "shape": "dot", "size": 15}, {"color": "#17becf", "id": "13081", "label": "Terrinches", "shape": "dot", "size": 15}, {"color": "#17becf", "id": "19175", "label": "Mazarete", "shape": "dot", "size": 15}, {"color": "#17becf", "id": "16150", "label": "Paracuellos", "shape": "dot", "size": 15}, {"color": "#17becf", "id": "40156", "label": "Pedraza", "shape": "dot", "size": 15}, {"color": "#17becf", "id": "37262", "label": "Puertas", "shape": "dot", "size": 15}, {"color": "#17becf", "id": "45092", "label": "Marjaliza", "shape": "dot", "size": 15}, {"color": "#17becf", "id": "12127", "label": "Vallibona", "shape": "dot", "size": 15}, {"color": "#17becf", "id": "2019", "label": "Bonillo, El", "shape": "dot", "size": 15}, {"color": "#17becf", "id": "44152", "label": "Monforte de Moyuela", "shape": "dot", "size": 15}, {"color": "#17becf", "id": "13095", "label": "Villar del Pozo", "shape": "dot", "size": 15}, {"color": "#17becf", "id": "16137", "label": "Narboneta", "shape": "dot", "size": 15}, {"color": "#17becf", "id": "2042", "label": "Letur", "shape": "dot", "size": 15}, {"color": "#8c564b", "id": "50001", "label": "Abanto", "shape": "dot", "size": 15}, {"color": "#17becf", "id": "16197", "label": "Santa Mar\u00eda del Val", "shape": "dot", "size": 15}, {"color": "#17becf", "id": "16071", "label": "Castillo-Albar\u00e1\u00f1ez", "shape": "dot", "size": 15}, {"color": "#17becf", "id": "45117", "label": "Nombela", "shape": "dot", "size": 15}, {"color": "#17becf", "id": "19227", "label": "Prados Redondos", "shape": "dot", "size": 15}, {"color": "#17becf", "id": "44189", "label": "Pozond\u00f3n", "shape": "dot", "size": 15}, {"color": "#17becf", "id": "13068", "label": "Puebla de Don Rodrigo", "shape": "dot", "size": 15}, {"color": "#17becf", "id": "2080", "label": "Villapalacios", "shape": "dot", "size": 15}, {"color": "#17becf", "id": "2021", "label": "Casas de Juan N\u00fa\u00f1ez", "shape": "dot", "size": 15}, {"color": "#8c564b", "id": "42086", "label": "Fuentecambr\u00f3n", "shape": "dot", "size": 15}, {"color": "#17becf", "id": "19238", "label": "Riofr\u00edo del Llano", "shape": "dot", "size": 15}, {"color": "#17becf", "id": "16247", "label": "Villalgordo del Marquesado", "shape": "dot", "size": 15}, {"color": "#17becf", "id": "13051", "label": "Luciana", "shape": "dot", "size": 15}, {"color": "#bcbd22", "id": "19042", "label": "Arroyo de las Fraguas", "shape": "dot", "size": 15}, {"color": "#bcbd22", "id": "9021", "label": "Arauzo de Salce", "shape": "dot", "size": 15}, {"color": "#bcbd22", "id": "19309", "label": "Valhermoso", "shape": "dot", "size": 15}, {"color": "#bcbd22", "id": "5025", "label": "Becedillas", "shape": "dot", "size": 15}, {"color": "#8c564b", "id": "42168", "label": "Santa Mar\u00eda de las Hoyas", "shape": "dot", "size": 15}, {"color": "#bcbd22", "id": "44148", "label": "Mezquita de Jarque", "shape": "dot", "size": 15}, {"color": "#bcbd22", "id": "44131", "label": "Josa", "shape": "dot", "size": 15}, {"color": "#bcbd22", "id": "47154", "label": "Santib\u00e1\u00f1ez de Valcorba", "shape": "dot", "size": 15}, {"color": "#bcbd22", "id": "28063", "label": "Gargantilla del Lozoya y Pinilla de Buitrago", "shape": "dot", "size": 15}, {"color": "#bcbd22", "id": "2023", "label": "Casas de Ves", "shape": "dot", "size": 15}, {"color": "#bcbd22", "id": "5075", "label": "Fresnedilla", "shape": "dot", "size": 15}, {"color": "#bcbd22", "id": "46119", "label": "\u00c9nova, l\u0027", "shape": "dot", "size": 15}, {"color": "#bcbd22", "id": "12058", "label": "Espadilla", "shape": "dot", "size": 15}, {"color": "#bcbd22", "id": "9017", "label": "Anguix", "shape": "dot", "size": 15}, {"color": "#bcbd22", "id": "2041", "label": "Jorquera", "shape": "dot", "size": 15}, {"color": "#bcbd22", "id": "12046", "label": "Cirat", "shape": "dot", "size": 15}, {"color": "#bcbd22", "id": "16174", "label": "Puebla del Salvador", "shape": "dot", "size": 15}, {"color": "#1f77b4", "id": "18167", "label": "Purullena", "shape": "dot", "size": 15}, {"color": "#1f77b4", "id": "28036", "label": "Casarrubuelos", "shape": "dot", "size": 15}, {"color": "#1f77b4", "id": "4048", "label": "Gallardos, Los", "shape": "dot", "size": 15}, {"color": "#1f77b4", "id": "21046", "label": "Lucena del Puerto", "shape": "dot", "size": 15}, {"color": "#1f77b4", "id": "10115", "label": "Malpartida de C\u00e1ceres", "shape": "dot", "size": 15}, {"color": "#1f77b4", "id": "18120", "label": "Lenteg\u00ed", "shape": "dot", "size": 15}, {"color": "#1f77b4", "id": "11902", "label": "San Jos\u00e9 del Valle", "shape": "dot", "size": 15}, {"color": "#1f77b4", "id": "45128", "label": "Pantoja", "shape": "dot", "size": 15}, {"color": "#1f77b4", "id": "28017", "label": "Batres", "shape": "dot", "size": 15}, {"color": "#1f77b4", "id": "28109", "label": "Pelayos de la Presa", "shape": "dot", "size": 15}, {"color": "#1f77b4", "id": "6069", "label": "Hornachos", "shape": "dot", "size": 15}, {"color": "#1f77b4", "id": "23094", "label": "Vilches", "shape": "dot", "size": 15}, {"color": "#1f77b4", "id": "46161", "label": "Marines", "shape": "dot", "size": 15}, {"color": "#1f77b4", "id": "18116", "label": "Lanjar\u00f3n", "shape": "dot", "size": 15}, {"color": "#1f77b4", "id": "41078", "label": "Puebla de los Infantes, La", "shape": "dot", "size": 15}, {"color": "#1f77b4", "id": "46123", "label": "Favara", "shape": "dot", "size": 15}, {"color": "#1f77b4", "id": "18165", "label": "Pulianas", "shape": "dot", "size": 15}, {"color": "#1f77b4", "id": "18029", "label": "Benamaurel", "shape": "dot", "size": 15}, {"color": "#1f77b4", "id": "12136", "label": "Vilavella, la", "shape": "dot", "size": 15}, {"color": "#1f77b4", "id": "5128", "label": "Mingorr\u00eda", "shape": "dot", "size": 15}, {"color": "#1f77b4", "id": "41054", "label": "Lora de Estepa", "shape": "dot", "size": 15}, {"color": "#1f77b4", "id": "3033", "label": "Benifato", "shape": "dot", "size": 15}, {"color": "#1f77b4", "id": "45167", "label": "Toboso, El", "shape": "dot", "size": 15}, {"color": "#1f77b4", "id": "46074", "label": "Bonrep\u00f2s i Mirambell", "shape": "dot", "size": 15}, {"color": "#1f77b4", "id": "11002", "label": "Alcal\u00e1 del Valle", "shape": "dot", "size": 15}, {"color": "#1f77b4", "id": "6111", "label": "Rena", "shape": "dot", "size": 15}, {"color": "#1f77b4", "id": "46154", "label": "Llanera de Ranes", "shape": "dot", "size": 15}, {"color": "#1f77b4", "id": "18069", "label": "D\u00f3lar", "shape": "dot", "size": 15}, {"color": "#1f77b4", "id": "18189", "label": "V\u00edznar", "shape": "dot", "size": 15}, {"color": "#1f77b4", "id": "3043", "label": "Biar", "shape": "dot", "size": 15}, {"color": "#1f77b4", "id": "28012", "label": "Anchuelo", "shape": "dot", "size": 15}, {"color": "#1f77b4", "id": "10010", "label": "Alcu\u00e9scar", "shape": "dot", "size": 15}, {"color": "#1f77b4", "id": "10096", "label": "Herv\u00e1s", "shape": "dot", "size": 15}, {"color": "#1f77b4", "id": "23057", "label": "Lupi\u00f3n", "shape": "dot", "size": 15}, {"color": "#1f77b4", "id": "29063", "label": "Jimera de L\u00edbar", "shape": "dot", "size": 15}, {"color": "#1f77b4", "id": "46139", "label": "Guadassuar", "shape": "dot", "size": 15}, {"color": "#1f77b4", "id": "18184", "label": "V\u00e9lez de Benaudalla", "shape": "dot", "size": 15}, {"color": "#1f77b4", "id": "46052", "label": "Benavites", "shape": "dot", "size": 15}, {"color": "#1f77b4", "id": "46014", "label": "Albuixech", "shape": "dot", "size": 15}, {"color": "#1f77b4", "id": "3080", "label": "Jacarilla", "shape": "dot", "size": 15}, {"color": "#1f77b4", "id": "6061", "label": "Haba, La", "shape": "dot", "size": 15}, {"color": "#1f77b4", "id": "43052", "label": "Xerta", "shape": "dot", "size": 15}, {"color": "#1f77b4", "id": "28042", "label": "Colmenar del Arroyo", "shape": "dot", "size": 15}]);
+                  edges = new vis.DataSet([]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {"physics": {"barnesHut": {"gravitationalConstant": -5000, "centralGravity": 0.3, "springLength": 100, "springConstant": 0.04, "damping": 0.9, "avoidOverlap": 0.5}}};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+                      network.on("stabilizationProgress", function(params) {
+                          document.getElementById('loadingBar').removeAttribute("style");
+                          var maxWidth = 496;
+                          var minWidth = 20;
+                          var widthFactor = params.iterations/params.total;
+                          var width = Math.max(minWidth,maxWidth * widthFactor);
+                          document.getElementById('bar').style.width = width + 'px';
+                          document.getElementById('text').innerHTML = Math.round(widthFactor*100) + '%';
+                      });
+                      network.once("stabilizationIterationsDone", function() {
+                          document.getElementById('text').innerHTML = '100%';
+                          document.getElementById('bar').style.width = '496px';
+                          document.getElementById('loadingBar').style.opacity = 0;
+                          // really clean the dom element
+                          setTimeout(function () {document.getElementById('loadingBar').style.display = 'none';}, 500);
+                      });
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>
