@@ -1,4 +1,3 @@
-
 import os
 import streamlit as st
 import pandas as pd
@@ -19,7 +18,7 @@ def show():
 
     # CSV file path for input and output
     # csv_path = "../../data/end-product-data/pueblos_backoffice.csv"
-    csv_path = "../../data/end_product_data/pueblos_recommender.csv" 
+    csv_path = "../../data/end_product_data/pueblos_recommender.csv"
     output_csv_path = f"../../data/user_output/{uuid.uuid4().hex}.csv"
 
     df = pd.read_csv(csv_path)
@@ -27,9 +26,10 @@ def show():
     if "output_path" not in st.session_state:
         st.session_state["output_path"] = output_csv_path
 
- 
     st.write("## If you would have these options, where would you like to live?")
-    st.text("By settling in one of these towns, you’d be actively contributing to revitalizing rural communities and reversing depopulation trends.")
+    st.text(
+        "By settling in one of these towns, you’d be actively contributing to revitalizing rural communities and reversing depopulation trends."
+    )
 
     # Get unique cluster IDs from the dataframe (assumes clusters are numeric)
     cluster_ids = sorted(df["cluster"].unique())
@@ -60,7 +60,6 @@ def show():
         get_color="[255, 0, 0, 150]",  # Red color with some transparency
         pickable=True,  # Enables hover tooltips
     )
-
 
     # define the initial view state for Spain (Peninsula)
     view_state = pdk.ViewState(
@@ -118,7 +117,7 @@ def show():
             "Very Good": "🌟🌟",
             "Good": "🌟",
             "Average": "",
-            "Poor": "❌"
+            "Poor": "❌",
         }
 
         depopulation_risk_labels = {
@@ -126,10 +125,10 @@ def show():
             "Young & Growing": "🌱 Low Risk (Growing Town)",
             "Balanced Town": "⚖️ Moderate Risk (Balanced)",
             "Aging Town": "📉 High Risk (Aging Town)",
-            "Highly Aging Town": "🚨 Very High Risk (Depopulating)"
+            "Highly Aging Town": "🚨 Very High Risk (Depopulating)",
         }
 
-       # Loop over each sample (keyed by cluster id)
+        # Loop over each sample (keyed by cluster id)
         for cl, col in zip(cluster_ids, cols):
             sample_df = st.session_state["samples"][cl]
             row = sample_df.iloc[0]
@@ -139,17 +138,23 @@ def show():
             province = row["province"]
             connectivity = row["category_connectivity"]
             transport = row["category_transport"]
-            climate = row["description"]  
+            climate = row["description"]
             climate_code = row["koppen_climate"]
 
             # Get emojis for climate & transport
-            climate_emoji = climate_emojis.get(climate_code, "🌍")  
-            transport_category = row["category_transport"] if "category_transport" in row else "Unknown"
-            transport_display = transport_emojis.get(transport_category, "🚆❓")  
+            climate_emoji = climate_emojis.get(climate_code, "🌍")
+            transport_category = (
+                row["category_transport"] if "category_transport" in row else "Unknown"
+            )
+            transport_display = transport_emojis.get(transport_category, "🚆❓")
 
             # ✅ Convert `category_town_age` to a more readable format
-            town_age_category = row["cagetory_town_age"] if "cagetory_town_age" in row else "Unknown"
-            depopulation_risk = depopulation_risk_labels.get(town_age_category, "❓ Unknown Risk")
+            town_age_category = (
+                row["cagetory_town_age"] if "cagetory_town_age" in row else "Unknown"
+            )
+            depopulation_risk = depopulation_risk_labels.get(
+                town_age_category, "❓ Unknown Risk"
+            )
 
             with col:
                 st.markdown(
@@ -165,8 +170,9 @@ def show():
                     unsafe_allow_html=True,
                 )
 
-                st.markdown(f"""
-                <span style="font-size:18px"><b>{municipality}</b></span>  -  {depopulation_risk} </br>
+                st.markdown(
+                    f"""
+                <div style="font-size:18px"><b>{municipality}</b></div>  -  {depopulation_risk} </br>
                 </br>
                 📍 <i>{province}</i>  </br>
                 👥<b>{population:,}</b> habitants  </br>
@@ -174,7 +180,9 @@ def show():
                 📡 Connectivity: <b>{connectivity}</b>  </br>
                 {climate_emoji}{climate}  </b>
                 </br>
-                """, unsafe_allow_html=True)
+                """,
+                    unsafe_allow_html=True,
+                )
 
                 # Button for selecting town
                 if st.button(f"Choose", key=f"choose_{cl}"):
@@ -182,10 +190,6 @@ def show():
                     st.session_state["samples"] = load_samples()
                     st.session_state.counter += 1
                     st.rerun()
-
-
-
-
 
     else:
         pd.concat(st.session_state.collected_df, ignore_index=True).to_csv(
