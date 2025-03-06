@@ -64,7 +64,7 @@ After calculating the outliers of the total population, we have left out all cit
 
  `connectivity_score`:
 
-| **Factor**            | **New Weight (%)** | **Reasoning** |
+| **Factor**            | **Weight (%)** | **Reasoning** |
 |-----------------------|-------------------|--------------|
 | *ftth*               | **50%**            | Fiber is the most important for stable, high-speed connectivity. |
 | *reception_100mbps*  | **35%**            | Ensures fast broadband availability, even if not fiber. |
