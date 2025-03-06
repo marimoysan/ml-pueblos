@@ -1,0 +1,127 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 800px;
+                 background-color: #ffffff;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#a9afd1", "id": "Centroid", "label": "Centroid Vector", "shape": "diamond"}, {"color": "#ee7674", "id": "34176", "label": "Sotoba\u00f1ado y Priorato", "shape": "dot"}, {"color": "#ee7674", "id": "49234", "label": "Venialbo", "shape": "dot"}, {"color": "#ee7674", "id": "4046", "label": "Fond\u00f3n", "shape": "dot"}, {"color": "#ee7674", "id": "26110", "label": "Ojacastro", "shape": "dot"}, {"color": "#ee7674", "id": "26119", "label": "Pr\u00e9jano", "shape": "dot"}, {"color": "#f2dc5d", "id": "19326", "label": "Yebes", "shape": "dot"}, {"color": "#f2dc5d", "id": "39100", "label": "Villafufre", "shape": "dot"}, {"color": "#f2dc5d", "id": "39055", "label": "Potes", "shape": "dot"}, {"color": "#f2dc5d", "id": "39022", "label": "Cillorigo de Li\u00e9bana", "shape": "dot"}, {"color": "#f2dc5d", "id": "8029", "label": "Cabrera de Mar", "shape": "dot"}, {"color": "#f2dc5d", "id": "8158", "label": "Papiol, El", "shape": "dot"}, {"color": "#f2dc5d", "id": "19117", "label": "Fontanar", "shape": "dot"}, {"color": "#f2dc5d", "id": "19143", "label": "Horche", "shape": "dot"}, {"color": "#f2dc5d", "id": "8273", "label": "Subirats", "shape": "dot"}, {"color": "#f2dc5d", "id": "39032", "label": "Hermandad de Campoo de Suso", "shape": "dot"}, {"color": "#f2dc5d", "id": "43093", "label": "M\u00f3ra d\u0027Ebre", "shape": "dot"}, {"color": "#f2dc5d", "id": "8145", "label": "Ol\u00e8rdola", "shape": "dot"}, {"color": "#f2dc5d", "id": "8043", "label": "Canyelles", "shape": "dot"}, {"color": "#f2dc5d", "id": "43016", "label": "Arbo\u00e7, L\u0027", "shape": "dot"}, {"color": "#f2dc5d", "id": "43043", "label": "Catllar, El", "shape": "dot"}, {"color": "#f2dc5d", "id": "43145", "label": "Selva del Camp, La", "shape": "dot"}, {"color": "#f2dc5d", "id": "8053", "label": "Castellbell i el Vilar", "shape": "dot"}, {"color": "#f2dc5d", "id": "8115", "label": "Martorelles", "shape": "dot"}, {"color": "#f2dc5d", "id": "8017", "label": "Baleny\u00e0", "shape": "dot"}, {"color": "#f2dc5d", "id": "43005", "label": "Alcover", "shape": "dot"}, {"color": "#f2dc5d", "id": "39097", "label": "Vega de Pas", "shape": "dot"}, {"color": "#f2dc5d", "id": "39083", "label": "Soba", "shape": "dot"}, {"color": "#f2dc5d", "id": "8265", "label": "Sant Vicen\u00e7 de Torell\u00f3", "shape": "dot"}, {"color": "#f2dc5d", "id": "28002", "label": "Ajalvir", "shape": "dot"}, {"color": "#f2dc5d", "id": "8261", "label": "Santa Susanna", "shape": "dot"}, {"color": "#f2dc5d", "id": "17146", "label": "Riells i Viabrea", "shape": "dot"}, {"color": "#f2dc5d", "id": "39029", "label": "Escalante", "shape": "dot"}, {"color": "#f2dc5d", "id": "8269", "label": "Seva", "shape": "dot"}, {"color": "#f2dc5d", "id": "50066", "label": "Cadrete", "shape": "dot"}, {"color": "#f2dc5d", "id": "40155", "label": "Palazuelos de Eresma", "shape": "dot"}, {"color": "#f2dc5d", "id": "39066", "label": "Ruente", "shape": "dot"}, {"color": "#f2dc5d", "id": "8094", "label": "Granada, La", "shape": "dot"}, {"color": "#f2dc5d", "id": "45132", "label": "Pepino", "shape": "dot"}, {"color": "#f2dc5d", "id": "8044", "label": "Capellades", "shape": "dot"}, {"color": "#f2dc5d", "id": "8233", "label": "Sant Pere de Torell\u00f3", "shape": "dot"}, {"color": "#f2dc5d", "id": "8032", "label": "Caldes d\u0027Estrac", "shape": "dot"}, {"color": "#f2dc5d", "id": "43012", "label": "Altafulla", "shape": "dot"}, {"color": "#f2dc5d", "id": "13020", "label": "Argamasilla de Calatrava", "shape": "dot"}, {"color": "#f2dc5d", "id": "17902", "label": "Forallac", "shape": "dot"}, {"color": "#f2dc5d", "id": "8235", "label": "Sant Pol de Mar", "shape": "dot"}, {"color": "#f2dc5d", "id": "8234", "label": "Sant Pere de Vilamajor", "shape": "dot"}, {"color": "#f2dc5d", "id": "19331", "label": "Yunquera de Henares", "shape": "dot"}, {"color": "#f2dc5d", "id": "24201", "label": "Vegas del Condado", "shape": "dot"}, {"color": "#f2dc5d", "id": "45028", "label": "Calera y Chozas", "shape": "dot"}, {"color": "#f2dc5d", "id": "8902", "label": "Vilanova del Vall\u00e8s", "shape": "dot"}, {"color": "#f2dc5d", "id": "12074", "label": "Llosa, la", "shape": "dot"}, {"color": "#f2dc5d", "id": "8286", "label": "Torre de Claramunt, La", "shape": "dot"}, {"color": "#f2dc5d", "id": "30023", "label": "Librilla", "shape": "dot"}, {"color": "#f2dc5d", "id": "19105", "label": "Chiloeches", "shape": "dot"}, {"color": "#f2dc5d", "id": "8098", "label": "Sant Salvador de Guardiola", "shape": "dot"}]);
+                  edges = new vis.DataSet([{"from": "Centroid", "title": "Similarity: 0.42", "to": "19326", "width": -6.500467479228972}, {"from": "Centroid", "title": "Similarity: 0.42", "to": "39100", "width": -6.531743526458739}, {"from": "Centroid", "title": "Similarity: 0.41", "to": "39055", "width": -6.653482288122175}, {"from": "Centroid", "title": "Similarity: 0.41", "to": "39022", "width": -6.7664405405521375}, {"from": "Centroid", "title": "Similarity: 0.40", "to": "8029", "width": -6.996762573719024}, {"from": "Centroid", "title": "Similarity: 0.40", "to": "8158", "width": -7.052141249179838}, {"from": "Centroid", "title": "Similarity: 0.40", "to": "19117", "width": -7.103228390216827}, {"from": "Centroid", "title": "Similarity: 0.39", "to": "19143", "width": -7.128235518932341}, {"from": "Centroid", "title": "Similarity: 0.39", "to": "8273", "width": -7.156283229589462}, {"from": "Centroid", "title": "Similarity: 0.39", "to": "39032", "width": -7.183164179325102}, {"from": "Centroid", "title": "Similarity: 0.39", "to": "43093", "width": -7.187925100326536}, {"from": "Centroid", "title": "Similarity: 0.39", "to": "8145", "width": -7.199355781078337}, {"from": "Centroid", "title": "Similarity: 0.39", "to": "8043", "width": -7.20697697997093}, {"from": "Centroid", "title": "Similarity: 0.39", "to": "43016", "width": -7.208061039447783}, {"from": "Centroid", "title": "Similarity: 0.39", "to": "43043", "width": -7.217735618352888}, {"from": "Centroid", "title": "Similarity: 0.39", "to": "43145", "width": -7.242068469524382}, {"from": "Centroid", "title": "Similarity: 0.39", "to": "8053", "width": -7.244151651859282}, {"from": "Centroid", "title": "Similarity: 0.39", "to": "8115", "width": -7.277449786663054}, {"from": "Centroid", "title": "Similarity: 0.39", "to": "8017", "width": -7.27799218893051}, {"from": "Centroid", "title": "Similarity: 0.39", "to": "43005", "width": -7.279527008533476}, {"from": "Centroid", "title": "Similarity: 0.39", "to": "39097", "width": -7.290671586990355}, {"from": "Centroid", "title": "Similarity: 0.39", "to": "39083", "width": -7.307781845331192}, {"from": "Centroid", "title": "Similarity: 0.39", "to": "8265", "width": -7.327148139476774}, {"from": "Centroid", "title": "Similarity: 0.39", "to": "28002", "width": -7.333257615566252}, {"from": "Centroid", "title": "Similarity: 0.39", "to": "8261", "width": -7.341456234455107}, {"from": "Centroid", "title": "Similarity: 0.38", "to": "17146", "width": -7.380305796861647}, {"from": "Centroid", "title": "Similarity: 0.38", "to": "39029", "width": -7.403672307729721}, {"from": "Centroid", "title": "Similarity: 0.38", "to": "8269", "width": -7.431391447782515}, {"from": "Centroid", "title": "Similarity: 0.38", "to": "50066", "width": -7.4413439333438856}, {"from": "Centroid", "title": "Similarity: 0.38", "to": "40155", "width": -7.453535318374632}, {"from": "Centroid", "title": "Similarity: 0.38", "to": "39066", "width": -7.458518266677855}, {"from": "Centroid", "title": "Similarity: 0.38", "to": "8094", "width": -7.470901131629942}, {"from": "Centroid", "title": "Similarity: 0.38", "to": "45132", "width": -7.479390323162077}, {"from": "Centroid", "title": "Similarity: 0.38", "to": "8044", "width": -7.501202642917631}, {"from": "Centroid", "title": "Similarity: 0.38", "to": "8233", "width": -7.523572266101835}, {"from": "Centroid", "title": "Similarity: 0.38", "to": "8032", "width": -7.525946766138075}, {"from": "Centroid", "title": "Similarity: 0.38", "to": "43012", "width": -7.528676658868788}, {"from": "Centroid", "title": "Similarity: 0.38", "to": "13020", "width": -7.576221048831938}, {"from": "Centroid", "title": "Similarity: 0.38", "to": "17902", "width": -7.592832863330839}, {"from": "Centroid", "title": "Similarity: 0.38", "to": "8235", "width": -7.593044459819792}, {"from": "Centroid", "title": "Similarity: 0.38", "to": "8234", "width": -7.597701072692871}, {"from": "Centroid", "title": "Similarity: 0.38", "to": "19331", "width": -7.609594434499739}, {"from": "Centroid", "title": "Similarity: 0.38", "to": "24201", "width": -7.6137660145759565}, {"from": "Centroid", "title": "Similarity: 0.37", "to": "45028", "width": -7.649639815092085}, {"from": "Centroid", "title": "Similarity: 0.37", "to": "8902", "width": -7.654851496219635}, {"from": "Centroid", "title": "Similarity: 0.37", "to": "12074", "width": -7.657299757003782}, {"from": "Centroid", "title": "Similarity: 0.37", "to": "8286", "width": -7.669669210910795}, {"from": "Centroid", "title": "Similarity: 0.37", "to": "30023", "width": -7.674929320812224}, {"from": "Centroid", "title": "Similarity: 0.37", "to": "19105", "width": -7.682327747344969}, {"from": "Centroid", "title": "Similarity: 0.37", "to": "8098", "width": -7.687497705221174}, {"color": "#a9afd1", "from": "Centroid", "title": "User Selection", "to": "34176", "width": 5}, {"color": "#a9afd1", "from": "Centroid", "title": "User Selection", "to": "49234", "width": 5}, {"color": "#a9afd1", "from": "Centroid", "title": "User Selection", "to": "4046", "width": 5}, {"color": "#a9afd1", "from": "Centroid", "title": "User Selection", "to": "26110", "width": 5}, {"color": "#a9afd1", "from": "Centroid", "title": "User Selection", "to": "26119", "width": 5}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {"physics": {"barnesHut": {"gravitationalConstant": -5000, "centralGravity": 0.3, "springLength": 100, "springConstant": 0.04, "damping": 0.9, "avoidOverlap": 0.5}}};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>

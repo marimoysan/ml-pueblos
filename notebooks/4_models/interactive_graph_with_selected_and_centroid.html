@@ -1,0 +1,127 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 800px;
+                 background-color: #ffffff;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#a9afd1", "id": "Centroid", "label": "Centroid Vector", "shape": "diamond"}, {"color": "#ee7674", "id": "34176", "label": "Sotoba\u00f1ado y Priorato", "shape": "dot"}, {"color": "#ee7674", "id": "49234", "label": "Venialbo", "shape": "dot"}, {"color": "#ee7674", "id": "4046", "label": "Fond\u00f3n", "shape": "dot"}, {"color": "#ee7674", "id": "26110", "label": "Ojacastro", "shape": "dot"}, {"color": "#ee7674", "id": "26119", "label": "Pr\u00e9jano", "shape": "dot"}, {"color": "#f2dc5d", "id": "9472", "label": "Villazopeque", "shape": "dot"}, {"color": "#f2dc5d", "id": "9249", "label": "Palazuelos de Mu\u00f1\u00f3", "shape": "dot"}, {"color": "#f2dc5d", "id": "34041", "label": "Calahorra de Boedo", "shape": "dot"}, {"color": "#f2dc5d", "id": "50061", "label": "Bureta", "shape": "dot"}, {"color": "#f2dc5d", "id": "9455", "label": "Villaquir\u00e1n de la Puebla", "shape": "dot"}, {"color": "#f2dc5d", "id": "34241", "label": "Villodre", "shape": "dot"}, {"color": "#f2dc5d", "id": "26039", "label": "Canillas de R\u00edo Tuerto", "shape": "dot"}, {"color": "#f2dc5d", "id": "34093", "label": "Vid de Ojeda, La", "shape": "dot"}, {"color": "#f2dc5d", "id": "9101", "label": "Ciadoncha", "shape": "dot"}, {"color": "#f2dc5d", "id": "34149", "label": "Requena de Campos", "shape": "dot"}, {"color": "#f2dc5d", "id": "34034", "label": "Boadilla del Camino", "shape": "dot"}, {"color": "#f2dc5d", "id": "9250", "label": "Pampliega", "shape": "dot"}, {"color": "#f2dc5d", "id": "9275", "label": "Presencio", "shape": "dot"}, {"color": "#f2dc5d", "id": "26055", "label": "Corporales", "shape": "dot"}, {"color": "#f2dc5d", "id": "31110", "label": "Gallipienzo/Galipentzu", "shape": "dot"}, {"color": "#f2dc5d", "id": "24176", "label": "Valdefuentes del P\u00e1ramo", "shape": "dot"}, {"color": "#f2dc5d", "id": "9130", "label": "Fresne\u00f1a", "shape": "dot"}, {"color": "#f2dc5d", "id": "9198", "label": "Mahamud", "shape": "dot"}, {"color": "#f2dc5d", "id": "24127", "label": "Regueras de Arriba", "shape": "dot"}, {"color": "#f2dc5d", "id": "50167", "label": "Mezalocha", "shape": "dot"}, {"color": "#f2dc5d", "id": "26132", "label": "San Rom\u00e1n de Cameros", "shape": "dot"}, {"color": "#f2dc5d", "id": "31103", "label": "Ezprogui", "shape": "dot"}, {"color": "#f2dc5d", "id": "9123", "label": "Espinosa del Camino", "shape": "dot"}, {"color": "#f2dc5d", "id": "50010", "label": "Alberite de San Juan", "shape": "dot"}, {"color": "#f2dc5d", "id": "22149", "label": "Loarre", "shape": "dot"}, {"color": "#f2dc5d", "id": "9132", "label": "Fresno de R\u00edo Tir\u00f3n", "shape": "dot"}, {"color": "#f2dc5d", "id": "9441", "label": "Villaldemiro", "shape": "dot"}, {"color": "#f2dc5d", "id": "50258", "label": "Torralbilla", "shape": "dot"}, {"color": "#f2dc5d", "id": "34152", "label": "Revenga de Campos", "shape": "dot"}, {"color": "#f2dc5d", "id": "9392", "label": "Tosantos", "shape": "dot"}, {"color": "#f2dc5d", "id": "47061", "label": "Esguevillas de Esgueva", "shape": "dot"}, {"color": "#f2dc5d", "id": "26092", "label": "Manjarr\u00e9s", "shape": "dot"}, {"color": "#f2dc5d", "id": "34246", "label": "Villovieco", "shape": "dot"}, {"color": "#f2dc5d", "id": "24191", "label": "Vallecillo", "shape": "dot"}, {"color": "#f2dc5d", "id": "34009", "label": "Amayuelas de Arriba", "shape": "dot"}, {"color": "#f2dc5d", "id": "26139", "label": "San Torcuato", "shape": "dot"}, {"color": "#f2dc5d", "id": "26106", "label": "Nestares", "shape": "dot"}, {"color": "#f2dc5d", "id": "24228", "label": "Villazala", "shape": "dot"}, {"color": "#f2dc5d", "id": "31102", "label": "Ezkurra", "shape": "dot"}, {"color": "#f2dc5d", "id": "34132", "label": "Poblaci\u00f3n de Campos", "shape": "dot"}, {"color": "#f2dc5d", "id": "50019", "label": "Alforque", "shape": "dot"}, {"color": "#f2dc5d", "id": "26171", "label": "Villar de Torre", "shape": "dot"}, {"color": "#f2dc5d", "id": "9206", "label": "Mazuela", "shape": "dot"}, {"color": "#f2dc5d", "id": "9343", "label": "Santa Cecilia", "shape": "dot"}, {"color": "#f2dc5d", "id": "31211", "label": "Orreaga/Roncesvalles", "shape": "dot"}, {"color": "#f2dc5d", "id": "26052", "label": "Cordov\u00edn", "shape": "dot"}, {"color": "#f2dc5d", "id": "24149", "label": "San Mill\u00e1n de los Caballeros", "shape": "dot"}, {"color": "#f2dc5d", "id": "24073", "label": "Fresno de la Vega", "shape": "dot"}, {"color": "#f2dc5d", "id": "50146", "label": "Lucena de Jal\u00f3n", "shape": "dot"}, {"color": "#f2dc5d", "id": "34036", "label": "Bra\u00f1osera", "shape": "dot"}]);
+                  edges = new vis.DataSet([{"from": "Centroid", "title": "Similarity: 0.81", "to": "9472", "width": 3.232026278972626}, {"from": "Centroid", "title": "Similarity: 0.80", "to": "9249", "width": 2.8899507522583017}, {"from": "Centroid", "title": "Similarity: 0.76", "to": "34041", "width": 2.0303981304168706}, {"from": "Centroid", "title": "Similarity: 0.76", "to": "50061", "width": 1.883639574050904}, {"from": "Centroid", "title": "Similarity: 0.73", "to": "9455", "width": 1.264241516590119}, {"from": "Centroid", "title": "Similarity: 0.73", "to": "34241", "width": 1.1849196553230292}, {"from": "Centroid", "title": "Similarity: 0.73", "to": "26039", "width": 1.152983486652375}, {"from": "Centroid", "title": "Similarity: 0.72", "to": "34093", "width": 0.8973019123077399}, {"from": "Centroid", "title": "Similarity: 0.71", "to": "9101", "width": 0.8682193160057075}, {"from": "Centroid", "title": "Similarity: 0.71", "to": "34149", "width": 0.8463235497474677}, {"from": "Centroid", "title": "Similarity: 0.71", "to": "34034", "width": 0.7242487668991096}, {"from": "Centroid", "title": "Similarity: 0.71", "to": "9250", "width": 0.6801010966300971}, {"from": "Centroid", "title": "Similarity: 0.70", "to": "9275", "width": 0.6212221384048469}, {"from": "Centroid", "title": "Similarity: 0.70", "to": "26055", "width": 0.5537779927253731}, {"from": "Centroid", "title": "Similarity: 0.70", "to": "31110", "width": 0.5447300076484687}, {"from": "Centroid", "title": "Similarity: 0.70", "to": "24176", "width": 0.5095036625862128}, {"from": "Centroid", "title": "Similarity: 0.70", "to": "9130", "width": 0.4387082457542426}, {"from": "Centroid", "title": "Similarity: 0.70", "to": "9198", "width": 0.43579059839248735}, {"from": "Centroid", "title": "Similarity: 0.70", "to": "24127", "width": 0.3945561051368721}, {"from": "Centroid", "title": "Similarity: 0.70", "to": "50167", "width": 0.3796489834785468}, {"from": "Centroid", "title": "Similarity: 0.69", "to": "26132", "width": 0.3336297273635872}, {"from": "Centroid", "title": "Similarity: 0.69", "to": "31103", "width": 0.32200384140014726}, {"from": "Centroid", "title": "Similarity: 0.69", "to": "9123", "width": 0.3001080751419074}, {"from": "Centroid", "title": "Similarity: 0.68", "to": "50010", "width": 0.07203835248947221}, {"from": "Centroid", "title": "Similarity: 0.68", "to": "22149", "width": 0.051939666271210494}, {"from": "Centroid", "title": "Similarity: 0.68", "to": "9132", "width": 0.046023905277252974}, {"from": "Centroid", "title": "Similarity: 0.68", "to": "9441", "width": -0.017823100090025967}, {"from": "Centroid", "title": "Similarity: 0.68", "to": "50258", "width": -0.03369879722595126}, {"from": "Centroid", "title": "Similarity: 0.68", "to": "34152", "width": -0.04977864027023249}, {"from": "Centroid", "title": "Similarity: 0.67", "to": "9392", "width": -0.16769599914550692}, {"from": "Centroid", "title": "Similarity: 0.67", "to": "47061", "width": -0.2058832049369803}, {"from": "Centroid", "title": "Similarity: 0.67", "to": "26092", "width": -0.2184568047523492}, {"from": "Centroid", "title": "Similarity: 0.67", "to": "34246", "width": -0.22680443525314242}, {"from": "Centroid", "title": "Similarity: 0.67", "to": "24191", "width": -0.26504826545715265}, {"from": "Centroid", "title": "Similarity: 0.66", "to": "34009", "width": -0.3764627575874322}, {"from": "Centroid", "title": "Similarity: 0.66", "to": "26139", "width": -0.38384032249450595}, {"from": "Centroid", "title": "Similarity: 0.66", "to": "26106", "width": -0.4118306636810294}, {"from": "Centroid", "title": "Similarity: 0.66", "to": "24228", "width": -0.42415988445281894}, {"from": "Centroid", "title": "Similarity: 0.66", "to": "31102", "width": -0.4279000759124747}, {"from": "Centroid", "title": "Similarity: 0.66", "to": "34132", "width": -0.4685519337654105}, {"from": "Centroid", "title": "Similarity: 0.66", "to": "50019", "width": -0.485718071460723}, {"from": "Centroid", "title": "Similarity: 0.66", "to": "26171", "width": -0.5120782256126395}, {"from": "Centroid", "title": "Similarity: 0.66", "to": "9206", "width": -0.5253059864044181}, {"from": "Centroid", "title": "Similarity: 0.66", "to": "9343", "width": -0.5553675889968863}, {"from": "Centroid", "title": "Similarity: 0.66", "to": "31211", "width": -0.556729555130004}, {"from": "Centroid", "title": "Similarity: 0.65", "to": "26052", "width": -0.6442872881889334}, {"from": "Centroid", "title": "Similarity: 0.65", "to": "24149", "width": -0.6537271738052359}, {"from": "Centroid", "title": "Similarity: 0.65", "to": "24073", "width": -0.663737773895263}, {"from": "Centroid", "title": "Similarity: 0.65", "to": "50146", "width": -0.6835756897926322}, {"from": "Centroid", "title": "Similarity: 0.65", "to": "34036", "width": -0.7311029434204093}, {"color": "#a9afd1", "from": "Centroid", "title": "User Selection", "to": "34176", "width": 5}, {"color": "#a9afd1", "from": "Centroid", "title": "User Selection", "to": "49234", "width": 5}, {"color": "#a9afd1", "from": "Centroid", "title": "User Selection", "to": "4046", "width": 5}, {"color": "#a9afd1", "from": "Centroid", "title": "User Selection", "to": "26110", "width": 5}, {"color": "#a9afd1", "from": "Centroid", "title": "User Selection", "to": "26119", "width": 5}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {"physics": {"barnesHut": {"gravitationalConstant": -5000, "centralGravity": 0.3, "springLength": 100, "springConstant": 0.04, "damping": 0.9, "avoidOverlap": 0.5}}};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>
