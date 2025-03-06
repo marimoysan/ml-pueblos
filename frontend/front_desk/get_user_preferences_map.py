@@ -172,14 +172,17 @@ def show():
 
                 st.markdown(
                     f"""
-                <div style="font-size:18px"><b>{municipality}</b></div>  -  {depopulation_risk} </br>
+                <div style="font-size:18px; height: 300px;"><b>{municipality}</b>  -  {depopulation_risk} </br>
                 </br>
                 📍 <i>{province}</i>  </br>
                 👥<b>{population:,}</b> habitants  </br>
                 🚆 Transport: <b>{transport}</b>  </br>
                 📡 Connectivity: <b>{connectivity}</b>  </br>
+                <span style="display:block; height: 100px;">
                 {climate_emoji}{climate}  </b>
                 </br>
+                </span>
+                </div>
                 """,
                     unsafe_allow_html=True,
                 )
