@@ -41,6 +41,7 @@ ML-PUEBLOS/
 ├── .gitignore          # Git ignore file
 ├── .python-version     # Python version specification
 ├── LICENSE             # License file
+├── Pueblos.pdf         # Project presentation slides
 ├── README.md           # Project documentation
 └── requirements.txt    # Dependencies for the project
 ```
